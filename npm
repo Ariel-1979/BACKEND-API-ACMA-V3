@@ -1,0 +1,19 @@
+Package Dependencies
+
+npm init 
+npm install express --save
+npm install cors
+npm install dotenv --save
+npm install jsonwebtoken
+npm install cookie-parser
+npm i morgan
+npm i multer
+npm i mysql2
+npm i sha1
+npm i sharp
+npm i util
+npx i eslint --init
+
+Package Dev-Dependencies
+
+npm install --save-dev nodemon

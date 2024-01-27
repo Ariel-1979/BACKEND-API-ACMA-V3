@@ -1,0 +1,16 @@
+{
+	"source": {
+		"include": ["./api"],
+		"exclude": ["node_modules", "docs"],
+		"includePattern": ".js$",
+		"excludePattern": "(node_modules|docs)/"
+	},
+	"plugins": [],
+	"templates": {
+		"template": "node_modules/minami"
+	},
+	"opts": {
+		"recurse": true,
+		"destination": "./docs"
+	}
+}
