@@ -18,7 +18,36 @@ const getHorseById = async id => {
 	}
 };
 
+const putHorseById = async (id, horse) => {
+	try {
+		await Models.putHorseById(id, horse);
+		return { statusCode: 200, data: [] };
+	} catch (error) {
+		return { statusCode: 500, data: [] };
+	}
+};
+
+const getSelectOptions = async () => {
+	try {
+		return {
+			statusCode: 200,
+			data: {
+				razas: await Models.getHorseRazas(),
+				alojamiento: await Models.getHorseAlojamiento(),
+				estado: await Models.getHorseEstado(),
+				pelaje: await Models.getHorsePelaje(),
+				sexo: await Models.getHorseSexo(),
+				tamanio: await Models.getHorseTamanio()
+			}
+		};
+	} catch (error) {
+		return { statusCode: 500, data: [] };
+	}
+};
+
 export default {
 	getAllHorses,
-	getHorseById
+	getHorseById,
+	putHorseById,
+	getSelectOptions
 };

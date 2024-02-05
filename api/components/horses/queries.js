@@ -34,4 +34,37 @@ INNER JOIN caballo_tamanio ct ON c.tamanio = ct.id_tamanio
 WHERE c.id_caballo = ?
 `;
 
-export default { getAllHorses, getHorseById };
+const putHorseById = `
+UPDATE caballos SET ? WHERE id_caballo = ?
+`;
+
+const getAlojamiento = `
+SELECT id_alojamiento, nombre FROM caballo_alojamiento;
+`;
+const getEstado = `
+SELECT id_estado, nombre FROM caballo_estado;
+`;
+const getPelaje = `
+SELECT id_pelaje, nombre FROM caballo_pelajes;
+`;
+const getRaza = `
+SELECT id_raza, nombre FROM caballo_razas;
+`;
+const getSexo = `
+SELECT id_sexo, nombre FROM caballo_sexo;
+`;
+const getTamanio = `
+SELECT id_tamanio, nombre FROM caballo_tamanio;
+`;
+
+export default {
+	getAllHorses,
+	getHorseById,
+	putHorseById,
+	getAlojamiento,
+	getEstado,
+	getPelaje,
+	getRaza,
+	getSexo,
+	getTamanio
+};
