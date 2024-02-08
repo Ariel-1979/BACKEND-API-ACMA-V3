@@ -34,9 +34,7 @@ INNER JOIN caballo_tamanio ct ON c.tamanio = ct.id_tamanio
 WHERE c.id_caballo = ?
 `;
 
-const putHorseById = `
-UPDATE caballos SET ? WHERE id_caballo = ?
-`;
+const putHorseById = `UPDATE caballos SET ? WHERE id_caballo = ?`;
 
 const getAlojamiento = `
 SELECT id_alojamiento, nombre FROM caballo_alojamiento;

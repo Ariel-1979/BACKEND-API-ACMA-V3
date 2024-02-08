@@ -18,10 +18,11 @@ const getHorseById = async id => {
 	}
 };
 
-const putHorseById = async (id, horse) => {
+const putHorseById = async (horse, id) => {
 	try {
-		await Models.putHorseById(id, horse);
-		return { statusCode: 200, data: [] };
+		await Models.putHorseById(horse, id);
+		const rows = await Models.getHorseById(id);
+		return { statusCode: 200, data: rows };
 	} catch (error) {
 		return { statusCode: 500, data: [] };
 	}

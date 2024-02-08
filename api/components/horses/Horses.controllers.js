@@ -21,10 +21,10 @@ const getHorseById = async (req, res) => {
 
 const putHorseById = async (req, res) => {
 	try {
-		const { id } = req.params;
-		const { body: horse } = req;
-		console.log(horse, 'Horse');
-		const { statusCode, data } = await HorsesDto.putHorseById(id, horse);
+		const { statusCode, data } = await HorsesDto.putHorseById(
+			req.body,
+			req.params.id
+		);
 		res.status(statusCode).json(data);
 	} catch (error) {
 		throw error;

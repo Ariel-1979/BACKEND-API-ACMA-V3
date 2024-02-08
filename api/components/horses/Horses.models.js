@@ -19,7 +19,7 @@ const getHorseById = async id => {
 	}
 };
 
-const putHorseById = async (id, horse) => {
+const putHorseById = async (horse, id) => {
 	try {
 		return pool.query(Query.putHorseById, [horse, id]);
 	} catch (error) {
