@@ -33,7 +33,7 @@ const getSelectOptions = async () => {
 		return {
 			statusCode: 200,
 			data: {
-				razas: await Models.getHorseRazas(),
+				raza: await Models.getHorseRazas(),
 				alojamiento: await Models.getHorseAlojamiento(),
 				estado: await Models.getHorseEstado(),
 				pelaje: await Models.getHorsePelaje(),
