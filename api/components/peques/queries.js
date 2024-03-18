@@ -79,13 +79,11 @@ const getEstados = `
 SELECT id_estado, nombre FROM peques_estados
 `;
 const getRazasCaninas = `
-SELECT id_raza, nombre FROM peques_razas WHERE id_raza = 1
+SELECT id_raza, nombre FROM peques_razas WHERE id_especie_raza = 1
 `;
 const getRazasFelinas = `
-SELECT id_raza, nombre FROM peques_razas WHERE id_raza = 2
+SELECT id_raza, nombre FROM peques_razas WHERE id_especie_raza = 2
 `;
-
-const putHorseById = `UPDATE caballos SET ? WHERE id_caballo = ?`;
 
 export default {
 	getAllPeques,

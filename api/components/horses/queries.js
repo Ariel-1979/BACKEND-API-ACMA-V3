@@ -55,6 +55,10 @@ const getTamanio = `
 SELECT id_tamanio, nombre FROM caballo_tamanio;
 `;
 
+const getFotosById_caballo = `
+SELECT id_fotos, detalle, foto FROM fotos WHERE id_caballo_foto = ?;
+`;
+
 export default {
 	getAllHorses,
 	getHorseById,
@@ -64,5 +68,6 @@ export default {
 	getPelaje,
 	getRaza,
 	getSexo,
-	getTamanio
+	getTamanio,
+	getFotosById_caballo
 };

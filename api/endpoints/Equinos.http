@@ -1,0 +1,64 @@
+@BASE_URL = http://localhost:3022
+
+### CREATE CABALLO
+POST {{BASE_URL}}/caballos HTTP/1.1
+Content-Type: application/json
+
+{
+    "ingreso": "2024-03-09", 
+    "nombre": "Caballo Nuevo desde Backend",
+    "historia_clinica": "12345"
+}
+
+### GET ALL CABALLOS
+GET {{BASE_URL}}/caballos HTTP/1.1
+
+### GET CABALLO BY LUGAR
+POST {{BASE_URL}}/caballos_lugar HTTP/1.1
+Content-Type: application/json
+
+{
+    "lugar": "Castelli"
+}
+
+### GET CABALLO BY ID
+GET {{BASE_URL}}/caballos/431 HTTP/1.1
+
+### UPDATE CABALLO
+PUT {{BASE_URL}}/caballos/430 HTTP/1.1
+Content-Type: application/json
+
+{
+    "chip": "PUT FUNCIONANDO"
+}
+
+
+### GET CABALLO BY DIARIO
+POST {{BASE_URL}}/caballos_tratamiento HTTP/1.1
+Content-Type: application/json
+
+{
+    "diario": "En Tratamiento"
+}
+
+### GET CABALLOS JUDICIALIZADOS
+GET {{BASE_URL}}/caballos_judicializados HTTP/1.1
+
+### GET CABALLOS NO JUDICIALIZADOS
+GET {{BASE_URL}}/caballos_no_judicializados HTTP/1.1
+
+### GET FOTOS BY EQUINOS
+
+GET {{BASE_URL}}/caballos/fotos/431 HTTP/1.1
+
+
+### DELETE FOTO CABALLO BY ID_FOTOS
+DELETE {{BASE_URL}}/caballos/fotos HTTP/1.1
+Content-Type: application/json
+
+{
+    "id_fotos": 431
+}
+
+
+
