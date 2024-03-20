@@ -88,9 +88,24 @@ const createFotoById = async (id_caballo_foto, detalle, foto) => {
 };
 
 const deleteFotoById = async id_fotos => {
-	console.log(id_fotos);
 	try {
 		return pool.query(Query.deleteFotoById, id_fotos);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const getTratamientosById = async id => {
+	try {
+		return pool.query(Query.getTratamientosById, id);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const putTratamientosById = async (body, id) => {
+	try {
+		return pool.query(Query.putTratamientoById, [body, id]);
 	} catch (error) {
 		throw error;
 	}
@@ -107,5 +122,7 @@ export default {
 	putEquinoById,
 	getFotosByIdCaballo,
 	createFotoById,
-	deleteFotoById
+	deleteFotoById,
+	getTratamientosById,
+	putTratamientosById
 };

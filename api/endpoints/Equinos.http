@@ -60,5 +60,15 @@ Content-Type: application/json
     "id_fotos": 431
 }
 
+### GET EQUINOS BY TRATAMIENTOS
+GET {{BASE_URL}}/caballos/tratamientos/431 HTTP/1.1
+
+### PUT EQUINOS BY TRATAMIENTOS
+PUT {{BASE_URL}}/caballos/tratamientos/431 HTTP/1.1
+Content-Type: application/json
+
+{
+    "informe": "Informe Veterinario PUT FUNCIONANDO"
+}
 
 

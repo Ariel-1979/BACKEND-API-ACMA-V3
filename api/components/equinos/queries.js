@@ -100,6 +100,14 @@ const deleteFotoById = `
 DELETE FROM fotos WHERE id_fotos = ?
 `;
 
+const getTratamientosById = `
+SELECT id_caballo, nombre, historia_clinica, informe, anamnesis, diagnostico, tratamiento, diario FROM caballo WHERE id_caballo = ? 
+`;
+
+const putTratamientoById = `
+UPDATE caballo SET ? WHERE id_caballo = ?
+`;
+
 export default {
 	getAllEquinos,
 	getEquinosByLugar,
@@ -111,5 +119,7 @@ export default {
 	putEquinoById,
 	getFotosByIdCaballo,
 	createFotoById,
-	deleteFotoById
+	deleteFotoById,
+	getTratamientosById,
+	putTratamientoById
 };

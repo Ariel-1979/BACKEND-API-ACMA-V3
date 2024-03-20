@@ -5,6 +5,8 @@ const router = express.Router();
 
 router.get('/caballos', equinosController.getAllEquinos);
 router.get('/caballos/:id', equinosController.getEquinoById);
+router.get('/caballos/tratamientos/:id', equinosController.getTratamientosById);
+router.put('/caballos/tratamientos/:id', equinosController.putTratamientosById);
 router.put('/caballos/:id', equinosController.putEquinoById);
 router.get(
 	'/caballos_judicializados',

@@ -100,6 +100,25 @@ const deleteFotoById = async id => {
 	}
 };
 
+const getTratamientosById = async id => {
+	try {
+		const rows = await Models.getTratamientosById(id);
+		return { statusCode: 200, data: rows };
+	} catch (error) {
+		return { statusCode: 500, data: [] };
+	}
+};
+
+const putTratamientosById = async (body, id) => {
+	try {
+		await Models.putTratamientosById(body, id);
+		const rows = await Models.getTratamientosById(id);
+		return { statusCode: 200, data: rows };
+	} catch (error) {
+		return { statusCode: 500, data: 'Error al actualizar equino' };
+	}
+};
+
 export default {
 	createEquino,
 	getAllEquinos,
@@ -111,5 +130,7 @@ export default {
 	getEquinosNoJudicializados,
 	getFotosByIdCaballo,
 	createFotoById,
-	deleteFotoById
+	deleteFotoById,
+	getTratamientosById,
+	putTratamientosById
 };

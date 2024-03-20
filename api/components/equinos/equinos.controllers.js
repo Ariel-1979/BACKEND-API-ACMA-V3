@@ -88,10 +88,7 @@ const getFotosByIdCaballo = async (req, res) => {
 };
 
 const createFotoById = async (req, res) => {
-	console.log('first asser');
 	const { id_caballo_foto, detalle, foto } = req.body;
-	console.log(req.body);
-
 	try {
 		const { statusCode, data } = await EquinosDto.createFotoById(
 			id_caballo_foto,
@@ -106,10 +103,31 @@ const createFotoById = async (req, res) => {
 
 const deleteFotoById = async (req, res) => {
 	const { id_fotos } = req.body;
-	console.log(req.body, 'body');
-	console.log(req.body.id_fotos, 'id_fotos');
 	try {
 		const { statusCode, data } = await EquinosDto.deleteFotoById(id_fotos);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const getTratamientosById = async (req, res) => {
+	const { id } = req.params;
+	try {
+		const { statusCode, data } = await EquinosDto.getTratamientosById(id);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const putTratamientosById = async (req, res) => {
+	const { id } = req.params;
+	try {
+		const { statusCode, data } = await EquinosDto.putTratamientosById(
+			req.body,
+			id
+		);
 		res.status(statusCode).json(data);
 	} catch (error) {
 		throw error;
@@ -127,5 +145,7 @@ export default {
 	getEquinosNoJudicializados,
 	getFotosByIdCaballo,
 	createFotoById,
-	deleteFotoById
+	deleteFotoById,
+	getTratamientosById,
+	putTratamientosById
 };
