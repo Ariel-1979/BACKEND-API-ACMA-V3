@@ -4,7 +4,6 @@ import express from 'express';
 import logger from 'morgan';
 import router from './api/Routes/index.js';
 import morgan from 'morgan';
-import multer from 'multer';
 
 dotenv.config();
 const app = express();

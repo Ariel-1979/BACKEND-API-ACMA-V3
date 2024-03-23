@@ -25,7 +25,11 @@ const getAllEquinos = async () => {
 
 const getEquinoById = async id => {
 	try {
-		return pool.query(Query.getEquinoById, id);
+		const horse = await pool.query(Query.getEquinoById, id);
+		const judicial = await pool.query(Query.getEquinosJudicializadoById, id);
+		const imputado = await pool.query(Query.getImputadoById, id);
+		const denunciante = await pool.query(Query.getDenuncianteById, id);
+		return { horse, judicial, imputado, denunciante };
 	} catch (error) {
 		throw error;
 	}

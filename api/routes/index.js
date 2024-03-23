@@ -1,9 +1,9 @@
 import express from 'express';
 const router = express.Router();
 
-import usersRoutes from '../components/users/Users.routes.js';
 import pequesRoutes from '../components/peques/Peques.routes.js';
 import equinosRoutes from '../components/equinos/equinos.routes.js';
+import judicialRoutes from '../components/juidicial/judicial.routes.js';
 
 router.get('/caballos', equinosRoutes);
 router.get('/caballos/:id', equinosRoutes);
@@ -18,6 +18,10 @@ router.post('/caballos_lugar', equinosRoutes);
 router.post('/caballos/fotos', equinosRoutes);
 router.get('/caballos/fotos/:id', equinosRoutes);
 router.delete('/caballos/fotos', equinosRoutes);
+
+router.get('/judicial', judicialRoutes);
+router.get('/judicial/:id', judicialRoutes);
+router.get('/no_judicial', judicialRoutes);
 
 router.get('/peques', pequesRoutes);
 router.get('/peques/:id', pequesRoutes);

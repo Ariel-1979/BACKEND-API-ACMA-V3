@@ -22,7 +22,7 @@ Content-Type: application/json
 }
 
 ### GET CABALLO BY ID
-GET {{BASE_URL}}/caballos/431 HTTP/1.1
+GET {{BASE_URL}}/caballos/281 HTTP/1.1
 
 ### UPDATE CABALLO
 PUT {{BASE_URL}}/caballos/430 HTTP/1.1

@@ -1,4 +1,8 @@
-/ / Cambios en la BASE DE DATOS./ / Actualizar valores de BARADERO a CASTELLI 1.- Hay que modificar el FK de la tabla CABALLO y autorizar el
+Cambios en la BASE DE DATOS 
+
+Actualizar valores de BARADERO a CASTELLI 
+
+1.- Hay que modificar el FK de la tabla CABALLO y autorizar el
 UPDATE
   en CASCADA desde la tabla ALOJAMIENTO.2.Modificar el valor del campo ID 2 de ALOJAMIENTO a CASTELLI./ / Actualizar los valores de la talla CABALLO columna DIARIO 1.Modificar los diario ALTA o NULL por el valor 'Alta Veterinaria' - SQL para realizar la modificacion -
 UPDATE
@@ -8,7 +12,12 @@ SET
 WHERE
   diario IS NULL;
 
-/ / Modificar la tabla FOTOS..1.- Renombrar la columna frente por archivo 2.- Agregar el campo detalle 3.- Realizar un
+
+Modificar la tabla FOTOS..
+
+1.- Renombrar la columna frente por archivo 
+2.- Agregar el campo detalle 
+3.- Realizar un
 UPDATE
   para agregar el detalle de la foto
 UPDATE
@@ -17,3 +26,9 @@ SET
   detalle = 'Portada'
 WHERE
   detalle = '';
+
+
+Modificar la Tabla caballos
+
+1.Modificar el campo LUGAR  
+Valor por Defecto = Alejandro Korn
