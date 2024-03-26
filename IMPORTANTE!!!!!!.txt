@@ -32,3 +32,13 @@ Modificar la Tabla caballos
 
 1.Modificar el campo LUGAR  
 Valor por Defecto = Alejandro Korn
+
+
+Crear la TABLA PERROS
+
+Crear la TABLA PERROS_ESTADOS
+
+Crear la TABLA PERROS_FOTOS
+
+Crear la TABLA PERROS_RAZAS
+
