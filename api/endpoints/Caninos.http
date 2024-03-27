@@ -43,7 +43,7 @@ Content-Type: application/json
 }
 
 ### GET FOTOS CAN
-GET {{BASE_URL}}/caninos/fotos/1 HTTP/1.1
+GET {{BASE_URL}}/caninos/fotos/6 HTTP/1.1
 Content-Type: application/json
 
 ### DELETE FOTO CAN
@@ -53,3 +53,17 @@ Content-Type: application/json
 {
     "id_foto": 2
 }
+
+### GET CANINOS TRATAMIENTOS BY ID
+GET {{BASE_URL}}/caninos/tratamientos/1 HTTP/1.1
+Content-Type: application/json
+
+### PUT CANINOS TRATAMIENTOS BY ID
+PUT {{BASE_URL}}/caninos/tratamientos/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id_perro": 1,
+    "vacunas": "Editado desde el Backend"
+}
+

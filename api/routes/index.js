@@ -31,5 +31,7 @@ router.get('/caninos-razas-estados', caninosRoutes);
 router.post('/caninos/fotos', caninosRoutes);
 router.delete('/caninos/fotos', caninosRoutes);
 router.get('/caninos/fotos/:id', caninosRoutes);
+router.get('/caninos/tratamientos/:id', caninosRoutes);
+router.put('/caninos/tratamientos/:id', caninosRoutes);
 
 export default router;

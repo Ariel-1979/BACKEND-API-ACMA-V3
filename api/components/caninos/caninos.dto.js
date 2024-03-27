@@ -72,6 +72,25 @@ const getFotosById = async id => {
 	}
 };
 
+const getCaninoTratamientosById = async id => {
+	try {
+		const rows = await Models.getCaninoTratamientosById(id);
+		return { statusCode: 200, data: rows };
+	} catch (error) {
+		return { statusCode: 500, data: [] };
+	}
+};
+
+const putCaninoTratamientosById = async (tratamientos, id) => {
+	try {
+		await Models.putCaninoTratamientosById(tratamientos, id);
+		const data = await Models.getCaninoTratamientosById(id);
+		return { statusCode: 200, data: data };
+	} catch (error) {
+		return { statusCode: 500, data: 'Error al actualizar tratamientos' };
+	}
+};
+
 export default {
 	createCanino,
 	getAllCaninos,
@@ -80,5 +99,7 @@ export default {
 	putCaninoById,
 	createFotoById,
 	deleteFotoById,
-	getFotosById
+	getFotosById,
+	getCaninoTratamientosById,
+	putCaninoTratamientosById
 };

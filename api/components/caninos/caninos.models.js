@@ -22,7 +22,12 @@ const getAllCaninos = async () => {
 
 const getCaninoById = async id => {
 	try {
-		return pool.query(Query.getCaninoById, [id]);
+		const canino = await pool.query(Query.getCaninoById, [id]);
+		const judicial = await pool.query(Query.getCaninoJudicializadoById, [id]);
+		const imputado = await pool.query(Query.getImputadoById, [id]);
+		const denunciante = await pool.query(Query.getDenuncianteById, [id]);
+
+		return { canino, judicial, imputado, denunciante } /*  */;
 	} catch (error) {
 		throw error;
 	}
@@ -70,6 +75,22 @@ const getFotosById = async id => {
 	}
 };
 
+const getCaninoTratamientosById = async id => {
+	try {
+		return pool.query(Query.getCaninoTratamientosById, [id]);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const putCaninoTratamientosById = async (tratamientos, id) => {
+	try {
+		return pool.query(Query.putCaninoTratamientosById, [tratamientos, id]);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	createCanino,
 	getAllCaninos,
@@ -78,5 +99,7 @@ export default {
 	putCaninoById,
 	createFotoById,
 	deleteFotoById,
-	getFotosById
+	getFotosById,
+	getCaninoTratamientosById,
+	putCaninoTratamientosById
 };

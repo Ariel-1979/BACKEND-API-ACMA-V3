@@ -84,6 +84,29 @@ const getFotosById = async (req, res) => {
 	}
 };
 
+const getCaninoTratamientosById = async (req, res) => {
+	const { id } = req.params;
+	try {
+		const { statusCode, data } = await Dto.getCaninoTratamientosById(id);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const putCaninoTratamientosById = async (req, res) => {
+	const { id } = req.params;
+	try {
+		const { statusCode, data } = await Dto.putCaninoTratamientosById(
+			req.body,
+			id
+		);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	createCanino,
 	getAllCaninos,
@@ -92,5 +115,7 @@ export default {
 	getRazasYEstadosCaninos,
 	createFotoById,
 	deleteFotoById,
-	getFotosById
+	getFotosById,
+	getCaninoTratamientosById,
+	putCaninoTratamientosById
 };
