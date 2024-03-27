@@ -4,6 +4,7 @@ const router = express.Router();
 import equinosRoutes from '../components/equinos/equinos.routes.js';
 import judicialRoutes from '../components/juidicial/judicial.routes.js';
 import caninosRoutes from '../components/caninos/caninos.routes.js';
+import felinosRoutes from '../components/felinos/felinos.routes.js';
 
 router.get('/caballos', equinosRoutes);
 router.get('/caballos/:id', equinosRoutes);
@@ -33,5 +34,16 @@ router.delete('/caninos/fotos', caninosRoutes);
 router.get('/caninos/fotos/:id', caninosRoutes);
 router.get('/caninos/tratamientos/:id', caninosRoutes);
 router.put('/caninos/tratamientos/:id', caninosRoutes);
+
+router.post('/felinos', felinosRoutes);
+router.get('/felinos', felinosRoutes);
+router.get('/felinos/:id', felinosRoutes);
+router.put('/felinos/:id', felinosRoutes);
+router.get('/felinos-razas-estados', felinosRoutes);
+router.post('/felinos/fotos', felinosRoutes);
+router.delete('/felinos/fotos', felinosRoutes);
+router.get('/felinos/fotos/:id', felinosRoutes);
+router.get('/felinos/tratamientos/:id', felinosRoutes);
+router.put('/felinos/tratamientos/:id', felinosRoutes);
 
 export default router;
