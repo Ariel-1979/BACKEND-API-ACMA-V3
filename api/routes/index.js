@@ -23,7 +23,13 @@ router.get('/judicial', judicialRoutes);
 router.get('/judicial/:id', judicialRoutes);
 router.get('/no_judicial', judicialRoutes);
 
+router.post('/caninos', caninosRoutes);
 router.get('/caninos', caninosRoutes);
 router.get('/caninos/:id', caninosRoutes);
+router.put('/caninos/:id', caninosRoutes);
+router.get('/caninos-razas-estados', caninosRoutes);
+router.post('/caninos/fotos', caninosRoutes);
+router.delete('/caninos/fotos', caninosRoutes);
+router.get('/caninos/fotos/:id', caninosRoutes);
 
 export default router;

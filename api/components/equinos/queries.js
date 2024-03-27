@@ -21,7 +21,10 @@ ORDER BY ingreso DESC
 `;
 
 const getEquinoById = `
-SELECT c.id_caballo, c.nombre, c.historia_clinica, c.chip, c.peso, c.edad, c.raza, c.pelaje, c.lugar, c.ingreso, c.sexo, c.padrillo, c.tamanio, c.diario, c.habilitado, c.marcas, c.adoptado, f.detalle, f.foto
+SELECT c.id_caballo, c.nombre, c.historia_clinica, c.chip, c.peso, c.edad, c.raza, 
+c.pelaje, c.lugar, c.ingreso, c.sexo, c.padrillo, 
+c.tamanio, c.diario, c.habilitado, c.marcas, 
+c.adoptado, f.detalle, f.foto
 FROM caballo c
 LEFT JOIN fotos f ON c.id_caballo = f.id_caballo_foto
 WHERE c.id_caballo = ?;

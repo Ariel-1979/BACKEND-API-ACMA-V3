@@ -1,9 +1,55 @@
 @BASE_URL = http://localhost:3022
 
+### CREATE CAN
+POST {{BASE_URL}}/caninos HTTP/1.1
+Content-Type: application/json
+
+{
+    "ingreso": "2024-03-09",
+    "nombre": "Perro Backend",
+    "hc": 2727
+}  
+
 ### GET ALL CANES
 GET {{BASE_URL}}/caninos HTTP/1.1
 Content-Type: application/json
 
-### GET PEQUE BY ID
+### GET CAN BY ID
 GET {{BASE_URL}}/caninos/1 HTTP/1.1
 Content-Type: application/json
+
+### UPDATE CAN
+PUT {{BASE_URL}}/caninos/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "ingreso": "2024-03-09",
+    "nombre": "Perro Backend Editado",
+    "hc": 2727
+}
+
+### GET ESTADOS Y RAZAS
+GET {{BASE_URL}}/caninos-razas-estados HTTP/1.1
+Content-Type: application/json
+
+### CREATE FOTO CAN
+POST {{BASE_URL}}/caninos/fotos HTTP/1.1
+Content-Type: application/json
+
+{
+    "id_perro_foto": 1,
+    "detalle" : "Portada",
+    "foto": "Pepe.jpg"
+}
+
+### GET FOTOS CAN
+GET {{BASE_URL}}/caninos/fotos/1 HTTP/1.1
+Content-Type: application/json
+
+### DELETE FOTO CAN
+DELETE {{BASE_URL}}/caninos/fotos HTTP/1.1
+Content-Type: application/json
+
+{
+    "id_foto": 2
+}
