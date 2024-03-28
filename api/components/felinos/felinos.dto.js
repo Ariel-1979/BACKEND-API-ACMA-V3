@@ -2,8 +2,8 @@ import Models from './felinos.models.js';
 
 const createFelino = async felino => {
 	try {
-		await Models.createFelino(felino);
-		return { statusCode: 201, data: 'Felino creado' };
+		const { insertId } = await Models.createFelino(felino);
+		return { statusCode: 201, data: insertId };
 	} catch (error) {
 		return { statusCode: 500, data: 'Error al crear el felino' };
 	}

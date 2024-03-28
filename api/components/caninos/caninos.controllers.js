@@ -1,10 +1,9 @@
 import Dto from './caninos.dto.js';
 
 const createCanino = async (req, res) => {
-	const canino = req.body;
-	console.log(canino);
+	console.log(req.body);
 	try {
-		const { statusCode, data } = await Dto.createCanino(canino);
+		const { statusCode, data } = await Dto.createCanino(req.body);
 		res.status(statusCode).json(data);
 	} catch (error) {
 		throw error;

@@ -2,8 +2,8 @@ import Models from './caninos.models.js';
 
 const createCanino = async canino => {
 	try {
-		await Models.createCanino(canino);
-		return { statusCode: 201, data: 'Canino creado' };
+		const { insertId } = await Models.createCanino(canino);
+		return { statusCode: 201, data: insertId };
 	} catch (error) {
 		return { statusCode: 500, data: 'Error al crear canino' };
 	}
