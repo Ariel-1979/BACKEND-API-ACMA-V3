@@ -1,35 +1,30 @@
-import pool from '../../services/connectDB.js';
+import Query from './queries.js';
+import connectionDataBase from '../../services/connectDB.js';
+
+const pool = connectionDataBase();
 
 const getAllUsers = async () => {
 	try {
-		const query =
-			'SELECT id_usuario, nombre, apellido, email, rol, telefono, observaciones FROM usuarios';
-		return pool.query(query);
+		return pool.query(Query.getAllUsers);
 	} catch (error) {
 		throw error;
 	}
 };
 
-const findUserByEmail = async email => {
+const getUserById = async id => {
 	try {
-		const rows = await pool.query(
-			`SELECT * FROM usuarios WHERE email = '${email}'`
-		);
-		return rows;
+		return pool.query(Query.getUserById, [id]);
 	} catch (error) {
 		throw error;
 	}
 };
 
-const listAllUsers = async () => {
+const updateUser = async (body, id) => {
 	try {
-		const rows = await pool.query(
-			`SELECT id_usuario, nombre, apellido, email, telefono, rol FROM usuarios`
-		);
-		return rows;
+		return pool.query(Query.updateUser, [body, id]);
 	} catch (error) {
 		throw error;
 	}
 };
 
-export default { getAllUsers, findUserByEmail, listAllUsers };
+export default { getAllUsers, getUserById, updateUser };

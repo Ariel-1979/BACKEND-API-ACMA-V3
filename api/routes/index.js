@@ -5,6 +5,14 @@ import equinosRoutes from '../components/equinos/equinos.routes.js';
 import judicialRoutes from '../components/juidicial/judicial.routes.js';
 import caninosRoutes from '../components/caninos/caninos.routes.js';
 import felinosRoutes from '../components/felinos/felinos.routes.js';
+import loginRoutes from '../components/login/login.routes.js';
+import usuariosRoutes from '../components/users/users.routes.js';
+
+router.post('/login', loginRoutes);
+
+router.get('/usuarios', usuariosRoutes);
+router.get('/usuarios/:id', usuariosRoutes);
+router.put('/usuarios/:id', usuariosRoutes);
 
 router.get('/caballos', equinosRoutes);
 router.get('/caballos/:id', equinosRoutes);

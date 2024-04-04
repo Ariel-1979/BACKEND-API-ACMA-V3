@@ -1,1 +1,17 @@
-GET http://localhost:3022/usuarios HTTP/1.1
+@BASE_URL = http://localhost:3022
+
+
+### GET ALL USUARIOS
+GET {{BASE_URL}}/usuarios HTTP/1.1
+Content-Type: application/json
+
+### GET USUARIO BY ID
+GET {{BASE_URL}}/usuarios/1 HTTP/1.1
+
+### UPDATE USUARIO BY ID
+PUT {{BASE_URL}}/usuarios/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "observaciones": "Editado desde el Back"
+}
