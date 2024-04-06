@@ -1,13 +1,8 @@
 import Models from './login.models.js';
 import jwt from 'jsonwebtoken';
 
-const loginAuth = async body => {
+const loginAuth = async (mail, clave) => {
 	try {
-		const { mail, clave } = body;
-		console.log({
-			mail,
-			clave
-		});
 		const user = await Models.loginAuth(mail, clave);
 		console.log(user, 'user');
 		if (user.length > 0) {

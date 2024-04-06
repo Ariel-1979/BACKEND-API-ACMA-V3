@@ -7,8 +7,11 @@ import caninosRoutes from '../components/caninos/caninos.routes.js';
 import felinosRoutes from '../components/felinos/felinos.routes.js';
 import loginRoutes from '../components/login/login.routes.js';
 import usuariosRoutes from '../components/users/users.routes.js';
+import estadisticaRoutes from '../components/estadistica/estadistica.routes.js';
 
 router.post('/login', loginRoutes);
+
+router.get('/estadistica', estadisticaRoutes);
 
 router.get('/usuarios', usuariosRoutes);
 router.get('/usuarios/:id', usuariosRoutes);
