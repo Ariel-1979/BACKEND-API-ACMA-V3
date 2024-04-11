@@ -8,10 +8,13 @@ import felinosRoutes from '../components/felinos/felinos.routes.js';
 import loginRoutes from '../components/login/login.routes.js';
 import usuariosRoutes from '../components/users/users.routes.js';
 import estadisticaRoutes from '../components/estadistica/estadistica.routes.js';
+import vacunasRoutes from '../components/vacunas/vacunas.routes.js';
 
 router.post('/login', loginRoutes);
 
 router.get('/estadistica', estadisticaRoutes);
+
+router.get('/sanidad', vacunasRoutes);
 
 router.get('/usuarios', usuariosRoutes);
 router.get('/usuarios/:id', usuariosRoutes);

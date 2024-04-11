@@ -24,9 +24,9 @@ FROM caballo
 WHERE lugar = 'Adoptado'
 `;
 
-const totalEquinosFallecido = `
+const totalEquinosFallecidos = `
 SELECT COUNT(*)
-as totalEquinosAdoptados
+as totalEquinosFallecidos
 FROM caballo
 WHERE lugar = 'Fallecido'
 `;
@@ -66,7 +66,7 @@ export default {
 	totalEquinosKorn,
 	totalEquinosEnTratamiento,
 	totalEquinosAdoptados,
-	totalEquinosFallecido,
+	totalEquinosFallecidos,
 	totalEquinosCastelli,
 	totalEquinosNoJudicializados,
 	totalEquinosJudicializados,

@@ -23,7 +23,7 @@ const getEstadistica = async () => {
 			pool.query(Query.totalEquinosCastelli),
 			pool.query(Query.totalEquinosJudicializados),
 			pool.query(Query.totalEquinosNoJudicializados),
-			pool.query(Query.totalEquinosFallecido),
+			pool.query(Query.totalEquinosFallecidos),
 			pool.query(Query.totalEquinosRobados)
 		]);
 		return {
@@ -34,7 +34,7 @@ const getEstadistica = async () => {
 			castelli: castelli[0].totalEquinosCastelli,
 			judicializados: judicializados[0].totalEquinosJudicializados,
 			noJudicializados: noJudicializados[0].totalEquinosNoJudicializados,
-			fallecidos: fallecidos[0].totalEquinosFallecido,
+			fallecidos: fallecidos[0].totalEquinosFallecidos,
 			robados: robados[0].totalEquinosRobados
 		};
 	} catch (error) {
