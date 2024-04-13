@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-03-2024 a las 04:12:44
+-- Tiempo de generación: 13-04-2024 a las 21:11:40
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -575,7 +575,7 @@ INSERT INTO `caballo` (`id_caballo`, `nombre`, `historia_clinica`, `chip`, `peso
 INSERT INTO `caballo` (`id_caballo`, `nombre`, `historia_clinica`, `chip`, `peso`, `edad`, `raza`, `pelaje`, `marcas`, `informe`, `anamnesis`, `tratamiento`, `diagnostico`, `lugar`, `ingreso`, `sexo`, `padrillo`, `tamanio`, `diario`, `ts_create`, `ts_update`, `habilitado`, `adoptado`) VALUES
 (364, 'TINI', '275', '32050000722629', 60, '0.1', 'Mestizo', 'Gateado', 'Potranca 1 mes de vida , su madre fallecio por un colico.', NULL, NULL, '<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\">\r\n<div class=\"x1cy8zhl x2bj2ny x78zum5 x1q0g3np\" style=\"align-items: flex-start; flex-direction: row; background-color: var(--surface-background); display: flex; font-family: inherit;\">\r\n<div class=\"x1iyjqo2 xjkvuk6 x1iorvi4\" style=\"padding-top: 4px; flex-grow: 1; padding-bottom: 4px; font-family: inherit;\">\r\n<div class=\"x78zum5 xdt5ytf x11tup63 x16z1lm9\" style=\"margin-bottom: -7px; margin-top: -7px; display: flex; flex-direction: column; font-family: inherit;\">\r\n<div class=\"xwoyzhm x1rhet7l\" style=\"margin-top: 7px; margin-bottom: 7px; font-family: inherit;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 xngnso2 x1qb5hxa x1xlr1w8 xzsf02u x1yc453h\" style=\"word-break: break-word; max-width: 100%; line-height: 1.1667; overflow-wrap: break-word; font-family: inherit; min-width: 0px; font-size: 1.5rem; color: var(--primary-text);\">BIENVENIDA &ldquo;TINI&rdquo;</span></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">NUEVO RESCATE DE ACMA<br /><br />La bautizamos&nbsp;<span style=\"font-family: inherit;\"><a class=\"x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f\" style=\"cursor: pointer; text-decoration-line: none; margin: 0px; text-align: inherit; padding: 0px; outline: none; -webkit-tap-highlight-color: transparent; font-weight: 600; box-sizing: border-box; list-style: none; touch-action: manipulation; background-color: transparent; display: inline; font-family: inherit; border: 0px initial initial;\" tabindex=\"0\" role=\"link\" href=\"https://www.facebook.com/hashtag/tini?__eep__=6&amp;__tn__=*NK\">#Tini</a></span><br /><br />Su mam&aacute;, una yegua rescatada del maltrato y del abandono, hac&iacute;a un tiempo hab&iacute;a estado deambulando sola en la calle mientras estaba pre&ntilde;ada. En una oportunidad los vecinos denunciaron esto, pero las autoridades solo labraron una contravenci&oacute;n y dispusieron la devoluci&oacute;n a su due&ntilde;o.<br /><br />Luego de nacer&nbsp;<span style=\"font-family: inherit;\"><a class=\"x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f\" style=\"cursor: pointer; text-decoration-line: none; margin: 0px; text-align: inherit; padding: 0px; outline: none; -webkit-tap-highlight-color: transparent; font-weight: 600; box-sizing: border-box; list-style: none; touch-action: manipulation; background-color: transparent; display: inline; font-family: inherit; border: 0px initial initial;\" tabindex=\"0\" role=\"link\" href=\"https://www.facebook.com/hashtag/tini?__eep__=6&amp;__tn__=*NK\">#Tini</a></span>, su mam&aacute; apareci&oacute; en una zanja, al parecer estuvo tres d&iacute;as sin poder levantarse, piensan que por problemas de obstrucci&oacute;n intestinal, y su propietario no hizo nada para atenderla, la abandon&oacute; a su suerte.<br /><br />Lamentablemente la madre falleci&oacute;, no pudieron salvarla. Se realiz&oacute; la denuncia y se instruyeron actuaciones por infracci&oacute;n a la Ley 14.346 de Maltrato Animal y, a requerimiento judicial, el imputado tuvo que entregar a la potranca.<br /><br /><span style=\"font-family: inherit;\"><a class=\"x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f\" style=\"cursor: pointer; text-decoration-line: none; margin: 0px; text-align: inherit; padding: 0px; outline: none; -webkit-tap-highlight-color: transparent; font-weight: 600; box-sizing: border-box; list-style: none; touch-action: manipulation; background-color: transparent; display: inline; font-family: inherit; border: 0px initial initial;\" tabindex=\"0\" role=\"link\" href=\"https://www.facebook.com/hashtag/tini?__eep__=6&amp;__tn__=*NK\">#Tini</a></span>&nbsp;est&aacute; en periodo de lactancia, es una beb&eacute; de un mes y medio aproximadamente.<br /><br />Estuvo a resguardo con Elizabeth, quien nos contact&oacute;, ya que&nbsp;<span style=\"font-family: inherit;\"><a class=\"x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f\" style=\"cursor: pointer; text-decoration-line: none; margin: 0px; text-align: inherit; padding: 0px; outline: none; -webkit-tap-highlight-color: transparent; font-weight: 600; box-sizing: border-box; list-style: none; touch-action: manipulation; background-color: transparent; display: inline; font-family: inherit; border: 0px initial initial;\" tabindex=\"0\" role=\"link\" href=\"https://www.facebook.com/hashtag/tini?__eep__=6&amp;__tn__=*NK\">#Tini</a></span>&nbsp;parec&iacute;a estar enferma y no estaba comiendo con normalidad.<br /><br /><span style=\"font-family: inherit;\"><a class=\"x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f\" style=\"cursor: pointer; text-decoration-line: none; margin: 0px; text-align: inherit; padding: 0px; outline: none; -webkit-tap-highlight-color: transparent; font-weight: 600; box-sizing: border-box; list-style: none; touch-action: manipulation; background-color: transparent; display: inline; font-family: inherit; border: 0px initial initial;\" tabindex=\"0\" role=\"link\" href=\"https://www.facebook.com/hashtag/tini?__eep__=6&amp;__tn__=*NK\">#Tini</a></span>&nbsp;tiene una mirada triste y desorientada, no entiende qu&eacute; est&aacute; pasando, seguramente extra&ntilde;a a su mam&aacute;.<br /><br />Pronto esta beb&eacute; saldr&aacute; adelante y juntos vamos a ayudarla.<br /></span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: #0000ff;\"><strong>06/12/2022</strong></span>-Analisis de sangre: NORMAL</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: #0000ff;\"><strong>08/12/2022</strong></span>-Continua comiendo fardo y pu&ntilde;ados de balanceado HARAS.</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">Se junta con la yegua PETISA , quien la acepta y se deja mamar , la misma comienza con tratamiento galactogeno.&nbsp;</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><strong><span style=\"color: #0000ff;\">16/12/2022</span></strong>-La yegua no permite que mame pero no la rechaza ,la adopto.</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: #0000ff;\"><strong>17/12/2022</strong></span>-Presenta inflamaci&oacute;n del mpi desde distal del tarso hasta el nudo-Debajo del tarso en medial de la ca&ntilde;a presenta una peladura compatible con </span>trauma.</span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">Tratamiento: Vendaje con algod&oacute;n y Waxes.</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: #0000ff;\"><strong>19/12/2022</strong></span>-Evoluci&oacute;n favorable , repito vendaje.</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: #0000ff;\"><strong>22/12/2022</strong></span>-Leve edema en MPI queda sin venda .</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><strong><span style=\"color: #0000ff;\">23/12/2022</span></strong>-Queda solo con venda descanso sin cremas . Se indica dar 600 gr. de balanceado HARAS&nbsp; por d&iacute;a fraccionado&nbsp; 3 veces al d&iacute;a +10 gr de Calcio. Vitaminizado de Laboquimica .</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: #0000ff;\"><strong>27/12/2022</strong></span>- Bostea con olor a feed lot- se deja de dar balanceado y se desparasita con <strong>FORTIUM </strong>1 cc.</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">24-01-2023- Peso: 70 KG no aumento de peso acorde a lo esperado. No se pudo suministrar balanceado en relaci&oacute;n acorde por fermentaci&oacute;n en intestino posterior dado la falta de amilasa que hasta los 3.5 meses no funciona adecuadamente.</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">En consecuencia se consulta al Dr. GONZALES Guillermo y se formula raci&oacute;n especial.</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\">&nbsp;</div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\"><strong><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333;\">RACI&Oacute;N</span></span></strong></span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">-PM 300 GR DIA</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">-QUANTUM 10 GR DIA</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">-SAL PARRILLERA 10 GR</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">-MA&Iacute;Z PARTIDO COCIDO 800 GR D&Iacute;A (COMENZAR CON 250 GR)</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: #0000ff;\"><strong>03-02-2023</strong></span>-Se aumenta a 500gs la porci&oacute;n de Ma&iacute;z cocido. evoluci&oacute;n favorable.</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><strong><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">Se indica desvasar a la brevedad!!!</span></span></strong></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">08/03/2023-</span><span style=\"color: #1c1e21; font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;\"><span style=\"font-size: 15px;\"><strong>correcci&oacute;n</strong></span></span><span style=\"color: rgba(0, 0, 0, 0); font-family: inherit; font-size: 12px;\"><span style=\"font-size: 0.9375rem;\"><strong>&nbsp;!!&nbsp;</strong></span></span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><strong><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">PESO: 100 KG</span></span></strong></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><strong><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">10/03/2023- 1&deg; Desvasado completo</span></span></strong></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><strong><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x6prxxf xvq8zen xo1l8bm xzsf02u\" style=\"word-break: break-word; max-width: 100%; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\">15/04/2023-&nbsp; &nbsp;</span></span></strong><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: var(--primary-text); font-family: inherit; font-size: 0.9375rem;\">Se enganch&oacute; con las tablas del box y se lastim&oacute; en caudal de cuartilla MPI</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: var(--primary-text); font-family: inherit; font-size: 0.9375rem;\">22/04/2023- Curaciones y ATB DUVAMICINA</span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><strong><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: var(--primary-text); font-family: inherit; font-size: 0.9375rem;\">PESO 170 kg comienza con medio kilo de haras ma&ntilde;ana y tarde&nbsp;</span></span></strong></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\" style=\"word-break: break-word; max-width: 100%; display: block; overflow-wrap: break-word; font-family: inherit; font-size: 0.9375rem; min-width: 0px; line-height: 1.3333; color: var(--primary-text);\"><span style=\"color: rgba(0, 0, 0, 0); font-family: inherit;\"><span style=\"font-size: 0.9375rem;\">18/04/2023- Comienza con ATB c/24 hs y vendaje con </span></span><span style=\"color: #1c1e21; font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;\"><span style=\"font-size: 15px;\">antis&eacute;ptico</span></span><span style=\"color: rgba(0, 0, 0, 0); font-family: inherit;\"><span style=\"font-size: 0.9375rem;\">. , porque se muerde la herida y la agrando.</span></span></span></div>\r\n<div class=\"xu06os2 x1ok221b\" style=\"margin-top: 5px; margin-bottom: 5px; font-family: \'Segoe UI Historic\', \'Segoe UI\', Helvetica, Arial, sans-serif; color: #1c1e21; font-size: 12px; background-color: #ffffff;\">&nbsp;</div>', NULL, 'Alejandro Korn', '2022-12-03', 'Hembra', '', 'Pequeño', 'Alta Veterinaria', '2022-12-19 11:42:43', '2024-03-13 18:22:49', 1, NULL);
 INSERT INTO `caballo` (`id_caballo`, `nombre`, `historia_clinica`, `chip`, `peso`, `edad`, `raza`, `pelaje`, `marcas`, `informe`, `anamnesis`, `tratamiento`, `diagnostico`, `lugar`, `ingreso`, `sexo`, `padrillo`, `tamanio`, `diario`, `ts_create`, `ts_update`, `habilitado`, `adoptado`) VALUES
-(365, 'FRODO', '275', '032050000622392', 245, '16', 'Mestizo', 'Zaino', '', '<p>&nbsp;</p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\';\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">Ariel Hern&aacute;n Corse, MP.11483, m&eacute;dico veterinario especializado en grandes animales, vengo por la presente a poner en su conocimiento, bajo juramento de ley y dem&aacute;s prescripciones legales que en el d&iacute;a de la fecha he llevado a cabo un amplio examen m&eacute;dico sobre el animal incautado en autos, pudiendo establecer que se trata de un equino de sexo macho castrado, pelaje zaino, raza mestiza, de 1.30 mts. de alzada medido con hip&oacute;metro y unos 15 a&ntilde;os de edad determinados por cronometr&iacute;a dentaria.<strong> </strong></span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Presenta cicatrices en la regi&oacute;n pectoral y braquiocefalica, asi como tambi&eacute;n en&nbsp; la cruz (procesos espinosos vertebras tor&aacute;cicas) esta &uacute;ltima con herida reciente y activa , dolorosa por la presencia de estructuras sensibles en la regi&oacute;n como bolsas sinoviales, las &aacute;reas descritas se relaciona con la zona de contacto de las monturas de carro y se considera compatible como causa el rozamiento de la misma debido a malas condiciones , exceso de carga y/o elementos no aptos para funcionar como arn&eacute;s.</span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Presenta dificultad al caminar caracterizado por un asincronismo del tren posterior respecto al anterior, fase anterior del paso disminuida, claudicaci&oacute;n 4/5 del miembro posterior derecho mixta, cola erguida (signo de dolor sacro cocc&iacute;geo)&nbsp; .</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">Manifiesta sensibilidad dolorosa a la palpaci&oacute;n presi&oacute;n de la columna dorso lumbar y sacro il&iacute;aca ,particularmente en los tub&eacute;rculos sacros , los cuales se observan asim&eacute;tricos con descenso del tub&eacute;rculo sacro izquierdo esto obedece a una subluxaci&oacute;n sacro il&iacute;aca activa debido a<span style=\"mso-spacerun: yes;\">&nbsp; </span>que manifiesta dolor a la palpaci&oacute;n<span style=\"mso-spacerun: yes;\">&nbsp; </span>de los ligamentos sacro il&iacute;acos dorsales<span style=\"mso-spacerun: yes;\">&nbsp; </span>y a los ventrales ya que aumenta la base de sustentaci&oacute;n al flexionar la cadera acci&oacute;n que<span style=\"mso-spacerun: yes;\">&nbsp; </span>llevan a cabo para minimizar el dolor durante la maniobra . La lesi&oacute;n descripta obedece a flexiones forzadas de la cadera como propulsiones violentas, o resbalones al intentar traccionar sobre asfalto y/o otras superficies si la fuerza de tracci&oacute;n por el peso de arrastre<span style=\"mso-spacerun: yes;\">&nbsp; </span>excede claramente a sus posibilidades f&iacute;sicas. <span style=\"color: black;\">En la exploraci&oacute;n de las articulaci&oacute;n femor-otibio-rotulianas , al intentar elevar el miembro para la maniobra, el equino pierde estabilidad y tiende a caerse debido al dolor que le genera tan solo levantarle el miembro y flexionar la rodilla y cadera, as&iacute; mismo al palpar los c&oacute;ndilos femorales exacerba aun m&aacute;s el dolor .</span></span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Respecto a los herrajes, est&aacute;n vencidos excedidos en largo lo que genera fuerzas desmedidas sobre los ejes falangianos generando dolor sobre todo de las estructuras blandas tendones y ligamentos, son inadecuados por la falta de aplomos (proporciones normales y fisiol&oacute;gicas del casco para una funci&oacute;n adecuada), cerrados en talones no permitiendo la expansi&oacute;n normal de los mismos y con ejes longitudinales con desviaci&oacute;n lateral. Fig(1)</span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Presenta retracci&oacute;n del tend&oacute;n flexor digital superficial de ambos miembros posteriores con eballestamiento (proyecci&oacute;n craneal de la articulaci&oacute;n metatarso falangiana).Fig(2)</span></p>\r\n<p><strong style=\"mso-bidi-font-weight: normal;\"><u><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">&nbsp;Informe Ecograf&iacute;a: regi&oacute;n sacro il&iacute;aca - babillas&nbsp;</span></u></strong></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Se observa asimetr&iacute;a de los tub&eacute;rculos sacros con descenso del tub&eacute;rculo izquierdo, soluci&oacute;n de continuidad hipo ecoica de un fragmento de 2.5 cm del tub&eacute;rculo sacro izquierdo&nbsp;<strong><span style=\"font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">compatible con fractura del mismo .Fig (3)</span></strong>, imagen hipo-ecoica difusa del ligamento sacro iliaco dorsal y ventral (este &uacute;ltimo evaluado por ventana dorsal debido al tama&ntilde;o y atrofias que presenta el equino) compatible con desmitis de ambos ligamentos.</span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Exfoliaci&oacute;n del cart&iacute;lago articular del c&oacute;ndilo medial del miembro posterior derecho, con osteofitosis severa compatible con enfermedad articular degenerativa cr&oacute;nica severa.Fig (4). Heterogeneidad ecogr&aacute;fica del menisco medial compatible con s&iacute;ndrome meniscal.</span></p>\r\n<p><strong><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Diagn&oacute;stico:</span></strong><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">&nbsp;</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: #202124; background: white;\">subluxaci&oacute;n</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">&nbsp;</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: #202124; background: white;\">sacro il&iacute;aca</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">&nbsp;con descenso izquierdo y lesi&oacute;n de ligamentos. <strong style=\"mso-bidi-font-weight: normal;\">Fractura del tub&eacute;rculo sacro izquierdo</strong>, artrosis severa de la articulaci&oacute;n femortibiorotuliana m&aacute;s significativa en miembro posterior derecho con erosi&oacute;n de cart&iacute;lago y s&iacute;ndrome meniscal.</span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">Efectuado el escaneo con lector DATAMARS (homologado) en b&uacute;squeda de microchip, el mismo dio negativo.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">A simple vista no se observan marcas pirograbadas, se sugiere tricotom&iacute;a.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">Se toma muestra de sangre y se llena formulario para remitir al laboratorio solicitando an&aacute;lisis de AIE cumplimentando la legislaci&oacute;n vigente y requerida por SENASA para los predios con equinos.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">A continuaci&oacute;n, se adjuntan im&aacute;genes referidas en el informe.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: ES-AR; mso-fareast-language: ES-AR; mso-no-proof: yes;\"><!-- [if gte vml 1]><v:shapetype\r\n id=\"_x0000_t75\" coordsize=\"21600,21600\" o:spt=\"75\" o:preferrelative=\"t\"\r\n path=\"m@4@5l@4@11@9@11@9@5xe\" filled=\"f\" stroked=\"f\">\r\n <v:stroke joinstyle=\"miter\"/>\r\n <v:formulas>\r\n  <v:f eqn=\"if lineDrawn pixelLineWidth 0\"/>\r\n  <v:f eqn=\"sum @0 1 0\"/>\r\n  <v:f eqn=\"sum 0 0 @1\"/>\r\n  <v:f eqn=\"prod @2 1 2\"/>\r\n  <v:f eqn=\"prod @3 21600 pixelWidth\"/>\r\n  <v:f eqn=\"prod @3 21600 pixelHeight\"/>\r\n  <v:f eqn=\"sum @0 0 1\"/>\r\n  <v:f eqn=\"prod @6 1 2\"/>\r\n  <v:f eqn=\"prod @7 21600 pixelWidth\"/>\r\n  <v:f eqn=\"sum @8 21600 0\"/>\r\n  <v:f eqn=\"prod @7 21600 pixelHeight\"/>\r\n  <v:f eqn=\"sum @10 21600 0\"/>\r\n </v:formulas>\r\n <v:path o:extrusionok=\"f\" gradientshapeok=\"t\" o:connecttype=\"rect\"/>\r\n <o:lock v:ext=\"edit\" aspectratio=\"t\"/>\r\n</v:shapetype><v:shape id=\"_x0030__x0020_Imagen\" o:spid=\"_x0000_i1028\" type=\"#_x0000_t75\"\r\n alt=\"TALONES ALTOS.jpg\" style=\'width:156.75pt;height:209.25pt;visibility:visible;\r\n mso-wrap-style:square\'>\r\n <v:imagedata src=\"file:///C:\\Users\\Compumar\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image001.jpg\"\r\n  o:title=\"TALONES ALTOS\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg\" alt=\"TALONES ALTOS.jpg\" width=\"209\" height=\"279\" /><!--[endif]--><!-- [if gte vml 1]><v:shape\r\n id=\"_x0031__x0020_Imagen\" o:spid=\"_x0000_i1027\" type=\"#_x0000_t75\" alt=\"RETRACCIONES DE TENDONES MIEMBROS POSTERIORES.jpg\"\r\n style=\'width:156pt;height:207.75pt;visibility:visible;mso-wrap-style:square\'>\r\n <v:imagedata src=\"file:///C:\\Users\\Compumar\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image003.jpg\"\r\n  o:title=\"RETRACCIONES DE TENDONES MIEMBROS POSTERIORES\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg\" alt=\"RETRACCIONES DE TENDONES MIEMBROS POSTERIORES.jpg\" width=\"208\" height=\"277\" /><!--[endif]--></span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><!-- [if gte vml 1]><v:shapetype\r\n id=\"_x0000_t202\" coordsize=\"21600,21600\" o:spt=\"202\" path=\"m,l,21600r21600,l21600,xe\">\r\n <v:stroke joinstyle=\"miter\"/>\r\n <v:path gradientshapeok=\"t\" o:connecttype=\"rect\"/>\r\n</v:shapetype><v:shape id=\"_x0000_s1027\" type=\"#_x0000_t202\" style=\'position:absolute;\r\n margin-left:219.4pt;margin-top:14.75pt;width:59.65pt;height:23pt;z-index:2;\r\n visibility:visible;mso-wrap-distance-top:3.6pt;mso-wrap-distance-bottom:3.6pt;\r\n mso-width-relative:margin;mso-height-relative:margin\' o:gfxdata=\"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\r\n\">\r\n <v:textbox>\r\n  <![if !mso]>\r\n  <table cellpadding=0 cellspacing=0 width=\"100%\">\r\n   <tr>\r\n    <td><![endif]>\r\n    <div>\r\n    <p class=MsoNormal><span lang=ES>Fig.N° 2</span></p>\r\n    </div>\r\n    <![if !mso]></td>\r\n   </tr>\r\n  </table>\r\n  <![endif]></v:textbox>\r\n <w:wrap type=\"square\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image005.gif\" alt=\"Cuadro de texto: Fig.N&deg; 2\" width=\"85\" height=\"36\" align=\"left\" hspace=\"12\" vspace=\"5\" /><!--[endif]--><!-- [if gte vml 1]><v:shape\r\n id=\"_x0000_s1026\" type=\"#_x0000_t202\" style=\'position:absolute;margin-left:43.25pt;\r\n margin-top:14.75pt;width:58.5pt;height:23pt;z-index:1;visibility:visible;\r\n mso-wrap-distance-top:3.6pt;mso-wrap-distance-bottom:3.6pt;\r\n mso-width-relative:margin;mso-height-relative:margin\' o:gfxdata=\"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\r\n\">\r\n <v:textbox>\r\n  <![if !mso]>\r\n  <table cellpadding=0 cellspacing=0 width=\"100%\">\r\n   <tr>\r\n    <td><![endif]>\r\n    <div>\r\n    <p class=MsoNormal><span lang=ES>Fig.N° 1</span></p>\r\n    </div>\r\n    <![if !mso]></td>\r\n   </tr>\r\n  </table>\r\n  <![endif]></v:textbox>\r\n <w:wrap type=\"square\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif\" alt=\"Cuadro de texto: Fig.N&deg; 1\" width=\"84\" height=\"36\" align=\"left\" hspace=\"12\" vspace=\"5\" /><!--[endif]--></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: ES-AR; mso-fareast-language: ES-AR; mso-no-proof: yes;\"><!-- [if gte vml 1]><v:shape\r\n id=\"_x0032__x0020_Imagen\" o:spid=\"_x0000_i1026\" type=\"#_x0000_t75\" alt=\"FRACTURA TUBERCULO SACRO IZQUIERDO.jpg\"\r\n style=\'width:208.5pt;height:174.75pt;visibility:visible;mso-wrap-style:square\'>\r\n <v:imagedata src=\"file:///C:\\Users\\Compumar\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image007.jpg\"\r\n  o:title=\"FRACTURA TUBERCULO SACRO IZQUIERDO\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg\" alt=\"FRACTURA TUBERCULO SACRO IZQUIERDO.jpg\" width=\"278\" height=\"233\" /><!--[endif]--><!-- [if gte vml 1]><v:shape\r\n id=\"_x0033__x0020_Imagen\" o:spid=\"_x0000_i1025\" type=\"#_x0000_t75\" alt=\"BABILLA DERECHA.jpg\"\r\n style=\'width:192.75pt;height:174.75pt;visibility:visible;mso-wrap-style:square\'>\r\n <v:imagedata src=\"file:///C:\\Users\\Compumar\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image009.jpg\"\r\n  o:title=\"BABILLA DERECHA\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg\" alt=\"BABILLA DERECHA.jpg\" width=\"257\" height=\"233\" /><!--[endif]--></span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Fig.N&deg;3<span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Fig.4</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>Como conclusi&oacute;n de lo expuesto, en atenci&oacute;n al estado f&iacute;sico del equino descripto y las patolog&iacute;as que presenta, cuadro este que evidencia una clara infracci&oacute;n a la Ley 14.346, el suscripto aconseja el urgente traslado a los fines de brindarle el tratamiento adecuado a sus dolencias </span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Es todo cuanto puedo informar al respecto, quedando a su entera disposici&oacute;n para ratificar o ampliar el presente.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>', NULL, '<p>Ingreso 05/02/23 18.30 hs</p>\r\n<p>Lugar del rescate: Gonz&aacute;lez Catan</p>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/2705/32.png\" alt=\"✅\" loading=\"lazy\" data-emoji=\"✅\" aria-label=\"✅\" />&nbsp;DIAGN&Oacute;STICO DE #Frodo</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Tiene fractura del tub&eacute;rculo sacro izquierdo de la articulaci&oacute;n sacro-il&iacute;aca (la cadera).</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Muestra un dolor muy agudo en la articulaci&oacute;n f&eacute;moro-tibio-rotuliana del miembro posterior derecho con lesi&oacute;n erosiva del cart&iacute;lago articular.&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Aparecen osteofitos en el c&oacute;ndilo medial del f&eacute;mur del miembro posterior derecho.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Tambi&eacute;n sufre una subluxaci&oacute;n sacro-Il&iacute;aca con descenso del tub&eacute;rculo sacro (el que est&aacute; fracturado) y lesi&oacute;n en los ligamentos sacro-il&iacute;acos ventrales.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Sus cascos est&aacute;n largos, los mismos han perdido la proporci&oacute;n y tiene las herraduras encajadas.&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Se observa retracci&oacute;n de los tendones flexores digitales superficiales de los miembros posteriores en compensaci&oacute;n del dolor que viene sosteniendo desde la cadera.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Presenta nudo emballestado, lo que genera dicha retracci&oacute;n.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/2705/32.png\" alt=\"✅\" loading=\"lazy\" data-emoji=\"✅\" aria-label=\"✅\" />&nbsp;PRON&Oacute;STICO: Irreversible</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">Vamos a ir controlando el dolor y mejorando su postura general con desvasados y herraduras ortop&eacute;dicas espec&iacute;ficas.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><strong>05/02/23</strong></div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">Tto: Flunix 8 cc IV</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp; &nbsp; &nbsp; &nbsp;Equicistan 15 cc IV</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp; &nbsp; &nbsp; &nbsp;Dipirona 25 cc IV</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">FC: 36 lat/min</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">Motilidad: aumentada</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">Se extrae sangre para AIE</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong>10/02/2023</strong></span>- INFILTRACI&Oacute;N LIGAMENTOS SACROILIACOS DORSALES Y LATERALES Y TUB&Eacute;RCULO SACRO IZQUIERDO CON :&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">EB +PREDNISOLONA&nbsp; C.S</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong>15/03/2023-</strong></span> Evoluci&oacute;n favorable , estabilidad sacroil&iacute;aca , no manifiesta dolor a la semiolog&iacute;a de&nbsp; cadera , sensibilidad moderada en carilla articular babilla derecha.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong><span style=\"color: #0000ff;\">Tratamiento</span>: ACS 5 cc IM c/7 dias&nbsp; (TODOS LOS JUEVES )</strong></span></div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong>22/03/2023-</strong></span>Alta medica se libera al lote de la laguna.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong>28/03/2023</strong></span> -Alta medica.</div>', NULL, 'Castelli', '2023-02-05', 'Macho - Castrado', '480', 'Mediano', 'Alta Veterinaria', '2023-02-07 21:26:44', '2024-03-13 18:22:49', 1, NULL),
+(365, 'FRODO', '275', '032050000622392', 245, '16', 'Mestizo', 'Zaino', '', '<p>&nbsp;</p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\';\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">Ariel Hern&aacute;n Corse, MP.11483, m&eacute;dico veterinario especializado en grandes animales, vengo por la presente a poner en su conocimiento, bajo juramento de ley y dem&aacute;s prescripciones legales que en el d&iacute;a de la fecha he llevado a cabo un amplio examen m&eacute;dico sobre el animal incautado en autos, pudiendo establecer que se trata de un equino de sexo macho castrado, pelaje zaino, raza mestiza, de 1.30 mts. de alzada medido con hip&oacute;metro y unos 15 a&ntilde;os de edad determinados por cronometr&iacute;a dentaria.<strong> </strong></span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Presenta cicatrices en la regi&oacute;n pectoral y braquiocefalica, asi como tambi&eacute;n en&nbsp; la cruz (procesos espinosos vertebras tor&aacute;cicas) esta &uacute;ltima con herida reciente y activa , dolorosa por la presencia de estructuras sensibles en la regi&oacute;n como bolsas sinoviales, las &aacute;reas descritas se relaciona con la zona de contacto de las monturas de carro y se considera compatible como causa el rozamiento de la misma debido a malas condiciones , exceso de carga y/o elementos no aptos para funcionar como arn&eacute;s.</span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Presenta dificultad al caminar caracterizado por un asincronismo del tren posterior respecto al anterior, fase anterior del paso disminuida, claudicaci&oacute;n 4/5 del miembro posterior derecho mixta, cola erguida (signo de dolor sacro cocc&iacute;geo)&nbsp; .</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">Manifiesta sensibilidad dolorosa a la palpaci&oacute;n presi&oacute;n de la columna dorso lumbar y sacro il&iacute;aca ,particularmente en los tub&eacute;rculos sacros , los cuales se observan asim&eacute;tricos con descenso del tub&eacute;rculo sacro izquierdo esto obedece a una subluxaci&oacute;n sacro il&iacute;aca activa debido a<span style=\"mso-spacerun: yes;\">&nbsp; </span>que manifiesta dolor a la palpaci&oacute;n<span style=\"mso-spacerun: yes;\">&nbsp; </span>de los ligamentos sacro il&iacute;acos dorsales<span style=\"mso-spacerun: yes;\">&nbsp; </span>y a los ventrales ya que aumenta la base de sustentaci&oacute;n al flexionar la cadera acci&oacute;n que<span style=\"mso-spacerun: yes;\">&nbsp; </span>llevan a cabo para minimizar el dolor durante la maniobra . La lesi&oacute;n descripta obedece a flexiones forzadas de la cadera como propulsiones violentas, o resbalones al intentar traccionar sobre asfalto y/o otras superficies si la fuerza de tracci&oacute;n por el peso de arrastre<span style=\"mso-spacerun: yes;\">&nbsp; </span>excede claramente a sus posibilidades f&iacute;sicas. <span style=\"color: black;\">En la exploraci&oacute;n de las articulaci&oacute;n femor-otibio-rotulianas , al intentar elevar el miembro para la maniobra, el equino pierde estabilidad y tiende a caerse debido al dolor que le genera tan solo levantarle el miembro y flexionar la rodilla y cadera, as&iacute; mismo al palpar los c&oacute;ndilos femorales exacerba aun m&aacute;s el dolor .</span></span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Respecto a los herrajes, est&aacute;n vencidos excedidos en largo lo que genera fuerzas desmedidas sobre los ejes falangianos generando dolor sobre todo de las estructuras blandas tendones y ligamentos, son inadecuados por la falta de aplomos (proporciones normales y fisiol&oacute;gicas del casco para una funci&oacute;n adecuada), cerrados en talones no permitiendo la expansi&oacute;n normal de los mismos y con ejes longitudinales con desviaci&oacute;n lateral. Fig(1)</span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Presenta retracci&oacute;n del tend&oacute;n flexor digital superficial de ambos miembros posteriores con eballestamiento (proyecci&oacute;n craneal de la articulaci&oacute;n metatarso falangiana).Fig(2)</span></p>\r\n<p><strong style=\"mso-bidi-font-weight: normal;\"><u><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">&nbsp;Informe Ecograf&iacute;a: regi&oacute;n sacro il&iacute;aca - babillas&nbsp;</span></u></strong></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Se observa asimetr&iacute;a de los tub&eacute;rculos sacros con descenso del tub&eacute;rculo izquierdo, soluci&oacute;n de continuidad hipo ecoica de un fragmento de 2.5 cm del tub&eacute;rculo sacro izquierdo&nbsp;<strong><span style=\"font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">compatible con fractura del mismo .Fig (3)</span></strong>, imagen hipo-ecoica difusa del ligamento sacro iliaco dorsal y ventral (este &uacute;ltimo evaluado por ventana dorsal debido al tama&ntilde;o y atrofias que presenta el equino) compatible con desmitis de ambos ligamentos.</span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Exfoliaci&oacute;n del cart&iacute;lago articular del c&oacute;ndilo medial del miembro posterior derecho, con osteofitosis severa compatible con enfermedad articular degenerativa cr&oacute;nica severa.Fig (4). Heterogeneidad ecogr&aacute;fica del menisco medial compatible con s&iacute;ndrome meniscal.</span></p>\r\n<p><strong><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">Diagn&oacute;stico:</span></strong><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">&nbsp;</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: #202124; background: white;\">subluxaci&oacute;n</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">&nbsp;</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: #202124; background: white;\">sacro il&iacute;aca</span><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; color: black;\">&nbsp;con descenso izquierdo y lesi&oacute;n de ligamentos. <strong style=\"mso-bidi-font-weight: normal;\">Fractura del tub&eacute;rculo sacro izquierdo</strong>, artrosis severa de la articulaci&oacute;n femortibiorotuliana m&aacute;s significativa en miembro posterior derecho con erosi&oacute;n de cart&iacute;lago y s&iacute;ndrome meniscal.</span></p>\r\n<p><span style=\"font-size: 11.0pt; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">Efectuado el escaneo con lector DATAMARS (homologado) en b&uacute;squeda de microchip, el mismo dio negativo.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">A simple vista no se observan marcas pirograbadas, se sugiere tricotom&iacute;a.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">Se toma muestra de sangre y se llena formulario para remitir al laboratorio solicitando an&aacute;lisis de AIE cumplimentando la legislaci&oacute;n vigente y requerida por SENASA para los predios con equinos.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">A continuaci&oacute;n, se adjuntan im&aacute;genes referidas en el informe.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: ES-AR; mso-fareast-language: ES-AR; mso-no-proof: yes;\"><!-- [if gte vml 1]><v:shapetype\r\n id=\"_x0000_t75\" coordsize=\"21600,21600\" o:spt=\"75\" o:preferrelative=\"t\"\r\n path=\"m@4@5l@4@11@9@11@9@5xe\" filled=\"f\" stroked=\"f\">\r\n <v:stroke joinstyle=\"miter\"/>\r\n <v:formulas>\r\n  <v:f eqn=\"if lineDrawn pixelLineWidth 0\"/>\r\n  <v:f eqn=\"sum @0 1 0\"/>\r\n  <v:f eqn=\"sum 0 0 @1\"/>\r\n  <v:f eqn=\"prod @2 1 2\"/>\r\n  <v:f eqn=\"prod @3 21600 pixelWidth\"/>\r\n  <v:f eqn=\"prod @3 21600 pixelHeight\"/>\r\n  <v:f eqn=\"sum @0 0 1\"/>\r\n  <v:f eqn=\"prod @6 1 2\"/>\r\n  <v:f eqn=\"prod @7 21600 pixelWidth\"/>\r\n  <v:f eqn=\"sum @8 21600 0\"/>\r\n  <v:f eqn=\"prod @7 21600 pixelHeight\"/>\r\n  <v:f eqn=\"sum @10 21600 0\"/>\r\n </v:formulas>\r\n <v:path o:extrusionok=\"f\" gradientshapeok=\"t\" o:connecttype=\"rect\"/>\r\n <o:lock v:ext=\"edit\" aspectratio=\"t\"/>\r\n</v:shapetype><v:shape id=\"_x0030__x0020_Imagen\" o:spid=\"_x0000_i1028\" type=\"#_x0000_t75\"\r\n alt=\"TALONES ALTOS.jpg\" style=\'width:156.75pt;height:209.25pt;visibility:visible;\r\n mso-wrap-style:square\'>\r\n <v:imagedata src=\"file:///C:\\Users\\Compumar\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image001.jpg\"\r\n  o:title=\"TALONES ALTOS\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg\" alt=\"TALONES ALTOS.jpg\" width=\"209\" height=\"279\" /><!--[endif]--><!-- [if gte vml 1]><v:shape\r\n id=\"_x0031__x0020_Imagen\" o:spid=\"_x0000_i1027\" type=\"#_x0000_t75\" alt=\"RETRACCIONES DE TENDONES MIEMBROS POSTERIORES.jpg\"\r\n style=\'width:156pt;height:207.75pt;visibility:visible;mso-wrap-style:square\'>\r\n <v:imagedata src=\"file:///C:\\Users\\Compumar\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image003.jpg\"\r\n  o:title=\"RETRACCIONES DE TENDONES MIEMBROS POSTERIORES\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg\" alt=\"RETRACCIONES DE TENDONES MIEMBROS POSTERIORES.jpg\" width=\"208\" height=\"277\" /><!--[endif]--></span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><!-- [if gte vml 1]><v:shapetype\r\n id=\"_x0000_t202\" coordsize=\"21600,21600\" o:spt=\"202\" path=\"m,l,21600r21600,l21600,xe\">\r\n <v:stroke joinstyle=\"miter\"/>\r\n <v:path gradientshapeok=\"t\" o:connecttype=\"rect\"/>\r\n</v:shapetype><v:shape id=\"_x0000_s1027\" type=\"#_x0000_t202\" style=\'position:absolute;\r\n margin-left:219.4pt;margin-top:14.75pt;width:59.65pt;height:23pt;z-index:2;\r\n visibility:visible;mso-wrap-distance-top:3.6pt;mso-wrap-distance-bottom:3.6pt;\r\n mso-width-relative:margin;mso-height-relative:margin\' o:gfxdata=\"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\r\n\">\r\n <v:textbox>\r\n  <![if !mso]>\r\n  <table cellpadding=0 cellspacing=0 width=\"100%\">\r\n   <tr>\r\n    <td><![endif]>\r\n    <div>\r\n    <p class=MsoNormal><span lang=ES>Fig.N° 2</span></p>\r\n    </div>\r\n    <![if !mso]></td>\r\n   </tr>\r\n  </table>\r\n  <![endif]></v:textbox>\r\n <w:wrap type=\"square\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image005.gif\" alt=\"Cuadro de texto: Fig.N&deg; 2\" width=\"85\" height=\"36\" align=\"left\" hspace=\"12\" vspace=\"5\" /><!--[endif]--><!-- [if gte vml 1]><v:shape\r\n id=\"_x0000_s1026\" type=\"#_x0000_t202\" style=\'position:absolute;margin-left:43.25pt;\r\n margin-top:14.75pt;width:58.5pt;height:23pt;z-index:1;visibility:visible;\r\n mso-wrap-distance-top:3.6pt;mso-wrap-distance-bottom:3.6pt;\r\n mso-width-relative:margin;mso-height-relative:margin\' o:gfxdata=\"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\r\n\">\r\n <v:textbox>\r\n  <![if !mso]>\r\n  <table cellpadding=0 cellspacing=0 width=\"100%\">\r\n   <tr>\r\n    <td><![endif]>\r\n    <div>\r\n    <p class=MsoNormal><span lang=ES>Fig.N° 1</span></p>\r\n    </div>\r\n    <![if !mso]></td>\r\n   </tr>\r\n  </table>\r\n  <![endif]></v:textbox>\r\n <w:wrap type=\"square\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif\" alt=\"Cuadro de texto: Fig.N&deg; 1\" width=\"84\" height=\"36\" align=\"left\" hspace=\"12\" vspace=\"5\" /><!--[endif]--></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: ES-AR; mso-fareast-language: ES-AR; mso-no-proof: yes;\"><!-- [if gte vml 1]><v:shape\r\n id=\"_x0032__x0020_Imagen\" o:spid=\"_x0000_i1026\" type=\"#_x0000_t75\" alt=\"FRACTURA TUBERCULO SACRO IZQUIERDO.jpg\"\r\n style=\'width:208.5pt;height:174.75pt;visibility:visible;mso-wrap-style:square\'>\r\n <v:imagedata src=\"file:///C:\\Users\\Compumar\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image007.jpg\"\r\n  o:title=\"FRACTURA TUBERCULO SACRO IZQUIERDO\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg\" alt=\"FRACTURA TUBERCULO SACRO IZQUIERDO.jpg\" width=\"278\" height=\"233\" /><!--[endif]--><!-- [if gte vml 1]><v:shape\r\n id=\"_x0033__x0020_Imagen\" o:spid=\"_x0000_i1025\" type=\"#_x0000_t75\" alt=\"BABILLA DERECHA.jpg\"\r\n style=\'width:192.75pt;height:174.75pt;visibility:visible;mso-wrap-style:square\'>\r\n <v:imagedata src=\"file:///C:\\Users\\Compumar\\AppData\\Local\\Temp\\msohtmlclip1\\01\\clip_image009.jpg\"\r\n  o:title=\"BABILLA DERECHA\"/>\r\n</v:shape><![endif]--><!-- [if !vml]--><img src=\"file:///C:/Users/Compumar/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg\" alt=\"BABILLA DERECHA.jpg\" width=\"257\" height=\"233\" /><!--[endif]--></span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Fig.N&deg;3<span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Fig.4</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>Como conclusi&oacute;n de lo expuesto, en atenci&oacute;n al estado f&iacute;sico del equino descripto y las patolog&iacute;as que presenta, cuadro este que evidencia una clara infracci&oacute;n a la Ley 14.346, el suscripto aconseja el urgente traslado a los fines de brindarle el tratamiento adecuado a sus dolencias </span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Es todo cuanto puedo informar al respecto, quedando a su entera disposici&oacute;n para ratificar o ampliar el presente.</span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\"><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: 10.0pt; line-height: 115%; mso-pagination: none; mso-layout-grid-align: none; text-autospace: none;\"><span lang=\"ES\" style=\"font-size: 11.0pt; line-height: 115%; font-family: \'Calibri\',\'sans-serif\'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;\">&nbsp;</span></p>', NULL, '<p>Ingreso 05/02/23 18.30 hs</p>\r\n<p>Lugar del rescate: Gonz&aacute;lez Catan</p>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/2705/32.png\" alt=\"✅\" loading=\"lazy\" data-emoji=\"✅\" aria-label=\"✅\" />&nbsp;DIAGN&Oacute;STICO DE #Frodo</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Tiene fractura del tub&eacute;rculo sacro izquierdo de la articulaci&oacute;n sacro-il&iacute;aca (la cadera).</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Muestra un dolor muy agudo en la articulaci&oacute;n f&eacute;moro-tibio-rotuliana del miembro posterior derecho con lesi&oacute;n erosiva del cart&iacute;lago articular.&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Aparecen osteofitos en el c&oacute;ndilo medial del f&eacute;mur del miembro posterior derecho.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Tambi&eacute;n sufre una subluxaci&oacute;n sacro-Il&iacute;aca con descenso del tub&eacute;rculo sacro (el que est&aacute; fracturado) y lesi&oacute;n en los ligamentos sacro-il&iacute;acos ventrales.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Sus cascos est&aacute;n largos, los mismos han perdido la proporci&oacute;n y tiene las herraduras encajadas.&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Se observa retracci&oacute;n de los tendones flexores digitales superficiales de los miembros posteriores en compensaci&oacute;n del dolor que viene sosteniendo desde la cadera.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/1f538/32.png\" alt=\"????\" loading=\"lazy\" data-emoji=\"????\" aria-label=\"????\" />Presenta nudo emballestado, lo que genera dicha retracci&oacute;n.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><img class=\"an1\" style=\"height: 1.2em; width: 1.2em; vertical-align: middle;\" src=\"https://fonts.gstatic.com/s/e/notoemoji/15.0/2705/32.png\" alt=\"✅\" loading=\"lazy\" data-emoji=\"✅\" aria-label=\"✅\" />&nbsp;PRON&Oacute;STICO: Irreversible</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">Vamos a ir controlando el dolor y mejorando su postura general con desvasados y herraduras ortop&eacute;dicas espec&iacute;ficas.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><strong>05/02/23</strong></div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">Tto: Flunix 8 cc IV</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp; &nbsp; &nbsp; &nbsp;Equicistan 15 cc IV</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp; &nbsp; &nbsp; &nbsp;Dipirona 25 cc IV</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">FC: 36 lat/min</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">Motilidad: aumentada</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">Se extrae sangre para AIE</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong>10/02/2023</strong></span>- INFILTRACI&Oacute;N LIGAMENTOS SACROILIACOS DORSALES Y LATERALES Y TUB&Eacute;RCULO SACRO IZQUIERDO CON :&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">EB +PREDNISOLONA&nbsp; C.S</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\">&nbsp;</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong>15/03/2023-</strong></span> Evoluci&oacute;n favorable , estabilidad sacroil&iacute;aca , no manifiesta dolor a la semiolog&iacute;a de&nbsp; cadera , sensibilidad moderada en carilla articular babilla derecha.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong><span style=\"color: #0000ff;\">Tratamiento</span>: ACS 5 cc IM c/7 dias&nbsp; (TODOS LOS JUEVES )</strong></span></div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong>22/03/2023-</strong></span>Alta medica se libera al lote de la laguna.</div>\r\n<div dir=\"auto\" style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff;\"><span style=\"color: #0000ff;\"><strong>28/03/2023</strong></span> -Alta medica.</div>', NULL, 'Castelli', '2023-02-05', 'Macho - Castrado', '480', 'Mediano', 'Alta Veterinaria', '2023-02-07 21:26:44', '2024-04-08 19:03:39', 1, NULL),
 (366, 'PETI', '277', '32050000762680', 300, '22', 'Mestizo', 'Rosillo', '', NULL, NULL, '<p><span style=\"color: #0000ff;\"><strong>24/03/2023</strong></span>- Presenta una claudicaci&oacute;n de 3/5 MAI con p&eacute;rdida de la fosa de&nbsp; genot.&nbsp;</p>\r\n<p>Rx: presenta naviculitis y artrosis interfal&aacute;ngica distal con desviaci&oacute;n del eje podofalngeano.</p>\r\n<p><span style=\"color: #000000;\"><strong>Tratamiento:&nbsp;</strong></span></p>\r\n<p>Butazolidina 1.6 gr IV&nbsp;</p>\r\n<p>Dexametasona base 25 mg</p>\r\n<p>ACS 5 cc IM&nbsp;</p>\r\n<p>vendaje de cuartilla con waxws+pincelinas+DMSO</p>\r\n<p><strong>25/03/2023</strong>- Butazolidina 2 gr Oral</p>\r\n<p><strong>26/03/2023</strong>-Presenta una diarrea intermitente. Se decide no infiltrar hasta evoluci&oacute;n.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\r\n<p><strong>31/03/2023</strong>- Infiltraci&oacute;n bolsa podotroclear con metilprednisolona.</p>\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bloque digital palmar con neurol&iacute;tico+equipin</p>\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bloqueo cubital con neurol&iacute;tico +equipin</p>\r\n<p>&nbsp;</p>\r\n<p><strong>04/04/2023</strong>- Evoluci&oacute;n favorable mejor&oacute; un 70% resta herraje ortopedico.</p>\r\n<p>Tratamiento: ACS&nbsp; 5 cc IM&nbsp;</p>\r\n<p>07/04/2023-Se coloca herradura invertida retrasada en miembro anterior izquierdo 24 hs posterior manifesto evoluci&oacute;n favorable.</p>\r\n<p>Manifiesta incomodidad y sensibilidad dolorosa del MAD al desvasarlo asociado a artrosis y hernia sinovial del carpo .&nbsp;</p>\r\n<p>Se evaluar&aacute; Tratamiento del MAD .</p>\r\n<p><strong>15/07/2023</strong>- Fue herrada en el MAI con herraje invertido y luego normal - la evoluci&oacute;n fue favorable camina todo el dia por el parque sin dificultad.</p>', NULL, 'Alejandro Korn', '2023-03-24', 'Hembra', '', 'Mediano', 'Alta Veterinaria', '2023-03-25 22:49:57', '2024-03-13 18:22:49', 1, NULL),
 (367, 'QUIJOTE', '276', '32050000722617', 290, '28', 'Mestizo', 'Alazán', 'Marca nitrógeno liquido en pierna izquierda.', NULL, NULL, '<p><strong>14/04/2023</strong>-&nbsp; Ingresa &nbsp;a la ONG proveniente del Jose C Paz. Desnutrici&oacute;n severa , caquexia, geronte con d&eacute;ficit dentario , incapacidad de comer pasto, bollitos sin ingesta.</p>\r\n<p>Presenta ceguera ojo izquierdo y visi&oacute;n parcial ojo derecho por opacidad de cristalino. Sensibilidad dolorosa en regi&oacute;n lumbo sacra. Herida cavitaria&nbsp; sangrante en prepucio compatible con miasis, se aplica medicaci&oacute;n acorde. Orificio prepucial estrecho.</p>\r\n<p><span style=\"color: #0000ff;\"><span style=\"color: #0000ff;\"><strong>Desparasitaci&oacute;n</strong></span><strong style=\"color: #0000ff;\">: Ivermecina</strong></span> p/100 kg c/24hs dos dosis-</p>\r\n<p><strong><span style=\"color: #0000ff;\">Nutrici&oacute;n</span></strong> : QUIJOTE:&nbsp; <strong>1 KG&nbsp; BASE ( 500 GR MA&Ntilde;ANA Y TARDE )+ 400GR PM+40 GR QANTUM+75 GR FOSFOMEL + 40 CC ENERJET + SALES&nbsp; UNA MEDIDA</strong></p>\r\n<p><strong>18/04/2023-&nbsp;</strong>Perfil sangu&iacute;neo sin particularidades.&nbsp; <strong>AIE negativo</strong></p>\r\n<p>PROPIETARIO:ACMA - PACIENTE: <strong>QUIJOTE</strong> 17.04.2023 SOLICITANTE: VAL. REF. VAL. REF. <strong>Hematocrito 33 % </strong>( 38 - 48 ) <strong>Leucocitos 12.600</strong> / mm3 ( 6.000 - 10.000 ) <strong>Hemoglobina 10,30 g / dl</strong> ( 12 - 18 ) Hemat&iacute;es 5,9 x 106 / mm3 ( 8 - 11 ) Neut. en cayado % ( 0 - 2 ) <strong>Neut. segment. 80 % </strong>( 50 - 60 ) V.C.M. 55,93 u 3 ( 40 - 50 ) <strong>Linfocitos 17 %</strong> ( 35 - 50 ) H.C.M. 17,46 pg ( 15 - 17 ) Eosin&oacute;filos 1 % ( 0 - 3 ) C.H.C.M. 31,21 % ( 32 - 38 ) Monocitos 2 % ( 0 - 3 ) Bas&oacute;filos % ( 0 - 1 ) SERIE ROJA: normoc&iacute;tica-normocr&oacute;mica Trombocitos 192 x 103 / mm3 ( 90 - 250 ) Neut. en cayado / mm3 ( hasta 250 ) <strong>Neut. segment. 10080</strong> / mm3 ( 1500 - 6500 ) 20 minutos 78 mm <strong>Linfocitos 2142</strong> / mm3 ( 1500 - 5000 ) Anticipada 42 mm Eosin&oacute;filos 126 / mm3 ( hasta 650 ) Monocitos 252 / mm3 ( hasta 600 ) Bas&oacute;filos / mm3 ( hasta 150 ) Observaciones: VAL. REF. VAL. REF. <strong>Prote&iacute;nas totales 6,67 g / dl </strong>( 5,7 - 6,5 )<strong> G.O.T. (AST) 115 UI / l </strong>( hasta 220 ) <strong>Alb&uacute;minas 1,89 g / dl</strong> ( 2,75 - 3,50 ) <strong>C.K. 25 UI / l</strong> ( hasta 50 ) <strong>Globulinas 4,78 g / dl</strong> ( 2,9- 3,5) <strong>G.G.T. 7 UI / l</strong> ( hasta 35 ) Indice A/G 0,40 ( 0,8 - 1,0) <strong>Bilirrubina Total 1,55 mg / dl </strong>( hasta 3,00 ) Bilirrubina Conjugada 0,17 mg / dl ( hasta 0,50 ) <strong>Fibrin&oacute;geno 350 mg / dl </strong>( 200 - 400 ) Bilirrubina Libre 1,38 mg / dl ( hasta 2,50 ) <strong>Urea 40 mg / dl</strong> ( 20 - 35 ) <strong>Creatinina 1,15 mg / dl </strong>( 1,2 - 1,9 ) <strong>FAS 362 UI / l </strong>( hasta 450 )</p>\r\n<p><strong>8/5/2023</strong>-Modificaci&oacute;n de raci&oacute;n , 10/5 principio de c&oacute;lico espasm&oacute;dico- Dipirona 30 cc IV&nbsp;</p>\r\n<p><strong>12/06/2023</strong>-Control, ganancia de peso esperada,a progresiva.</p>', NULL, 'Alejandro Korn', '2023-04-13', 'Macho - Castrado', '', 'Grande', 'En Tratamiento', '2023-04-20 12:06:46', '2023-09-23 21:39:57', 1, NULL),
 (368, 'MIEL', '281', '032050000621765', 250, '1', 'Mestizo', 'Alazán', 'HIJA DE PIMIENTA ', NULL, NULL, NULL, NULL, 'Castelli', '2021-07-01', 'Hembra', '', 'Mediano', 'Alta Veterinaria', '2023-05-18 01:00:18', '2024-03-13 19:58:54', 1, NULL),
@@ -634,8 +634,32 @@ INSERT INTO `caballo` (`id_caballo`, `nombre`, `historia_clinica`, `chip`, `peso
 (417, 'SALVADOR', '', '981098104820918', 0, '0', 'Mestizo', '', '', NULL, NULL, NULL, NULL, 'Castelli', '', 'Macho - Castrado', '', '', 'Alta Veterinaria', '2024-02-13 16:15:51', '2024-03-13 19:58:54', 1, NULL),
 (418, 'LUZ', '', '981098104820484', 0, '0', 'Mestizo', '', '', NULL, NULL, NULL, NULL, 'Castelli', '', 'Hembra', '', '', 'Alta Veterinaria', '2024-02-13 16:17:09', '2024-03-13 19:58:54', 1, NULL),
 (419, 'DOMINGA', '', '981098104910916', 0, '0', 'Mestizo', '', '', NULL, NULL, NULL, NULL, 'Castelli', '2013-07-18', 'Hembra', '', '', 'Alta Veterinaria', '2024-02-13 16:23:36', '2024-03-13 19:58:54', 1, NULL),
-(443, 'PRUEBAS REFACTOR', '', '12345', 0, '0', NULL, NULL, NULL, NULL, NULL, '<p>Informe Actualizado&nbsp;</p>', NULL, NULL, '2024-03-20', 'Macho - Entero', NULL, NULL, 'Alta Veterinaria', '2024-03-20 20:43:39', '2024-03-23 14:33:27', 1, NULL),
 (444, 'Prueba ', '', '5656565', 0, '0', NULL, NULL, NULL, '<p><span style=\"background-color: rgb(255, 255, 0);\">Informe</span></p>', '<p>Anamnesis</p>', '<p>Tratamiento&nbsp;</p>', '<p>Diagnostico</p>', 'Alejandro Korn', '2024-03-22', NULL, NULL, NULL, 'En Tratamiento', '2024-03-22 20:00:46', '2024-03-23 21:23:20', 1, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `castelli`
+--
+
+CREATE TABLE `castelli` (
+  `id` int(11) NOT NULL,
+  `fecha` varchar(12) DEFAULT NULL,
+  `total` varchar(255) DEFAULT NULL,
+  `antiparasitario` varchar(255) DEFAULT NULL,
+  `aie` varchar(255) DEFAULT NULL,
+  `vacunas` varchar(255) DEFAULT NULL,
+  `observaciones` mediumtext DEFAULT NULL,
+  `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
+  `ts_update` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
+
+--
+-- Volcado de datos para la tabla `castelli`
+--
+
+INSERT INTO `castelli` (`id`, `fecha`, `total`, `antiparasitario`, `aie`, `vacunas`, `observaciones`, `ts_create`, `ts_update`) VALUES
+(1, '2024-09-01', '22', '22', '22', '22', 'Editado Todos Vacunados', '2024-04-13 18:51:59', '2024-04-13 18:56:36');
 
 -- --------------------------------------------------------
 
@@ -1019,8 +1043,167 @@ INSERT INTO `fotos` (`id_fotos`, `id_caballo_foto`, `detalle`, `foto`, `ts_creat
 (351, 392, 'Portada', '64dfd4fa0ba2ee4da64becf098f2d78a.jpeg', '2024-02-20 21:48:47', '2024-03-13 20:27:18', 1),
 (352, 376, 'Portada', '5a06e7359d20c1ec1314596ef5fdaaa2.jpeg', '2024-03-01 18:02:59', '2024-03-13 20:27:18', 1),
 (353, 373, 'Portada', '5d2f837cd4246d9c27cb8d83b55d2082.jpeg', '2024-03-01 18:09:18', '2024-03-13 20:27:18', 1),
-(395, 443, 'Portada', 'Alambre.jpg', '2024-03-23 14:33:07', '2024-03-23 14:33:07', 1),
-(397, 444, 'Portada', 'Casa Luongo.jpg', '2024-03-23 20:04:51', '2024-03-23 20:04:51', 1);
+(399, 444, 'Portada', 'Base de tanques de agua.jpg', '2024-04-08 19:26:00', '2024-04-08 19:26:00', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `gatos`
+--
+
+CREATE TABLE `gatos` (
+  `id_gato` int(11) NOT NULL,
+  `nombre` varchar(25) NOT NULL,
+  `ingreso` varchar(12) NOT NULL,
+  `peso` varchar(25) DEFAULT NULL,
+  `sexo` varchar(25) DEFAULT NULL,
+  `edad` varchar(25) DEFAULT NULL,
+  `raza` varchar(25) NOT NULL DEFAULT 'Mestizo',
+  `pelaje` varchar(25) DEFAULT NULL,
+  `hc` varchar(25) NOT NULL,
+  `estado` varchar(25) NOT NULL DEFAULT 'En Tratamiento',
+  `vacunas` mediumtext DEFAULT NULL,
+  `desparasitacion` mediumtext DEFAULT NULL,
+  `tratamientos` mediumtext DEFAULT NULL,
+  `observaciones` mediumtext DEFAULT NULL,
+  `ts_created` timestamp NOT NULL DEFAULT current_timestamp(),
+  `ts_updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `gatos`
+--
+
+INSERT INTO `gatos` (`id_gato`, `nombre`, `ingreso`, `peso`, `sexo`, `edad`, `raza`, `pelaje`, `hc`, `estado`, `vacunas`, `desparasitacion`, `tratamientos`, `observaciones`, `ts_created`, `ts_updated`) VALUES
+(1, 'Felino Backend Editado', '2024-03-09', '123', 'Hembra', '12', 'Mestizo', 'Marron y negro', '2722', 'En Tratamiento', '<p>Editado desde el FrontEnd</p>', '<p>Despa desde Front</p>', 'Editado desde el Backend', '<p>Cambiops&nbsp;</p>', '2024-03-27 15:20:21', '2024-03-28 16:13:50'),
+(2, 'Felinos FrontEnd', '2024-03-28', '12', 'Macho - Castrado', '3', 'Mestizo', 'Negro ', '1234567890', 'En Tratamiento', '<p>Vacunas Front</p>', '<p>Desparasitaci&oacute;n Front&nbsp;</p>', '<p>Tratamientos Front</p>', '<p>Observaciones Front</p>', '2024-03-28 16:24:04', '2024-03-28 18:18:01');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `gatos_denunciantes`
+--
+
+CREATE TABLE `gatos_denunciantes` (
+  `id_denunciante` int(11) NOT NULL,
+  `id_judicial_denunciante` int(11) NOT NULL,
+  `nombre` varchar(100) DEFAULT NULL,
+  `apellido` varchar(100) DEFAULT NULL,
+  `dni` varchar(20) DEFAULT NULL,
+  `direccion` varchar(100) DEFAULT NULL,
+  `telefono` varchar(100) DEFAULT NULL,
+  `observaciones` varchar(255) DEFAULT NULL,
+  `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
+  `ts_update` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `gatos_estados`
+--
+
+CREATE TABLE `gatos_estados` (
+  `id_estado` int(11) NOT NULL,
+  `nombre` varchar(25) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `gatos_estados`
+--
+
+INSERT INTO `gatos_estados` (`id_estado`, `nombre`, `created_at`, `updated_at`) VALUES
+(1, 'En Tratamiento', '2024-03-26 02:54:24', '2024-03-26 02:54:24'),
+(2, 'Adoptado', '2024-03-26 02:54:24', '2024-03-26 02:54:24'),
+(3, 'En Adopción', '2024-03-26 02:54:48', '2024-03-26 02:54:48'),
+(4, 'Extraviado', '2024-03-26 02:54:48', '2024-03-26 02:54:48'),
+(5, 'Robado', '2024-03-26 02:55:02', '2024-03-26 02:55:02'),
+(6, 'Fallecido', '2024-03-26 02:55:02', '2024-03-26 02:55:02'),
+(7, 'En Tránsito', '2024-03-26 02:56:32', '2024-03-26 02:56:32');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `gatos_fotos`
+--
+
+CREATE TABLE `gatos_fotos` (
+  `id_foto` int(11) NOT NULL,
+  `id_gato_foto` int(11) NOT NULL,
+  `detalle` varchar(25) NOT NULL,
+  `foto` varchar(255) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `gatos_fotos`
+--
+
+INSERT INTO `gatos_fotos` (`id_foto`, `id_gato_foto`, `detalle`, `foto`, `created_at`, `updated_at`) VALUES
+(3, 1, 'Portada', 'Buscamos Empleada.jpg', '2024-03-28 16:13:07', '2024-03-28 16:13:07');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `gatos_imputados`
+--
+
+CREATE TABLE `gatos_imputados` (
+  `id_imputado` int(11) NOT NULL,
+  `id_judicial_imputado` int(11) NOT NULL,
+  `nombre` varchar(100) DEFAULT NULL,
+  `apellido` varchar(100) DEFAULT NULL,
+  `dni` varchar(100) DEFAULT NULL,
+  `direccion` varchar(100) DEFAULT NULL,
+  `telefono` varchar(100) DEFAULT NULL,
+  `observaciones` varchar(255) DEFAULT NULL,
+  `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
+  `ts_update` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `gatos_razas`
+--
+
+CREATE TABLE `gatos_razas` (
+  `id_raza` int(11) NOT NULL,
+  `nombre` varchar(25) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `gatos_razas`
+--
+
+INSERT INTO `gatos_razas` (`id_raza`, `nombre`, `created_at`, `updated_at`) VALUES
+(1, 'Mestizo', '2024-03-27 13:37:29', '2024-03-27 13:37:29'),
+(2, 'Siamés', '2024-03-27 13:37:29', '2024-03-27 13:37:29');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `gato_judicial`
+--
+
+CREATE TABLE `gato_judicial` (
+  `id_judicial` int(11) NOT NULL,
+  `id_gato_judicial` int(11) NOT NULL,
+  `fecha` varchar(10) DEFAULT NULL,
+  `causa` varchar(25) DEFAULT NULL,
+  `ufi` varchar(25) DEFAULT NULL,
+  `garantias` varchar(25) DEFAULT NULL,
+  `juzgado` varchar(100) DEFAULT NULL,
+  `entrega` varchar(25) DEFAULT NULL,
+  `diligencias` varchar(255) DEFAULT NULL,
+  `created_at` int(11) NOT NULL,
+  `updated_at` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -1120,7 +1303,7 @@ CREATE TABLE `judicial` (
   `causa` varchar(25) DEFAULT NULL,
   `ufi` varchar(25) DEFAULT NULL,
   `garantias` varchar(25) DEFAULT NULL,
-  `juzgado` varchar(25) DEFAULT NULL,
+  `juzgado` varchar(100) DEFAULT NULL,
   `entrega` varchar(25) DEFAULT NULL,
   `diligencias` varchar(255) DEFAULT NULL,
   `ts_create` datetime DEFAULT current_timestamp(),
@@ -1247,6 +1430,29 @@ INSERT INTO `judicial` (`id_judicial`, `id_caballo_judicial`, `fecha`, `causa`, 
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `judicial_entregas`
+--
+
+CREATE TABLE `judicial_entregas` (
+  `id_entrega` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `judicial_entregas`
+--
+
+INSERT INTO `judicial_entregas` (`id_entrega`, `nombre`, `created_at`, `updated_at`) VALUES
+(1, 'Depósito Judicial', '2024-03-26 12:59:45', '2024-03-26 12:59:45'),
+(2, 'Entrega Definitiva', '2024-03-26 12:59:45', '2024-03-26 12:59:45'),
+(3, 'Voluntaria', '2024-03-26 13:00:25', '2024-03-26 13:00:25'),
+(4, 'Entrega Policial', '2024-03-26 13:00:25', '2024-03-26 13:00:25');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `korn`
 --
 
@@ -1300,20 +1506,19 @@ INSERT INTO `korn` (`id`, `fecha`, `total`, `antiparasitario`, `aie`, `vacunas`,
 
 CREATE TABLE `perros` (
   `id_perro` int(11) NOT NULL,
-  `ingreso` varchar(12) NOT NULL,
   `nombre` varchar(25) NOT NULL,
-  `peso` varchar(25) NOT NULL,
-  `edad` varchar(25) NOT NULL,
-  `raza` varchar(25) NOT NULL,
-  `pelaje` varchar(25) NOT NULL,
+  `ingreso` varchar(12) NOT NULL,
+  `peso` varchar(25) DEFAULT NULL,
+  `sexo` varchar(25) DEFAULT NULL,
+  `edad` varchar(25) DEFAULT NULL,
+  `raza` varchar(25) NOT NULL DEFAULT 'Mestizo',
+  `pelaje` varchar(25) DEFAULT NULL,
   `hc` varchar(25) NOT NULL,
-  `estado` varchar(25) NOT NULL,
-  `castrado` tinyint(1) NOT NULL DEFAULT 0,
-  `judicializado` tinyint(1) NOT NULL DEFAULT 0,
-  `vacunas` mediumtext NOT NULL,
-  `desparasitacion` mediumtext NOT NULL,
-  `tratamientos` mediumtext NOT NULL,
-  `observaciones` mediumtext NOT NULL,
+  `estado` varchar(25) NOT NULL DEFAULT 'En Tratamiento',
+  `vacunas` mediumtext DEFAULT NULL,
+  `desparasitacion` mediumtext DEFAULT NULL,
+  `tratamientos` mediumtext DEFAULT NULL,
+  `observaciones` mediumtext DEFAULT NULL,
   `ts_created` timestamp NOT NULL DEFAULT current_timestamp(),
   `ts_updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -1322,9 +1527,37 @@ CREATE TABLE `perros` (
 -- Volcado de datos para la tabla `perros`
 --
 
-INSERT INTO `perros` (`id_perro`, `ingreso`, `nombre`, `peso`, `edad`, `raza`, `pelaje`, `hc`, `estado`, `castrado`, `judicializado`, `vacunas`, `desparasitacion`, `tratamientos`, `observaciones`, `ts_created`, `ts_updated`) VALUES
-(1, '22/01/2022', 'Perro 1', '3', '22', 'Mestizo', 'Negro y Marron', '12', 'En Tratamiento', 1, 0, 'Esta vacunado', 'Esta desparasitado', 'Tratamientos Varios', 'Observaciones', '2024-03-26 03:07:51', '2024-03-26 03:07:51'),
-(2, '22/01/1979', 'Perro 2', '4', '11', 'Ovejero Aleman', 'Negro y Marron', '43', 'En Adopción', 1, 1, 'Vacunas', 'Parasitos', 'Tratamientos', 'Observaciones', '2024-03-26 03:11:01', '2024-03-26 03:11:01');
+INSERT INTO `perros` (`id_perro`, `nombre`, `ingreso`, `peso`, `sexo`, `edad`, `raza`, `pelaje`, `hc`, `estado`, `vacunas`, `desparasitacion`, `tratamientos`, `observaciones`, `ts_created`, `ts_updated`) VALUES
+(1, 'Perro Backend Editado', '2024-03-09', '22', 'macho', '22', 'Mestizo', 'Negro y Marron', '2727', 'En Tratamiento', '<p>Editado desde el Backend y desde el Front</p>', '<p>Esta desparasitado desde el Front</p>', '<p>Tratamientos Varios .. desde Front</p>', '<p>Observaciones desde el Front</p>', '2024-03-26 03:07:51', '2024-03-27 03:57:21'),
+(2, 'Perro 2', '22/01/1979', '4', 'hembra', '11', 'Ovejero Aleman', 'Negro y Marron', '43', 'En Adopción', 'Vacunas', 'Parasitos', 'Tratamientos', '<p>Observaciones editadas</p>', '2024-03-26 03:11:01', '2024-03-28 15:12:15'),
+(6, 'Perro Backend', '2024-03-09', '222', 'Macho - Castrado', '33', 'Mestizo', 'Negro y blanco', '2727', 'En Tránsito', NULL, NULL, NULL, NULL, '2024-03-26 14:16:05', '2024-03-28 13:45:55'),
+(9, 'CAN FINAL DESDE EL FRONT', '2024-03-27', NULL, NULL, NULL, 'Mestizo', NULL, '1234567890', 'En Tratamiento', NULL, NULL, '<p>Varios Tratamientos</p>', NULL, '2024-03-27 18:03:35', '2024-03-27 18:05:08');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `perros_denunciantes`
+--
+
+CREATE TABLE `perros_denunciantes` (
+  `id_denunciante` int(11) NOT NULL,
+  `id_judicial_denunciante` int(11) NOT NULL,
+  `nombre` varchar(100) DEFAULT NULL,
+  `apellido` varchar(100) DEFAULT NULL,
+  `dni` varchar(20) DEFAULT NULL,
+  `direccion` varchar(100) DEFAULT NULL,
+  `telefono` varchar(100) DEFAULT NULL,
+  `observaciones` varchar(255) DEFAULT NULL,
+  `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
+  `ts_update` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
+
+--
+-- Volcado de datos para la tabla `perros_denunciantes`
+--
+
+INSERT INTO `perros_denunciantes` (`id_denunciante`, `id_judicial_denunciante`, `nombre`, `apellido`, `dni`, `direccion`, `telefono`, `observaciones`, `ts_create`, `ts_update`) VALUES
+(1, 1, 'Ariel', 'Dominguez', NULL, 'Salta 229', NULL, NULL, '2024-03-26 13:28:13', '2024-03-26 13:28:13');
 
 -- --------------------------------------------------------
 
@@ -1333,7 +1566,7 @@ INSERT INTO `perros` (`id_perro`, `ingreso`, `nombre`, `peso`, `edad`, `raza`, `
 --
 
 CREATE TABLE `perros_estados` (
-  `id_perro_estado` int(11) NOT NULL,
+  `id_estado` int(11) NOT NULL,
   `nombre` varchar(25) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
@@ -1343,7 +1576,7 @@ CREATE TABLE `perros_estados` (
 -- Volcado de datos para la tabla `perros_estados`
 --
 
-INSERT INTO `perros_estados` (`id_perro_estado`, `nombre`, `created_at`, `updated_at`) VALUES
+INSERT INTO `perros_estados` (`id_estado`, `nombre`, `created_at`, `updated_at`) VALUES
 (1, 'En Tratamiento', '2024-03-26 02:54:24', '2024-03-26 02:54:24'),
 (2, 'Adoptado', '2024-03-26 02:54:24', '2024-03-26 02:54:24'),
 (3, 'En Adopción', '2024-03-26 02:54:48', '2024-03-26 02:54:48'),
@@ -1367,6 +1600,40 @@ CREATE TABLE `perros_fotos` (
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Volcado de datos para la tabla `perros_fotos`
+--
+
+INSERT INTO `perros_fotos` (`id_foto`, `id_perro_foto`, `detalle`, `foto`, `created_at`, `updated_at`) VALUES
+(9, 6, 'Portada', 'materiales(2).jpg', '2024-03-27 03:24:15', '2024-03-27 03:24:15'),
+(10, 9, 'Portada', 'Cal CACIQUE 3.jpg', '2024-03-27 18:04:57', '2024-03-27 18:04:57');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `perros_imputados`
+--
+
+CREATE TABLE `perros_imputados` (
+  `id_imputado` int(11) NOT NULL,
+  `id_judicial_imputado` int(11) NOT NULL,
+  `nombre` varchar(100) DEFAULT NULL,
+  `apellido` varchar(100) DEFAULT NULL,
+  `dni` varchar(100) DEFAULT NULL,
+  `direccion` varchar(100) DEFAULT NULL,
+  `telefono` varchar(100) DEFAULT NULL,
+  `observaciones` varchar(255) DEFAULT NULL,
+  `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
+  `ts_update` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
+
+--
+-- Volcado de datos para la tabla `perros_imputados`
+--
+
+INSERT INTO `perros_imputados` (`id_imputado`, `id_judicial_imputado`, `nombre`, `apellido`, `dni`, `direccion`, `telefono`, `observaciones`, `ts_create`, `ts_update`) VALUES
+(1, 1, 'Nombre Imputado', 'Apellido Imputado', NULL, NULL, NULL, NULL, '2024-03-26 13:28:35', '2024-03-26 13:28:35');
+
 -- --------------------------------------------------------
 
 --
@@ -1387,6 +1654,34 @@ CREATE TABLE `perros_razas` (
 INSERT INTO `perros_razas` (`id_raza`, `nombre`, `created_at`, `updated_at`) VALUES
 (1, 'Mestizo', '2024-03-26 03:02:16', '2024-03-26 03:02:16'),
 (2, 'Ovejero Aleman', '2024-03-26 03:02:16', '2024-03-26 03:02:16');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `perro_judicial`
+--
+
+CREATE TABLE `perro_judicial` (
+  `id_judicial` int(11) NOT NULL,
+  `id_perro_judicial` int(11) NOT NULL,
+  `fecha` varchar(10) DEFAULT NULL,
+  `causa` varchar(25) DEFAULT NULL,
+  `ufi` varchar(25) DEFAULT NULL,
+  `garantias` varchar(25) DEFAULT NULL,
+  `juzgado` varchar(100) DEFAULT NULL,
+  `entrega` varchar(25) DEFAULT NULL,
+  `diligencias` varchar(255) DEFAULT NULL,
+  `created_at` int(11) NOT NULL,
+  `updated_at` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `perro_judicial`
+--
+
+INSERT INTO `perro_judicial` (`id_judicial`, `id_perro_judicial`, `fecha`, `causa`, `ufi`, `garantias`, `juzgado`, `entrega`, `diligencias`, `created_at`, `updated_at`) VALUES
+(1, 1, '22/01/1979', '07-00-646464-23', '6 - Dr. LALA', '2 - Dra. Lele', 'Dpto. Judicial de Lomas de Zamora', 'Depósito Judicial', 'Se pidió la Entrega Difinitiva. ', 0, 0),
+(2, 2, '22/01/1979', '07-00-6434364-23', '2', '1', 'Dpto. Judicial La Plata', 'Voluntaria', 'Varias', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -1449,14 +1744,15 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `mail`, `clave`, `rol`, `telefono`, `observaciones`, `verificado`, `confirmacionCorreo`, `ts_create`, `ts_update`) VALUES
-(1, 'Ariel', 'Dominguez', 'arieldominguez01@hotmail.com', '29c4a5c66221e3f6d7c8ec473fefbe2b7e8fa569', 'Inhabilitado', '1159356179', ' ', 0, NULL, '2021-04-06 14:46:25', '2022-06-10 20:35:39'),
+(1, 'Ariel', 'Dominguez', 'arieldominguez01@hotmail.com', '29c4a5c66221e3f6d7c8ec473fefbe2b7e8fa569', 'Inhabilitado', '114988695', 'Desarrollador del Sistema. ', 0, NULL, '2021-04-06 14:46:25', '2024-04-06 16:34:26'),
 (81, 'Ariel Hernán', 'Corse', 'aruvet@hotmail.com', '0d98a40f0f04795375f41c56011d4f41e1efc630', 'Administrador', '1164786262', '', 0, 'dd347d9c-ee4f-419b-9e9c-5957e1e1d295', '2021-04-23 18:13:40', '2021-08-19 23:17:04'),
 (84, 'Lidia', 'Quiroz', 'lqbianca@hotmail.com', 'dd3178662b08ca7be90ca0c89b3cd1b40e2538f0', 'Administrador', '1554901662', '', 0, '9148f29d-d9f3-4855-88af-6c0297f24bfd', '2021-04-29 01:05:26', '2023-09-23 16:40:15'),
 (86, 'Marcela', 'Villanueva', 'msv2009@live.com.ar', '4e65d14126fd8a043e7f15d1db73ca2fd86cf03f', 'Inhabilitado', '(221)567-0985', '', 0, 'bed6a83a-6b2f-4181-8420-314519eb2827', '2021-05-07 00:39:06', '2023-09-04 15:28:27'),
 (88, 'Ariel', 'Dominguez', 'arieldominguez001@gmail.com', '29c4a5c66221e3f6d7c8ec473fefbe2b7e8fa569', 'Administrador', '+541159356179', '', 0, NULL, '2021-06-21 20:43:13', '2022-06-10 20:35:28'),
 (89, 'Flavia', 'Ferrari', 'mflavia.ferrari@gmail.com', '48eab89523906290fbec2c7b85cdd3c75123a8d2', 'Inhabilitado', '1141979055', '', 0, NULL, '2021-08-16 18:17:26', '2023-09-23 16:40:37'),
 (90, 'Melina', 'Ferrari', 'melinaferrari94@gmail.com', '1b3248f048e0e3e50bc08bd9516afda3e4ce3f19', 'Administrador', '+541132064996', '', 0, 'fb3410f3-4191-45be-9047-27f6cec0486b', '2021-08-22 01:46:24', '2021-08-22 01:46:43'),
-(112, 'LILIANA', 'GIL', 'lilygil_10@hotmail.com', '8a33d192583382a3a320757ea75cc320ab76935a', 'Administrador', '', NULL, 0, NULL, '2024-02-20 23:47:37', '2024-02-20 23:47:37');
+(112, 'LILIANA', 'GIL', 'lilygil_10@hotmail.com', '8a33d192583382a3a320757ea75cc320ab76935a', 'Administrador', '', NULL, 0, NULL, '2024-02-20 23:47:37', '2024-02-20 23:47:37'),
+(113, 'Ariel', 'Dominguez', 'prueba@prueba.com', '123456', 'Administrador', '1141988695', 'Observaciones', 1, NULL, '2024-03-28 21:31:24', '2024-03-28 21:31:24');
 
 --
 -- Índices para tablas volcadas
@@ -1496,6 +1792,12 @@ ALTER TABLE `caballo`
   ADD KEY `index-alojamiento` (`lugar`);
 
 --
+-- Indices de la tabla `castelli`
+--
+ALTER TABLE `castelli`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `denunciante`
 --
 ALTER TABLE `denunciante`
@@ -1518,6 +1820,57 @@ ALTER TABLE `fotos`
   ADD UNIQUE KEY `index_caballo_foto` (`id_caballo_foto`);
 
 --
+-- Indices de la tabla `gatos`
+--
+ALTER TABLE `gatos`
+  ADD PRIMARY KEY (`id_gato`),
+  ADD KEY `estado` (`estado`),
+  ADD KEY `raza` (`raza`);
+
+--
+-- Indices de la tabla `gatos_denunciantes`
+--
+ALTER TABLE `gatos_denunciantes`
+  ADD PRIMARY KEY (`id_denunciante`),
+  ADD KEY `index_denunciante` (`id_judicial_denunciante`);
+
+--
+-- Indices de la tabla `gatos_estados`
+--
+ALTER TABLE `gatos_estados`
+  ADD PRIMARY KEY (`id_estado`),
+  ADD KEY `nombre` (`nombre`);
+
+--
+-- Indices de la tabla `gatos_fotos`
+--
+ALTER TABLE `gatos_fotos`
+  ADD PRIMARY KEY (`id_foto`),
+  ADD KEY `id_perro_foto` (`id_gato_foto`);
+
+--
+-- Indices de la tabla `gatos_imputados`
+--
+ALTER TABLE `gatos_imputados`
+  ADD PRIMARY KEY (`id_imputado`),
+  ADD KEY `id_judicial_denunciante` (`id_judicial_imputado`);
+
+--
+-- Indices de la tabla `gatos_razas`
+--
+ALTER TABLE `gatos_razas`
+  ADD PRIMARY KEY (`id_raza`),
+  ADD KEY `nombre` (`nombre`);
+
+--
+-- Indices de la tabla `gato_judicial`
+--
+ALTER TABLE `gato_judicial`
+  ADD PRIMARY KEY (`id_judicial`),
+  ADD KEY `id_perro_judicial` (`id_gato_judicial`),
+  ADD KEY `PERRO_ENTREGA` (`entrega`);
+
+--
 -- Indices de la tabla `imputado`
 --
 ALTER TABLE `imputado`
@@ -1538,6 +1891,13 @@ ALTER TABLE `judicial`
   ADD UNIQUE KEY `index_id_caballo` (`id_caballo_judicial`);
 
 --
+-- Indices de la tabla `judicial_entregas`
+--
+ALTER TABLE `judicial_entregas`
+  ADD PRIMARY KEY (`id_entrega`),
+  ADD KEY `nombre` (`nombre`);
+
+--
 -- Indices de la tabla `korn`
 --
 ALTER TABLE `korn`
@@ -1552,10 +1912,17 @@ ALTER TABLE `perros`
   ADD KEY `raza` (`raza`);
 
 --
+-- Indices de la tabla `perros_denunciantes`
+--
+ALTER TABLE `perros_denunciantes`
+  ADD PRIMARY KEY (`id_denunciante`),
+  ADD KEY `index_denunciante` (`id_judicial_denunciante`);
+
+--
 -- Indices de la tabla `perros_estados`
 --
 ALTER TABLE `perros_estados`
-  ADD PRIMARY KEY (`id_perro_estado`),
+  ADD PRIMARY KEY (`id_estado`),
   ADD KEY `nombre` (`nombre`);
 
 --
@@ -1566,11 +1933,26 @@ ALTER TABLE `perros_fotos`
   ADD KEY `id_perro_foto` (`id_perro_foto`);
 
 --
+-- Indices de la tabla `perros_imputados`
+--
+ALTER TABLE `perros_imputados`
+  ADD PRIMARY KEY (`id_imputado`),
+  ADD KEY `id_judicial_denunciante` (`id_judicial_imputado`);
+
+--
 -- Indices de la tabla `perros_razas`
 --
 ALTER TABLE `perros_razas`
   ADD PRIMARY KEY (`id_raza`),
   ADD KEY `nombre` (`nombre`);
+
+--
+-- Indices de la tabla `perro_judicial`
+--
+ALTER TABLE `perro_judicial`
+  ADD PRIMARY KEY (`id_judicial`),
+  ADD KEY `id_perro_judicial` (`id_perro_judicial`),
+  ADD KEY `PERRO_ENTREGA` (`entrega`);
 
 --
 -- Indices de la tabla `proveedores`
@@ -1619,6 +2001,12 @@ ALTER TABLE `caballo`
   MODIFY `id_caballo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=445;
 
 --
+-- AUTO_INCREMENT de la tabla `castelli`
+--
+ALTER TABLE `castelli`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT de la tabla `denunciante`
 --
 ALTER TABLE `denunciante`
@@ -1634,7 +2022,49 @@ ALTER TABLE `fallecidos`
 -- AUTO_INCREMENT de la tabla `fotos`
 --
 ALTER TABLE `fotos`
-  MODIFY `id_fotos` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=398;
+  MODIFY `id_fotos` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=400;
+
+--
+-- AUTO_INCREMENT de la tabla `gatos`
+--
+ALTER TABLE `gatos`
+  MODIFY `id_gato` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT de la tabla `gatos_denunciantes`
+--
+ALTER TABLE `gatos_denunciantes`
+  MODIFY `id_denunciante` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `gatos_estados`
+--
+ALTER TABLE `gatos_estados`
+  MODIFY `id_estado` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT de la tabla `gatos_fotos`
+--
+ALTER TABLE `gatos_fotos`
+  MODIFY `id_foto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT de la tabla `gatos_imputados`
+--
+ALTER TABLE `gatos_imputados`
+  MODIFY `id_imputado` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `gatos_razas`
+--
+ALTER TABLE `gatos_razas`
+  MODIFY `id_raza` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT de la tabla `gato_judicial`
+--
+ALTER TABLE `gato_judicial`
+  MODIFY `id_judicial` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `imputado`
@@ -1655,6 +2085,12 @@ ALTER TABLE `judicial`
   MODIFY `id_judicial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=164;
 
 --
+-- AUTO_INCREMENT de la tabla `judicial_entregas`
+--
+ALTER TABLE `judicial_entregas`
+  MODIFY `id_entrega` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT de la tabla `korn`
 --
 ALTER TABLE `korn`
@@ -1664,25 +2100,43 @@ ALTER TABLE `korn`
 -- AUTO_INCREMENT de la tabla `perros`
 --
 ALTER TABLE `perros`
-  MODIFY `id_perro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_perro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT de la tabla `perros_denunciantes`
+--
+ALTER TABLE `perros_denunciantes`
+  MODIFY `id_denunciante` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `perros_estados`
 --
 ALTER TABLE `perros_estados`
-  MODIFY `id_perro_estado` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_estado` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de la tabla `perros_fotos`
 --
 ALTER TABLE `perros_fotos`
-  MODIFY `id_foto` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_foto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT de la tabla `perros_imputados`
+--
+ALTER TABLE `perros_imputados`
+  MODIFY `id_imputado` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `perros_razas`
 --
 ALTER TABLE `perros_razas`
   MODIFY `id_raza` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT de la tabla `perro_judicial`
+--
+ALTER TABLE `perro_judicial`
+  MODIFY `id_judicial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `proveedores`
@@ -1694,7 +2148,7 @@ ALTER TABLE `proveedores`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=113;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
 
 --
 -- Restricciones para tablas volcadas
@@ -1726,6 +2180,31 @@ ALTER TABLE `fotos`
   ADD CONSTRAINT `fotos_ibfk_1` FOREIGN KEY (`id_caballo_foto`) REFERENCES `caballo` (`id_caballo`);
 
 --
+-- Filtros para la tabla `gatos`
+--
+ALTER TABLE `gatos`
+  ADD CONSTRAINT `ESTADOS` FOREIGN KEY (`estado`) REFERENCES `gatos_estados` (`nombre`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `RAZAS` FOREIGN KEY (`raza`) REFERENCES `gatos_razas` (`nombre`) ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `gatos_fotos`
+--
+ALTER TABLE `gatos_fotos`
+  ADD CONSTRAINT `ID_GATO_FOTO` FOREIGN KEY (`id_gato_foto`) REFERENCES `gatos` (`id_gato`);
+
+--
+-- Filtros para la tabla `gatos_imputados`
+--
+ALTER TABLE `gatos_imputados`
+  ADD CONSTRAINT `Id_judicial?imputado` FOREIGN KEY (`id_judicial_imputado`) REFERENCES `gatos` (`id_gato`);
+
+--
+-- Filtros para la tabla `gato_judicial`
+--
+ALTER TABLE `gato_judicial`
+  ADD CONSTRAINT `id_gato_judicial` FOREIGN KEY (`id_gato_judicial`) REFERENCES `gatos` (`id_gato`);
+
+--
 -- Filtros para la tabla `imputado`
 --
 ALTER TABLE `imputado`
@@ -1745,10 +2224,29 @@ ALTER TABLE `perros`
   ADD CONSTRAINT `PERRO_RAZA` FOREIGN KEY (`raza`) REFERENCES `perros_razas` (`nombre`) ON UPDATE CASCADE;
 
 --
+-- Filtros para la tabla `perros_denunciantes`
+--
+ALTER TABLE `perros_denunciantes`
+  ADD CONSTRAINT `JUDICIAL_DENUNCIANTE` FOREIGN KEY (`id_judicial_denunciante`) REFERENCES `perro_judicial` (`id_perro_judicial`) ON UPDATE CASCADE;
+
+--
 -- Filtros para la tabla `perros_fotos`
 --
 ALTER TABLE `perros_fotos`
   ADD CONSTRAINT `ID_FOTO_CABALLO` FOREIGN KEY (`id_perro_foto`) REFERENCES `perros` (`id_perro`);
+
+--
+-- Filtros para la tabla `perros_imputados`
+--
+ALTER TABLE `perros_imputados`
+  ADD CONSTRAINT `PERRO_IMPUTADO` FOREIGN KEY (`id_judicial_imputado`) REFERENCES `perro_judicial` (`id_perro_judicial`) ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `perro_judicial`
+--
+ALTER TABLE `perro_judicial`
+  ADD CONSTRAINT `PERRO_ENTREGA` FOREIGN KEY (`entrega`) REFERENCES `judicial_entregas` (`nombre`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `PERRO_JUDICIAL` FOREIGN KEY (`id_perro_judicial`) REFERENCES `perros` (`id_perro`) ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

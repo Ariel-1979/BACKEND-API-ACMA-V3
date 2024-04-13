@@ -16,30 +16,37 @@ const getSanidad = async () => {
 	}
 };
 
-const createSanidad = async (body, lugar) => {
+const createSanidad = async (lugar, body) => {
+	console.log({
+		lugar,
+		body
+	});
 	try {
-		return pool.query(Query.createSanidad(lugar), body);
+		return pool.query(Query.createSanidad, [lugar, body]);
 	} catch (error) {
 		throw error;
 	}
 };
 
-const updateSanidad = async (body, id, lugar) => {
+const updateSanidad = async (lugar, body, id) => {
 	try {
-		return pool.query(Query.updateSanidad(lugar), [body, id]);
+		return pool.query(Query.updateSanidad, [lugar, body, id]);
 	} catch (error) {
 		throw error;
 	}
 };
 
-const deleteSanidad = async (id, lugar) => {
+const getSanidadById = async (lugar, id) => {
 	try {
-		return pool.query(Query.deleteSanidad(lugar), id);
+		return pool.query(Query.getSanidadById, [lugar, id]);
 	} catch (error) {
 		throw error;
 	}
 };
 
 export default {
-	getSanidad
+	getSanidad,
+	createSanidad,
+	updateSanidad,
+	getSanidadById
 };

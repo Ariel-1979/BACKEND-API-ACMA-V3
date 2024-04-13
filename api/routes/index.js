@@ -15,6 +15,9 @@ router.post('/login', loginRoutes);
 router.get('/estadistica', estadisticaRoutes);
 
 router.get('/sanidad', vacunasRoutes);
+router.get('/sanidad/:id', vacunasRoutes);
+router.post('/sanidad', vacunasRoutes);
+router.put('/sanidad', vacunasRoutes);
 
 router.get('/usuarios', usuariosRoutes);
 router.get('/usuarios/:id', usuariosRoutes);

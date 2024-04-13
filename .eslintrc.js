@@ -1,6 +1,7 @@
 module.exports = {
 	env: {
 		browser: true,
+		es6: true,
 		es2021: true
 	},
 	extends: ['standard', 'eslint-config-prettier'],
@@ -9,5 +10,8 @@ module.exports = {
 		ecmaVersion: 'latest',
 		sourceType: 'module'
 	},
-	rules: {}
+	rules: {
+		semi: 'error',
+		'prefer-const': 'error'
+	}
 };

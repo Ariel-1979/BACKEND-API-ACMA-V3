@@ -3,3 +3,45 @@
 ### Get Estadistica
 GET {{BASE_URL}}/sanidad HTTP/1.1
 Content-Type: application/json
+
+### Create Estadistica
+POST {{BASE_URL}}/sanidad HTTP/1.1
+Content-Type: application/json
+
+{ 
+  "lugar": "castelli",
+  "body" : {
+    "fecha": "2021-09-01",
+    "total": 10,
+    "antiparasitario": 5,
+    "aie": 1,
+    "vacunas": 4,
+    "observaciones": "Todos Vacunados"
+  }
+}
+
+### Update Sanidad
+PUT {{BASE_URL}}/sanidad HTTP/1.1
+Content-Type: application/json
+
+{ 
+  "id" : "1",
+  "lugar": "castelli",
+  "body" : {
+    "fecha": "2024-09-01",
+    "total": 22,
+    "antiparasitario":22,
+    "aie":22,
+    "vacunas": 22,
+    "observaciones": "Editado Todos Vacunados"
+  }
+}
+
+### Get Sanidad By Id
+GET {{BASE_URL}}/sanidad/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "lugar": "castelli"  
+}
+
