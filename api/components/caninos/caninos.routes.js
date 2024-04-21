@@ -6,6 +6,7 @@ const router = express.Router();
 router.post('/caninos', Controller.createCanino);
 router.get('/caninos', Controller.getAllCaninos);
 router.get('/caninos-razas-estados', Controller.getRazasYEstadosCaninos);
+router.post('/caninos/razas', Controller.createRazaCanina);
 router.get('/caninos/:id', Controller.getCaninoById);
 router.put('/caninos/:id', Controller.putCaninoById);
 router.post('/caninos/fotos', Controller.createFotoById);

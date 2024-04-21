@@ -91,6 +91,16 @@ const putFelinoTratamientosById = async (tratamientos, id) => {
 	}
 };
 
+const createRazaFelina = async raza => {
+	console.log(raza);
+	try {
+		return pool.query(Query.createRazaFelina, [raza]);
+	} catch (error) {
+		console.log(error);
+		throw error;
+	}
+};
+
 export default {
 	createFelino,
 	getAllFelinos,
@@ -101,5 +111,6 @@ export default {
 	putFelinoTratamientosById,
 	createFotoById,
 	deleteFotoById,
-	getFotosById
+	getFotosById,
+	createRazaFelina
 };

@@ -91,6 +91,15 @@ const putFelinoTratamientosById = async (tratamientos, id) => {
 	}
 };
 
+const createRazaFelina = async raza => {
+	try {
+		await Models.createRazaFelina(raza);
+		return { statusCode: 201, data: 'Raza creada' };
+	} catch (error) {
+		return { statusCode: 500, data: 'Error al crear raza' };
+	}
+};
+
 export default {
 	getAllFelinos,
 	getFelinoById,
@@ -101,5 +110,6 @@ export default {
 	putFelinoTratamientosById,
 	createFotoById,
 	deleteFotoById,
-	getFotosById
+	getFotosById,
+	createRazaFelina
 };

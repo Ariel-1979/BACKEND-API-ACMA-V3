@@ -86,12 +86,19 @@ FROM gatos_imputados
 WHERE id_judicial_imputado = ?
 `;
 
+const createRazaFelina = `
+INSERT INTO gatos_razas
+(nombre)
+VALUES (?)
+`;
+
 export default {
 	getAllFelinos,
 	getFelinoById,
 	createFelino,
 	putFelinoById,
 	getRazasFelinas,
+	createRazaFelina,
 	getEstadosFelinos,
 	createFotoById,
 	deleteFotoById,

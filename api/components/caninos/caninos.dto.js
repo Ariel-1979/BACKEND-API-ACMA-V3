@@ -91,6 +91,15 @@ const putCaninoTratamientosById = async (tratamientos, id) => {
 	}
 };
 
+const createRazaCanina = async raza => {
+	try {
+		await Models.createRazaCanina(raza);
+		return { statusCode: 201, data: 'Raza creada' };
+	} catch (error) {
+		return { statusCode: 500, data: 'Error al crear raza' };
+	}
+};
+
 export default {
 	createCanino,
 	getAllCaninos,
@@ -101,5 +110,6 @@ export default {
 	deleteFotoById,
 	getFotosById,
 	getCaninoTratamientosById,
-	putCaninoTratamientosById
+	putCaninoTratamientosById,
+	createRazaCanina
 };

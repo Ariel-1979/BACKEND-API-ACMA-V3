@@ -67,3 +67,11 @@ Content-Type: application/json
     "vacunas": "Editado desde el Backend"
 }
 
+### CREATE RAZA CANINA
+POST {{BASE_URL}}/caninos/razas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Pitbull"
+}
+

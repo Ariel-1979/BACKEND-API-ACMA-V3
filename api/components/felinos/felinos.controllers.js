@@ -104,6 +104,16 @@ const putFelinoTratamientosById = async (req, res) => {
 	}
 };
 
+const createRazaFelina = async (req, res) => {
+	const { nombre } = req.body;
+	try {
+		const { statusCode, data } = await Dto.createRazaFelina(nombre);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	createFelino,
 	getAllFelinos,
@@ -114,5 +124,6 @@ export default {
 	putFelinoTratamientosById,
 	createFotoById,
 	deleteFotoById,
-	getFotosById
+	getFotosById,
+	createRazaFelina
 };

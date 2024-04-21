@@ -86,6 +86,12 @@ FROM perros_imputados
 WHERE id_judicial_imputado = ?
 `;
 
+const createRazaCanina = `
+INSERT INTO perros_razas
+(nombre)
+VALUES (?)
+`;
+
 export default {
 	getAllCaninos,
 	getCaninoById,
@@ -100,5 +106,6 @@ export default {
 	putCaninoTratamientosById,
 	getCaninoJudicializadoById,
 	getDenuncianteById,
-	getImputadoById
+	getImputadoById,
+	createRazaCanina
 };

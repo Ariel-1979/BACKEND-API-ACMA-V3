@@ -5,6 +5,7 @@ const router = express.Router();
 
 router.post('/felinos', Controller.createFelino);
 router.get('/felinos', Controller.getAllFelinos);
+router.post('/felinos/razas', Controller.createRazaFelina);
 router.get('/felinos-razas-estados', Controller.getRazasYEstadosFelinos);
 router.get('/felinos/:id', Controller.getFelinoById);
 router.put('/felinos/:id', Controller.putFelinoById);

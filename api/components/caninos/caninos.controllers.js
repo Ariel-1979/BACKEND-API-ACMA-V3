@@ -106,6 +106,16 @@ const putCaninoTratamientosById = async (req, res) => {
 	}
 };
 
+const createRazaCanina = async (req, res) => {
+	const { nombre } = req.body;
+	try {
+		const { statusCode, data } = await Dto.createRazaCanina(nombre);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	createCanino,
 	getAllCaninos,
@@ -116,5 +126,6 @@ export default {
 	deleteFotoById,
 	getFotosById,
 	getCaninoTratamientosById,
-	putCaninoTratamientosById
+	putCaninoTratamientosById,
+	createRazaCanina
 };

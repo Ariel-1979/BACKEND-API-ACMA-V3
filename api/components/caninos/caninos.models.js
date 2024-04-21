@@ -91,6 +91,14 @@ const putCaninoTratamientosById = async (tratamientos, id) => {
 	}
 };
 
+const createRazaCanina = async raza => {
+	try {
+		return pool.query(Query.createRazaCanina, [raza]);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	createCanino,
 	getAllCaninos,
@@ -101,5 +109,6 @@ export default {
 	deleteFotoById,
 	getFotosById,
 	getCaninoTratamientosById,
-	putCaninoTratamientosById
+	putCaninoTratamientosById,
+	createRazaCanina
 };
