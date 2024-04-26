@@ -1,10 +1,10 @@
 const getAllUsers = `
-SELECT id_usuario, nombre, apellido, mail, rol, telefono, observaciones, ts_create FROM usuarios
+SELECT id_usuario, nombre, apellido, mail, rol, telefono, observaciones, avatar, ts_create FROM usuarios
 `;
 
 const getUserById = `
 SELECT 
-id_usuario, nombre, apellido, mail, rol, telefono, observaciones, ts_create 
+id_usuario, nombre, apellido, mail, rol, telefono, observaciones, avatar, ts_create 
 FROM usuarios 
 WHERE id_usuario = ?
 `;
