@@ -9,6 +9,26 @@ const getEstadistica = async (_req, res) => {
 	}
 };
 
+const getEstadisticaCanina = async (_req, res) => {
+	try {
+		const { statusCode, data } = await Dto.getEstadisticaCanina();
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const getEstadisticaFelina = async (_req, res) => {
+	try {
+		const { statusCode, data } = await Dto.getEstadisticaFelina();
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
-	getEstadistica
+	getEstadistica,
+	getEstadisticaCanina,
+	getEstadisticaFelina
 };

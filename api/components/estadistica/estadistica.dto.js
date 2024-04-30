@@ -11,6 +11,30 @@ const getEstadistica = async () => {
 	}
 };
 
+const getEstadisticaCanina = async () => {
+	try {
+		return {
+			statusCode: 200,
+			data: await Model.getEstadisticaCanina()
+		};
+	} catch (error) {
+		return { statusCode: 500, data: 'Error de Estadistica Canina' };
+	}
+};
+
+const getEstadisticaFelina = async () => {
+	try {
+		return {
+			statusCode: 200,
+			data: await Model.getEstadisticaFelina()
+		};
+	} catch (error) {
+		return { statusCode: 500, data: 'Error de Estadistica Felina' };
+	}
+};
+
 export default {
-	getEstadistica
+	getEstadistica,
+	getEstadisticaCanina,
+	getEstadisticaFelina
 };

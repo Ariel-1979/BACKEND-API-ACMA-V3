@@ -13,6 +13,8 @@ import vacunasRoutes from '../components/vacunas/vacunas.routes.js';
 router.post('/login', loginRoutes);
 
 router.get('/estadistica', estadisticaRoutes);
+router.get('/estadistica-canina', estadisticaRoutes);
+router.get('/estadistica-felina', estadisticaRoutes);
 
 router.get('/sanidad', vacunasRoutes);
 router.get('/sanidad/:id', vacunasRoutes);
