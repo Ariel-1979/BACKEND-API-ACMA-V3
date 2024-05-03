@@ -61,6 +61,12 @@ FROM caballo
 WHERE lugar = 'Robado'
 `;
 
+const totalEquinosPorPeriodo = `
+SELECT COUNT(*) AS equinosPorPeriodo
+FROM caballo
+WHERE YEAR(ingreso) BETWEEN YEAR(?) AND YEAR(?)
+`;
+
 export default {
 	totalEquinosRescatados,
 	totalEquinosKorn,
@@ -70,5 +76,6 @@ export default {
 	totalEquinosCastelli,
 	totalEquinosNoJudicializados,
 	totalEquinosJudicializados,
-	totalEquinosRobados
+	totalEquinosRobados,
+	totalEquinosPorPeriodo
 };

@@ -9,10 +9,12 @@ import loginRoutes from '../components/login/login.routes.js';
 import usuariosRoutes from '../components/users/users.routes.js';
 import estadisticaRoutes from '../components/estadistica/estadistica.routes.js';
 import vacunasRoutes from '../components/vacunas/vacunas.routes.js';
+import adoptantesRoutes from '../components/adoptantes/adoptantes.routes.js';
 
 router.post('/login', loginRoutes);
 
 router.get('/estadistica', estadisticaRoutes);
+router.post('/estadistica', estadisticaRoutes);
 router.get('/estadistica-canina', estadisticaRoutes);
 router.get('/estadistica-felina', estadisticaRoutes);
 
@@ -66,5 +68,11 @@ router.delete('/felinos/fotos', felinosRoutes);
 router.get('/felinos/fotos/:id', felinosRoutes);
 router.get('/felinos/tratamientos/:id', felinosRoutes);
 router.put('/felinos/tratamientos/:id', felinosRoutes);
+
+router.get('/adoptantes', adoptantesRoutes);
+router.get('/adoptantes/:id', adoptantesRoutes);
+router.post('/adoptantes', adoptantesRoutes);
+router.put('/adoptantes/:id', adoptantesRoutes);
+router.delete('/adoptantes/:id', adoptantesRoutes);
 
 export default router;

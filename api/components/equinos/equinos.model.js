@@ -115,6 +115,14 @@ const putTratamientosById = async (body, id) => {
 	}
 };
 
+const getAdoptanteById = async id => {
+	try {
+		return pool.query(Query.getAdoptanteById, id);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	getAllEquinos,
 	getEquinoById,
@@ -128,5 +136,6 @@ export default {
 	createFotoById,
 	deleteFotoById,
 	getTratamientosById,
-	putTratamientosById
+	putTratamientosById,
+	getAdoptanteById
 };

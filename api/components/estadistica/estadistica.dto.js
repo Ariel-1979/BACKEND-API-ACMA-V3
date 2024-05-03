@@ -33,8 +33,21 @@ const getEstadisticaFelina = async () => {
 	}
 };
 
+const getEquinosPorPeriodos = async periodo => {
+	const { desde, hasta } = periodo;
+	try {
+		return {
+			statusCode: 200,
+			data: await Model.getEquinosPorPeriodos(desde, hasta)
+		};
+	} catch (error) {
+		return { statusCode: 500, data: 'Error de Estadistica Equina' };
+	}
+};
+
 export default {
 	getEstadistica,
 	getEstadisticaCanina,
-	getEstadisticaFelina
+	getEstadisticaFelina,
+	getEquinosPorPeriodos
 };

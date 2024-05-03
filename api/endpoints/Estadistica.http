@@ -4,6 +4,15 @@
 GET {{BASE_URL}}/estadistica HTTP/1.1
 Content-Type: application/json
 
+### Get Estadistica por Periodo
+POST {{BASE_URL}}/estadistica HTTP/1.1
+Content-Type: application/json
+
+{
+    "desde": "2022-01-01",
+    "hasta": "2022-12-31"
+}
+
 ### Get Estadistica
 GET {{BASE_URL}}/estadistica-canina HTTP/1.1
 Content-Type: application/json

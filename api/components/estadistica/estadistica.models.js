@@ -123,8 +123,15 @@ const getEstadisticaFelina = async () => {
 	}
 };
 
+const getEquinosPorPeriodos = async (desde, hasta) => {
+	try {
+		return await pool.query(Query.totalEquinosPorPeriodo, [desde, hasta]);
+	} catch (error) {}
+};
+
 export default {
 	getEstadistica,
 	getEstadisticaCanina,
-	getEstadisticaFelina
+	getEstadisticaFelina,
+	getEquinosPorPeriodos
 };

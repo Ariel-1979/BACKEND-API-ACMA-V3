@@ -27,8 +27,18 @@ const getEstadisticaFelina = async (_req, res) => {
 	}
 };
 
+const getEquinosPorPeriodos = async (req, res) => {
+	try {
+		const { statusCode, data } = await Dto.getEquinosPorPeriodos(req.body);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	getEstadistica,
 	getEstadisticaCanina,
-	getEstadisticaFelina
+	getEstadisticaFelina,
+	getEquinosPorPeriodos
 };
