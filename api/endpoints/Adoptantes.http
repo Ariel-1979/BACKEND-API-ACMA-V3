@@ -1,7 +1,7 @@
 @BASE_URL = http://localhost:3022
 
 ### GET ADOPTANTE BY ID_ADOPTANTE
-GET {{BASE_URL}}/adoptantes/56 HTTP/1.1
+GET {{BASE_URL}}/adoptantes/61 HTTP/1.1
 Content-Type: application/json
 
 ### GET ADOPTANTES

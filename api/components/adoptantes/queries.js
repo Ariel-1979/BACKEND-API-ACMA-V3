@@ -1,16 +1,18 @@
 const getAdoptantes = `
-SELECT a.id, a.id_adoptante,  a.fecha, a.nombres, a.apellido, a.telefono, a.domicilio,
-a.localidad, a.provincia, a.coordenadas, a.observaciones,
-c.nombre, c.historia_clinica
+SELECT a.id, a.id_adoptante,  a.fecha, a.nombres, 
+a.apellido, a.telefono, c.nombre
 FROM adoptante a
 JOIN caballo c ON a.id_adoptante = c.id_caballo
 ORDER BY a.id DESC
 `;
 
 const getAdoptanteById = `
-SELECT id, id_adoptante, fecha, nombres, apellido, telefono, domicilio,
-localidad, provincia, coordenadas, observaciones
-FROM adoptante
+SELECT a.id, a.id_adoptante, a.fecha, a.nombres, a.apellido, 
+a.telefono, a.domicilio, a.localidad, a.provincia, 
+a.coordenadas, a.observaciones, c.nombre, c.historia_clinica,
+c.adoptado, c.sexo
+FROM adoptante a
+JOIN caballo c ON a.id_adoptante = c.id_caballo
 WHERE id_adoptante = ?
 `;
 
