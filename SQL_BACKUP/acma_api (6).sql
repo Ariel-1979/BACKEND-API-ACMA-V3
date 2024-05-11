@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-04-2024 a las 21:11:40
+-- Tiempo de generación: 11-05-2024 a las 17:59:54
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -48,7 +48,6 @@ CREATE TABLE `adoptante` (
 --
 
 INSERT INTO `adoptante` (`id`, `id_adoptante`, `fecha`, `nombres`, `apellido`, `telefono`, `domicilio`, `localidad`, `provincia`, `coordenadas`, `observaciones`, `ts-create`, `ts-update`) VALUES
-(6, 56, '2013-08-28', '', '', '', '', '', '', '', 'Fallecido', '2021-04-29 19:03:17', '2021-04-29 19:03:17'),
 (7, 58, '2012-10-07', 'Elizabeth', 'Mandaret', '1141647258', 'Haras El Malacate', 'Capilla del señor', 'Buenos Aires', 'https://goo.gl/maps/CD8gEiSAY2wygVYi7', 'Ultimo seguimiento 07/03/2021', '2021-04-29 19:27:52', '2021-04-29 19:50:33'),
 (8, 59, '2014-01-22', 'Veronica ', 'Di Francesco', '', '', 'Chascomus', 'Buenos Aires', '', 'Vive con Miranda', '2021-04-29 19:58:28', '2021-04-29 19:58:28'),
 (9, 60, '2014-01-22', 'Veronica ', 'Di Francesco', '', '', 'Chascomus', 'Buenos Aires', '', 'Vive con CUCA', '2021-04-29 20:05:13', '2021-04-29 20:05:13'),
@@ -69,7 +68,7 @@ INSERT INTO `adoptante` (`id`, `id_adoptante`, `fecha`, `nombres`, `apellido`, `
 (24, 99, '2021-06-26', 'Damian David', 'Fernandez', '1166447954', 'El Canario n° 377 e/ El Picaflor y El Cardenal - Quinta Samanawasi', 'Exaltacion de la Cruz', 'Pcia. de Buenos Aires', '', 'Damian vive con Carolina', '2021-07-23 23:59:38', '2021-07-23 23:59:38'),
 (25, 283, '2020-11-21', 'Christian', 'Fels', '1158968846', 'Benquerencia - Chacra 15 - Ruta 41 Km 22,5', 'San Miguel del Monte', 'Buenos Aires', '', 'Vive con Diana, Perla y Matilda', '2021-07-24 00:13:27', '2021-07-24 00:13:27'),
 (26, 282, '2020-11-21', 'Christian ', 'Fels', '1158968846', 'Benquerencia - Chacra 15 - Ruta 41 Km 22,5', 'San Miguel del Monte', 'Buenos Aires', '', ' Vive con Perla y Diana', '2021-07-24 00:35:29', '2021-07-24 00:37:07'),
-(27, 281, '0001-11-21', 'Christian', 'Fels', '1158968846', 'Benquerencia - Chacra 15 - Ruta 41 Km 22,5', 'San Miguel del Monte', 'Buenos Aires', '', 'Vive con Matilda y Diana', '2021-07-25 23:22:54', '2021-07-25 23:23:40'),
+(27, 281, '2020-11-21', 'Christian', 'Fels', '1158968846', 'Benquerencia - Chacra 15 - Ruta 41 Km 22,5', 'San Miguel del Monte', 'Buenos Aires', '', 'Vive con Matilda y Diana', '2021-07-25 23:22:54', '2024-05-03 00:03:09'),
 (28, 257, '2020-10-31', 'Pablo Enrique', 'Mayer', '1139161243', 'Benquerencia - chacra 465 - Ruta 41 Km 25', 'San Miguel del Monte', 'Buenos Aires', '', 'Vive con Hansel, Nico y Luna (blanca)', '2021-07-25 23:28:02', '2021-07-25 23:28:02'),
 (29, 256, '2020-10-31', 'Pablo Enrique', 'Mayer', '1139161243', 'Benquerencia - chacra 465 - Ruta 41 Km 25', 'San Miguel del Monte', 'Buenos Aires', '', 'Vive con Gretel, Nico y Luna (blanca)', '2021-07-25 23:29:35', '2021-07-25 23:29:35'),
 (30, 123, '2020-11-21', 'Marta Estela', 'Avila', '1165206535', 'Benquerencia - Chacra 445 - Ruta 41 Km 22,5', 'San Miguel del Monte', 'Buenos Aires', '', 'Vive con Lunita', '2021-07-25 23:32:44', '2021-07-25 23:32:44'),
@@ -191,9 +190,12 @@ INSERT INTO `baradero` (`id`, `fecha`, `total`, `antiparasitario`, `aie`, `vacun
 (17, '2014-09-29', '89', '', 'Totalidad negativos', '', '', '2021-04-30 19:59:18', '2021-04-30 19:59:18'),
 (18, '2015-10-02', '88', '', 'Totalidad negativos', '', '', '2021-04-30 19:59:53', '2021-04-30 20:00:47'),
 (19, '2020-08-03', '99', '', 'Totalidad negativos', '', '', '2021-04-30 20:06:42', '2021-04-30 20:06:42'),
-(20, '2021-04-06', '106', 'Vermiplex Plus (Konig)', 'Totalidad negativos', 'Triple  (Fluvac Innovator 4)', '', '2021-07-10 17:21:11', '2021-07-10 17:21:11'),
+(20, '2021-04-06', '106', 'Vermiplex Plus (Konig)', 'Totalidad negativos', 'Triple  (Fluvac Innovator 4)', '', '2021-07-10 17:21:11', '2024-04-13 22:36:28'),
 (21, '2022-09-23', '96', 'Cumeverm', 'Totalidad negativos', '', '', '2022-09-29 22:44:27', '2022-09-29 22:44:27'),
-(22, '2023-12-21', '132', 'MULTI DROGAS ', 'TOTALIDAD NEGATIVOS', 'TECNOVAC ENCEFALOMIELITIS ', 'Ultima sanidad pre embarque en baradero, traslado a otro predio. Brote de encefalomielitis en todo el país ,sin casos en la población ACMA', '2023-12-27 12:46:22', '2024-02-20 23:08:27');
+(22, '2023-12-21', '132', 'MULTI DROGAS ', 'TOTALIDAD NEGATIVOS', 'TECNOVAC ENCEFALOMIELITIS ', 'Ultima sanidad pre embarque en baradero, traslado a otro predio. Brote de encefalomielitis en todo el país ,sin casos en la población ACMA', '2023-12-27 12:46:22', '2024-02-20 23:08:27'),
+(23, '2024-04-13', '450', 'MUCHOS', 'TODOS NEGATIVOS', 'PROBANDO FRONT', 'PROBANDO', '2024-04-13 21:13:16', '2024-04-13 22:36:35'),
+(24, '2024-05-09', '10', 'PARASITOS', '0000', 'PRUEBA REFACTOR', 'MUCHOS  EDITADO!!!!', '2024-05-09 19:31:45', '2024-05-09 20:10:23'),
+(25, '2024-05-09', '12345', '12345', '12344', '12345', '12345', '2024-05-09 19:55:45', '2024-05-09 19:55:45');
 
 -- --------------------------------------------------------
 
@@ -634,7 +636,8 @@ INSERT INTO `caballo` (`id_caballo`, `nombre`, `historia_clinica`, `chip`, `peso
 (417, 'SALVADOR', '', '981098104820918', 0, '0', 'Mestizo', '', '', NULL, NULL, NULL, NULL, 'Castelli', '', 'Macho - Castrado', '', '', 'Alta Veterinaria', '2024-02-13 16:15:51', '2024-03-13 19:58:54', 1, NULL),
 (418, 'LUZ', '', '981098104820484', 0, '0', 'Mestizo', '', '', NULL, NULL, NULL, NULL, 'Castelli', '', 'Hembra', '', '', 'Alta Veterinaria', '2024-02-13 16:17:09', '2024-03-13 19:58:54', 1, NULL),
 (419, 'DOMINGA', '', '981098104910916', 0, '0', 'Mestizo', '', '', NULL, NULL, NULL, NULL, 'Castelli', '2013-07-18', 'Hembra', '', '', 'Alta Veterinaria', '2024-02-13 16:23:36', '2024-03-13 19:58:54', 1, NULL),
-(444, 'Prueba ', '', '5656565', 0, '0', NULL, NULL, NULL, '<p><span style=\"background-color: rgb(255, 255, 0);\">Informe</span></p>', '<p>Anamnesis</p>', '<p>Tratamiento&nbsp;</p>', '<p>Diagnostico</p>', 'Alejandro Korn', '2024-03-22', NULL, NULL, NULL, 'En Tratamiento', '2024-03-22 20:00:46', '2024-03-23 21:23:20', 1, NULL);
+(444, 'Prueba ', '', '5656565', 0, '0', NULL, NULL, NULL, '<p><span style=\"background-color: rgb(255, 255, 0);\">Informe</span></p>', '<p>Anamnesis</p>', '<p>Tratamiento&nbsp;</p>', '<p>Diagnostico</p>', 'Alejandro Korn', '2024-03-22', NULL, NULL, NULL, 'En Tratamiento', '2024-03-22 20:00:46', '2024-03-23 21:23:20', 1, NULL),
+(445, 'Prueba Refactor', '', NULL, 0, '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Robado', '2024-04-30', NULL, NULL, NULL, 'Alta Veterinaria', '2024-04-30 19:05:42', '2024-05-09 20:47:19', 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -659,7 +662,9 @@ CREATE TABLE `castelli` (
 --
 
 INSERT INTO `castelli` (`id`, `fecha`, `total`, `antiparasitario`, `aie`, `vacunas`, `observaciones`, `ts_create`, `ts_update`) VALUES
-(1, '2024-09-01', '22', '22', '22', '22', 'Editado Todos Vacunados', '2024-04-13 18:51:59', '2024-04-13 18:56:36');
+(1, '2024-09-01', '22', '22', '22', 'EDITADO FRONTEND', 'Editado Todos Vacunados', '2024-04-13 18:51:59', '2024-04-13 22:35:59'),
+(2, '2024-04-13', '1', 'PROBANDO ', '1', 'VACUNAS VARIAS', 'PROBANDO', '2024-04-13 21:12:42', '2024-04-13 21:12:42'),
+(3, '2024-04-16', '1', '1', '1', 'CAMBIOS DESDE EL FRONT', '1', '2024-04-16 03:40:28', '2024-04-16 03:41:06');
 
 -- --------------------------------------------------------
 
@@ -674,6 +679,7 @@ CREATE TABLE `denunciante` (
   `apellido` varchar(100) DEFAULT NULL,
   `dni` varchar(20) DEFAULT NULL,
   `direccion` varchar(100) DEFAULT NULL,
+  `localidad` varchar(100) DEFAULT NULL,
   `telefono` varchar(100) DEFAULT NULL,
   `observaciones` varchar(255) DEFAULT NULL,
   `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
@@ -684,33 +690,33 @@ CREATE TABLE `denunciante` (
 -- Volcado de datos para la tabla `denunciante`
 --
 
-INSERT INTO `denunciante` (`id_denunciante`, `id_judicial_denunciante`, `nombre`, `apellido`, `dni`, `direccion`, `telefono`, `observaciones`, `ts_create`, `ts_update`) VALUES
-(11, 79, 'personal cria 9 José  Marmol', '', '', 'Bynnon 3137', '', '', '2021-05-13 00:39:06', '2021-05-13 00:39:06'),
-(12, 58, 'ELIZABETH CRISTINA ', 'MANDARET', '17918317', 'BOATY  963  6 \"A\" MORON', '', 'CRIA 1 MORON-DENUNCIA-ENTREGA PROVISORIA A ACMA', '2021-05-13 03:24:17', '2021-05-13 03:25:48'),
-(13, 48, 'VERONICA', 'BEILECKE', '', '', '', 'CRIA 11 DE 3 DE FEBRERO', '2021-06-01 23:56:41', '2021-06-01 23:56:41'),
-(14, 130, '', '', '', '', '', 'PROCEDIMIENTO PERSONAL CRIA LANUS ESTE', '2021-06-01 23:58:52', '2021-06-01 23:58:52'),
-(15, 136, '', '', '', '', '', 'CRIA 1 LAFERRERE', '2021-06-02 00:02:25', '2021-06-02 00:02:25'),
-(16, 139, 'YANINA CECILIA ', 'JANS', '29812479', 'REPUBLICA DEL LIBANO  1130 E URQUIZA Y VELEZ SARSFIELD', '1536062931', 'DENUNCIA POLICIAL Y ACTA DE ENTREGA DEPOSITO JUDICIAL-INF VETERINARIO', '2021-06-02 00:07:43', '2021-06-19 19:48:24'),
-(17, 125, '', '', '', '', '', 'CPR SAN VICENTE', '2021-06-02 00:24:07', '2021-06-02 00:24:07'),
-(18, 138, 'GLADYS EDITH', 'PASTORIN', '16533306', 'CAMINO GRAL BELGRANO 2947 TORRE 25 B6 D  LANUES E ', 'NO', 'CRIA 8 DE QUILMES HALLAZGO-DENUNCIO MIEMBRO DE ACMA  ', '2021-06-19 17:10:56', '2021-06-19 17:10:56'),
-(21, 217, '', '', '', '', '', 'HC 53-A-KORN- NO DOCUMENTACION', '2021-06-25 01:41:09', '2021-06-25 01:41:09'),
-(22, 85, '911-PERSONAL CRIA 9 LANUS', '', '', '', '', '', '2021-07-02 05:58:52', '2021-07-02 05:58:52'),
-(23, 162, 'EDGARDO', 'DI SALVO', '16623531', '29 DE SEPTIEMBRE 1534', 'NO', '', '2021-08-14 18:34:04', '2021-08-14 18:34:04'),
-(24, 240, '', '', '', '', '', 'cria 4 Lanus', '2021-08-25 03:02:13', '2021-08-25 03:02:13'),
-(25, 82, '', '', '', '', '', 'procede  Hipodromo San Isidro', '2021-08-25 03:17:31', '2021-08-25 03:17:31'),
-(26, 100, '', '', '', '', '', 'CRIA 6 DE LOMAS', '2021-08-31 01:42:22', '2021-08-31 01:42:22'),
-(27, 255, 'MERCEDES', 'MALANO', '27668054', 'DIAZ VELEZ 4145  1º 3º', '', '', '2021-09-25 17:09:12', '2021-09-25 17:09:12'),
-(28, 64, '', '', '', '', '', '', '2021-09-25 17:25:54', '2021-09-25 17:43:28'),
-(29, 223, '', '', '', '', '', 'CRIA E ECHEVERRIA 1 DE MONTE GRANDE', '2021-09-25 19:47:54', '2021-09-25 19:47:54'),
-(30, 223, 'MARIELA', 'CANO', '', '', '', 'CRIA E.ECHEVERRIA 1 DE MONTEGRANDE', '2021-09-25 19:51:43', '2021-09-25 19:51:43'),
-(31, 328, 'VERONICA LILIANA', 'BEILICKE', '21015772', 'AUTOPISTA BUEN AYRE', '01150948812', 'HIZO LA DENUNCIA POR APP DENUNCIA CIUDADANA', '2021-12-11 14:36:04', '2021-12-11 14:36:04'),
-(32, 326, 'VERONICA LILIANA', 'BEILECKE', '21015772', 'italia sin numero', '1150948812', '', '2021-12-11 14:55:54', '2021-12-11 14:55:54'),
-(33, 362, 'Lidia Beatriz', 'QUIROZ', '', '', '', 'en representación de ACMA', '2022-10-15 23:58:13', '2022-10-15 23:58:13'),
-(34, 364, 'ELIZABETH ', 'ESPIÑEIRA', '', '', '', 'TRASLADO AL CAMPO-GUARDA TEMPORAL', '2023-01-13 01:44:30', '2023-01-13 01:44:30'),
-(35, 65, 'Claudia Andrea Lorena Augello', '', '', '', '', '', '2023-05-19 02:20:16', '2023-05-19 02:20:16'),
-(36, 94, 'Cpr de Marcos paz de oficio', '', '', '', '', '', '2023-05-19 03:09:52', '2023-05-19 03:09:52'),
-(37, 359, '', '', '', '', '', 'Entrega voluntaria Graciela Agustina Villar dni 17695757 Remedios Escalada de San Martín 1220 Monte Grande', '2023-06-11 16:53:33', '2023-06-11 16:53:33'),
-(38, 375, '', '', '', '', '', '', '2023-10-25 12:39:41', '2023-10-25 12:41:35');
+INSERT INTO `denunciante` (`id_denunciante`, `id_judicial_denunciante`, `nombre`, `apellido`, `dni`, `direccion`, `localidad`, `telefono`, `observaciones`, `ts_create`, `ts_update`) VALUES
+(11, 79, 'personal cria 9 José  Marmol', '', '', 'Bynnon 3137', NULL, '', '', '2021-05-13 00:39:06', '2021-05-13 00:39:06'),
+(12, 58, 'ELIZABETH CRISTINA ', 'MANDARET', '17918317', 'BOATY  963  6 \"A\" MORON', NULL, '', 'CRIA 1 MORON-DENUNCIA-ENTREGA PROVISORIA A ACMA', '2021-05-13 03:24:17', '2021-05-13 03:25:48'),
+(13, 48, 'VERONICA', 'BEILECKE', '', '', NULL, '', 'CRIA 11 DE 3 DE FEBRERO', '2021-06-01 23:56:41', '2021-06-01 23:56:41'),
+(14, 130, '', '', '', '', NULL, '', 'PROCEDIMIENTO PERSONAL CRIA LANUS ESTE', '2021-06-01 23:58:52', '2021-06-01 23:58:52'),
+(15, 136, '', '', '', '', NULL, '', 'CRIA 1 LAFERRERE', '2021-06-02 00:02:25', '2021-06-02 00:02:25'),
+(16, 139, 'YANINA CECILIA ', 'JANS', '29812479', 'REPUBLICA DEL LIBANO  1130 E URQUIZA Y VELEZ SARSFIELD', NULL, '1536062931', 'DENUNCIA POLICIAL Y ACTA DE ENTREGA DEPOSITO JUDICIAL-INF VETERINARIO', '2021-06-02 00:07:43', '2021-06-19 19:48:24'),
+(17, 125, '', '', '', '', NULL, '', 'CPR SAN VICENTE', '2021-06-02 00:24:07', '2021-06-02 00:24:07'),
+(18, 138, 'GLADYS EDITH', 'PASTORIN', '16533306', 'CAMINO GRAL BELGRANO 2947 TORRE 25 B6 D  LANUES E ', NULL, 'NO', 'CRIA 8 DE QUILMES HALLAZGO-DENUNCIO MIEMBRO DE ACMA  ', '2021-06-19 17:10:56', '2021-06-19 17:10:56'),
+(21, 217, '', '', '', '', NULL, '', 'HC 53-A-KORN- NO DOCUMENTACION', '2021-06-25 01:41:09', '2021-06-25 01:41:09'),
+(22, 85, '911-PERSONAL CRIA 9 LANUS', '', '', '', NULL, '', '', '2021-07-02 05:58:52', '2021-07-02 05:58:52'),
+(23, 162, 'EDGARDO', 'DI SALVO', '16623531', '29 DE SEPTIEMBRE 1534', NULL, 'NO', '', '2021-08-14 18:34:04', '2021-08-14 18:34:04'),
+(24, 240, '', '', '', '', NULL, '', 'cria 4 Lanus', '2021-08-25 03:02:13', '2021-08-25 03:02:13'),
+(25, 82, '', '', '', '', NULL, '', 'procede  Hipodromo San Isidro', '2021-08-25 03:17:31', '2021-08-25 03:17:31'),
+(26, 100, '', '', '', '', NULL, '', 'CRIA 6 DE LOMAS', '2021-08-31 01:42:22', '2021-08-31 01:42:22'),
+(27, 255, 'MERCEDES', 'MALANO', '27668054', 'DIAZ VELEZ 4145  1º 3º', NULL, '', '', '2021-09-25 17:09:12', '2021-09-25 17:09:12'),
+(28, 64, '', '', '', '', NULL, '', '', '2021-09-25 17:25:54', '2021-09-25 17:43:28'),
+(29, 223, '', '', '', '', NULL, '', 'CRIA E ECHEVERRIA 1 DE MONTE GRANDE', '2021-09-25 19:47:54', '2021-09-25 19:47:54'),
+(30, 223, 'MARIELA', 'CANO', '', '', NULL, '', 'CRIA E.ECHEVERRIA 1 DE MONTEGRANDE', '2021-09-25 19:51:43', '2021-09-25 19:51:43'),
+(31, 328, 'VERONICA LILIANA', 'BEILICKE', '21015772', 'AUTOPISTA BUEN AYRE', NULL, '01150948812', 'HIZO LA DENUNCIA POR APP DENUNCIA CIUDADANA', '2021-12-11 14:36:04', '2021-12-11 14:36:04'),
+(32, 326, 'VERONICA LILIANA', 'BEILECKE', '21015772', 'italia sin numero', NULL, '1150948812', '', '2021-12-11 14:55:54', '2021-12-11 14:55:54'),
+(33, 362, 'Lidia Beatriz', 'QUIROZ', '', '', NULL, '', 'en representación de ACMA', '2022-10-15 23:58:13', '2022-10-15 23:58:13'),
+(34, 364, 'ELIZABETH ', 'ESPIÑEIRA', '', '', NULL, '', 'TRASLADO AL CAMPO-GUARDA TEMPORAL', '2023-01-13 01:44:30', '2023-01-13 01:44:30'),
+(35, 65, 'Claudia Andrea Lorena Augello', '', '', '', NULL, '', '', '2023-05-19 02:20:16', '2023-05-19 02:20:16'),
+(36, 94, 'Cpr de Marcos paz de oficio', '', '', '', NULL, '', '', '2023-05-19 03:09:52', '2023-05-19 03:09:52'),
+(37, 359, '', '', '', '', NULL, '', 'Entrega voluntaria Graciela Agustina Villar dni 17695757 Remedios Escalada de San Martín 1220 Monte Grande', '2023-06-11 16:53:33', '2023-06-11 16:53:33'),
+(38, 375, '', '', '', '', NULL, '', '', '2023-10-25 12:39:41', '2023-10-25 12:41:35');
 
 -- --------------------------------------------------------
 
@@ -1020,7 +1026,6 @@ INSERT INTO `fotos` (`id_fotos`, `id_caballo_foto`, `detalle`, `foto`, `ts_creat
 (323, 346, 'Portada', 'eb6b32dbbeb0ba97f9fd65dac1f82320.jpeg', '2022-01-11 23:46:15', '2024-03-13 20:27:18', 1),
 (324, 347, 'Portada', 'ce47d498cb596fdc8a89fbd5591c31f7.jpeg', '2022-01-11 23:53:36', '2024-03-13 20:27:18', 1),
 (325, 349, 'Portada', 'e65c3eb35a972f92cb7d91f7fb9af79b.jpeg', '2022-01-22 14:55:18', '2024-03-13 20:27:18', 1),
-(326, 350, 'Portada', 'caf0c53fc613f7bd94caad9419c20a91.jpeg', '2022-01-22 15:38:17', '2024-03-13 20:27:18', 1),
 (327, 352, 'Portada', 'e88fa9a8940902dacf8b69c70172d37d.jpeg', '2022-03-07 13:35:44', '2024-03-13 20:27:18', 1),
 (328, 355, 'Portada', 'fbd443ada8f9bff7eeeadaf685536992.jpeg', '2022-04-25 15:28:33', '2024-03-13 20:27:18', 1),
 (329, 357, 'Portada', 'e375c2d0c785757a66f891bac5b9977c.jpeg', '2022-04-25 15:32:39', '2024-03-13 20:27:18', 1),
@@ -1043,7 +1048,8 @@ INSERT INTO `fotos` (`id_fotos`, `id_caballo_foto`, `detalle`, `foto`, `ts_creat
 (351, 392, 'Portada', '64dfd4fa0ba2ee4da64becf098f2d78a.jpeg', '2024-02-20 21:48:47', '2024-03-13 20:27:18', 1),
 (352, 376, 'Portada', '5a06e7359d20c1ec1314596ef5fdaaa2.jpeg', '2024-03-01 18:02:59', '2024-03-13 20:27:18', 1),
 (353, 373, 'Portada', '5d2f837cd4246d9c27cb8d83b55d2082.jpeg', '2024-03-01 18:09:18', '2024-03-13 20:27:18', 1),
-(399, 444, 'Portada', 'Base de tanques de agua.jpg', '2024-04-08 19:26:00', '2024-04-08 19:26:00', 1);
+(399, 444, 'Portada', 'Base de tanques de agua.jpg', '2024-04-08 19:26:00', '2024-04-08 19:26:00', 1),
+(406, 350, 'Portada', 'Avatar_ (14).png', '2024-04-30 20:45:32', '2024-04-30 20:45:32', 1);
 
 -- --------------------------------------------------------
 
@@ -1143,7 +1149,8 @@ CREATE TABLE `gatos_fotos` (
 --
 
 INSERT INTO `gatos_fotos` (`id_foto`, `id_gato_foto`, `detalle`, `foto`, `created_at`, `updated_at`) VALUES
-(3, 1, 'Portada', 'Buscamos Empleada.jpg', '2024-03-28 16:13:07', '2024-03-28 16:13:07');
+(3, 1, 'Portada', 'Buscamos Empleada.jpg', '2024-03-28 16:13:07', '2024-03-28 16:13:07'),
+(8, 2, 'Portada', 'Avatar_ (3).png', '2024-04-30 20:34:17', '2024-04-30 20:34:17');
 
 -- --------------------------------------------------------
 
@@ -1183,7 +1190,11 @@ CREATE TABLE `gatos_razas` (
 
 INSERT INTO `gatos_razas` (`id_raza`, `nombre`, `created_at`, `updated_at`) VALUES
 (1, 'Mestizo', '2024-03-27 13:37:29', '2024-03-27 13:37:29'),
-(2, 'Siamés', '2024-03-27 13:37:29', '2024-03-27 13:37:29');
+(2, 'Siamés', '2024-03-27 13:37:29', '2024-03-27 13:37:29'),
+(3, 'Persa', '2024-04-21 01:54:22', '2024-04-21 01:54:22'),
+(4, 'Prueba FrontEnd', '2024-04-21 02:35:13', '2024-04-21 02:35:13'),
+(5, 'Prueba 2', '2024-04-21 02:51:28', '2024-04-21 02:51:28'),
+(6, 'FRONTEND NUEVA', '2024-04-25 18:56:20', '2024-04-25 18:56:20');
 
 -- --------------------------------------------------------
 
@@ -1218,6 +1229,7 @@ CREATE TABLE `imputado` (
   `apellido` varchar(100) DEFAULT NULL,
   `dni` varchar(100) DEFAULT NULL,
   `direccion` varchar(100) DEFAULT NULL,
+  `localidad` varchar(100) DEFAULT NULL,
   `telefono` varchar(100) DEFAULT NULL,
   `observaciones` varchar(255) DEFAULT NULL,
   `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
@@ -1228,18 +1240,18 @@ CREATE TABLE `imputado` (
 -- Volcado de datos para la tabla `imputado`
 --
 
-INSERT INTO `imputado` (`id_imputado`, `id_judicial_imputado`, `nombre`, `apellido`, `dni`, `direccion`, `telefono`, `observaciones`, `ts_create`, `ts_update`) VALUES
-(7, 139, 'LEONARDO JAVIER', 'PONCE', '', '', '', '', '2021-06-19 19:45:38', '2021-06-19 19:45:38'),
-(8, 162, 'ANIBAL', 'ROMERO', '', '', '', '', '2021-08-14 18:34:37', '2021-08-14 18:34:37'),
-(9, 195, 'Daniel ', 'GALLARDO', '', '', '', 'OTRO IMPUTADO GALLARDO CRFISTOPHER MAXIMILIANO Y GIMENES ANTOÑO OMAR  POR AV. ROBO', '2021-08-14 18:56:54', '2021-08-14 18:56:54'),
-(10, 255, 'MIGUEL ANGEL', 'ANDREONI', '21437922', '', '', 'CUIDADOR DE CABALLOS', '2021-09-25 17:08:17', '2021-09-25 17:08:17'),
-(11, 64, '', '', '', '', '', '', '2021-09-25 17:28:02', '2021-09-25 17:45:45'),
-(12, 378, '', 'ZORDAN ', '', '', '', '', '2024-01-09 00:30:00', '2024-01-09 00:30:00'),
-(13, 383, '', 'SILVERO', '', '', '', '', '2024-01-09 02:31:25', '2024-01-09 02:31:25'),
-(14, 384, '', 'ZORDAN', '', '', '', '', '2024-01-09 02:35:17', '2024-01-09 02:35:17'),
-(15, 222, '', 'YANS', '', '', '', '', '2024-01-09 02:37:05', '2024-01-09 02:37:05'),
-(16, 387, '', 'YANS', '', '', '', '', '2024-01-09 02:44:31', '2024-01-09 02:44:31'),
-(17, 228, 'ISAIAS', 'RODRIGUEZ', '', '', '', '', '2024-01-09 02:47:41', '2024-01-09 02:47:41');
+INSERT INTO `imputado` (`id_imputado`, `id_judicial_imputado`, `nombre`, `apellido`, `dni`, `direccion`, `localidad`, `telefono`, `observaciones`, `ts_create`, `ts_update`) VALUES
+(7, 139, 'LEONARDO JAVIER', 'PONCE', '', '', NULL, '', '', '2021-06-19 19:45:38', '2021-06-19 19:45:38'),
+(8, 162, 'ANIBAL', 'ROMERO', '', '', NULL, '', '', '2021-08-14 18:34:37', '2021-08-14 18:34:37'),
+(9, 195, 'Daniel ', 'GALLARDO', '', '', NULL, '', 'OTRO IMPUTADO GALLARDO CRFISTOPHER MAXIMILIANO Y GIMENES ANTOÑO OMAR  POR AV. ROBO', '2021-08-14 18:56:54', '2021-08-14 18:56:54'),
+(10, 255, 'MIGUEL ANGEL', 'ANDREONI', '21437922', '', NULL, '', 'CUIDADOR DE CABALLOS', '2021-09-25 17:08:17', '2021-09-25 17:08:17'),
+(11, 64, '', '', '', '', NULL, '', '', '2021-09-25 17:28:02', '2021-09-25 17:45:45'),
+(12, 378, '', 'ZORDAN ', '', '', NULL, '', '', '2024-01-09 00:30:00', '2024-01-09 00:30:00'),
+(13, 383, '', 'SILVERO', '', '', NULL, '', '', '2024-01-09 02:31:25', '2024-01-09 02:31:25'),
+(14, 384, '', 'ZORDAN', '', '', NULL, '', '', '2024-01-09 02:35:17', '2024-01-09 02:35:17'),
+(15, 222, '', 'YANS', '', '', NULL, '', '', '2024-01-09 02:37:05', '2024-01-09 02:37:05'),
+(16, 387, '', 'YANS', '', '', NULL, '', '', '2024-01-09 02:44:31', '2024-01-09 02:44:31'),
+(17, 228, 'ISAIAS', 'RODRIGUEZ', '', '', NULL, '', '', '2024-01-09 02:47:41', '2024-01-09 02:47:41');
 
 -- --------------------------------------------------------
 
@@ -1496,7 +1508,13 @@ INSERT INTO `korn` (`id`, `fecha`, `total`, `antiparasitario`, `aie`, `vacunas`,
 (22, '2022-04-30', '118', 'PRAMOX', '', 'TRIPLE-FLUVAC INNOVATOR 4', '', '2022-05-01 12:46:42', '2022-05-01 12:47:08'),
 (23, '2022-10-01', '123', 'Cumverm Pramox Ivermectina', 'Totalidad negativos', '', '', '2022-10-01 16:32:15', '2022-10-01 16:32:15'),
 (24, '2023-12-16', '79', 'MULTI DROGAS ', 'TOTALIDAD NEGATIVOS', 'TECNOVAC ENCEFALOMIELITIS ', '', '2024-01-15 14:19:57', '2024-01-15 14:19:57'),
-(25, '2023-06-21', '', 'MULTIDROGA', 'NEGATIVOS', 'TRIPLE', '', '2024-02-20 21:54:09', '2024-02-20 21:54:09');
+(25, '2023-06-21', '', 'MULTIDROGA', 'NEGATIVOS', 'TRIPLE', '', '2024-02-20 21:54:09', '2024-02-20 21:54:09'),
+(26, '2024-04-13', '2', '1', '2', 'PRUEBA FRONTEND EDITADO', 'Observaciones Front', '2024-04-13 21:06:22', '2024-04-13 22:35:28'),
+(27, '2024-04-13', '1', 'MUCHOS', '0', 'VACUNAS VARIAS', 'FRONT ', '2024-04-13 21:10:27', '2024-04-13 21:10:27'),
+(28, '2024-04-13', '1', 'MUCHOS', '1', 'SEGUIMOS ROBANDO', 'OBSERVACIONES', '2024-04-13 21:11:04', '2024-04-13 21:11:04'),
+(29, '2024-04-13', '1', '', '', '', '', '2024-04-13 21:33:43', '2024-04-13 21:33:43'),
+(30, '2024-04-11', '1', '', '', '', '', '2024-04-13 21:34:05', '2024-04-13 21:34:05'),
+(31, '2024-04-12', '1', '', '', '', '', '2024-04-13 21:35:18', '2024-04-13 21:35:18');
 
 -- --------------------------------------------------------
 
@@ -1529,9 +1547,9 @@ CREATE TABLE `perros` (
 
 INSERT INTO `perros` (`id_perro`, `nombre`, `ingreso`, `peso`, `sexo`, `edad`, `raza`, `pelaje`, `hc`, `estado`, `vacunas`, `desparasitacion`, `tratamientos`, `observaciones`, `ts_created`, `ts_updated`) VALUES
 (1, 'Perro Backend Editado', '2024-03-09', '22', 'macho', '22', 'Mestizo', 'Negro y Marron', '2727', 'En Tratamiento', '<p>Editado desde el Backend y desde el Front</p>', '<p>Esta desparasitado desde el Front</p>', '<p>Tratamientos Varios .. desde Front</p>', '<p>Observaciones desde el Front</p>', '2024-03-26 03:07:51', '2024-03-27 03:57:21'),
-(2, 'Perro 2', '22/01/1979', '4', 'hembra', '11', 'Ovejero Aleman', 'Negro y Marron', '43', 'En Adopción', 'Vacunas', 'Parasitos', 'Tratamientos', '<p>Observaciones editadas</p>', '2024-03-26 03:11:01', '2024-03-28 15:12:15'),
 (6, 'Perro Backend', '2024-03-09', '222', 'Macho - Castrado', '33', 'Mestizo', 'Negro y blanco', '2727', 'En Tránsito', NULL, NULL, NULL, NULL, '2024-03-26 14:16:05', '2024-03-28 13:45:55'),
-(9, 'CAN FINAL DESDE EL FRONT', '2024-03-27', NULL, NULL, NULL, 'Mestizo', NULL, '1234567890', 'En Tratamiento', NULL, NULL, '<p>Varios Tratamientos</p>', NULL, '2024-03-27 18:03:35', '2024-03-27 18:05:08');
+(9, 'CAN FINAL DESDE EL FRONT', '2024-03-27', NULL, NULL, NULL, 'Mestizo', NULL, '1234567890', 'En Tratamiento', NULL, NULL, '<p>Varios Tratamientos</p>', NULL, '2024-03-27 18:03:35', '2024-03-27 18:05:08'),
+(10, 'PRUEBA REFACTOR', '2024-04-30', '2', 'Hembra - Castrada', '2', 'Mestizo', 'Negro y Blanco', '12345', 'En Adopción', NULL, NULL, NULL, NULL, '2024-04-30 19:14:32', '2024-04-30 19:15:26');
 
 -- --------------------------------------------------------
 
@@ -1551,13 +1569,6 @@ CREATE TABLE `perros_denunciantes` (
   `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
   `ts_update` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
-
---
--- Volcado de datos para la tabla `perros_denunciantes`
---
-
-INSERT INTO `perros_denunciantes` (`id_denunciante`, `id_judicial_denunciante`, `nombre`, `apellido`, `dni`, `direccion`, `telefono`, `observaciones`, `ts_create`, `ts_update`) VALUES
-(1, 1, 'Ariel', 'Dominguez', NULL, 'Salta 229', NULL, NULL, '2024-03-26 13:28:13', '2024-03-26 13:28:13');
 
 -- --------------------------------------------------------
 
@@ -1600,14 +1611,6 @@ CREATE TABLE `perros_fotos` (
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Volcado de datos para la tabla `perros_fotos`
---
-
-INSERT INTO `perros_fotos` (`id_foto`, `id_perro_foto`, `detalle`, `foto`, `created_at`, `updated_at`) VALUES
-(9, 6, 'Portada', 'materiales(2).jpg', '2024-03-27 03:24:15', '2024-03-27 03:24:15'),
-(10, 9, 'Portada', 'Cal CACIQUE 3.jpg', '2024-03-27 18:04:57', '2024-03-27 18:04:57');
-
 -- --------------------------------------------------------
 
 --
@@ -1626,13 +1629,6 @@ CREATE TABLE `perros_imputados` (
   `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
   `ts_update` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
-
---
--- Volcado de datos para la tabla `perros_imputados`
---
-
-INSERT INTO `perros_imputados` (`id_imputado`, `id_judicial_imputado`, `nombre`, `apellido`, `dni`, `direccion`, `telefono`, `observaciones`, `ts_create`, `ts_update`) VALUES
-(1, 1, 'Nombre Imputado', 'Apellido Imputado', NULL, NULL, NULL, NULL, '2024-03-26 13:28:35', '2024-03-26 13:28:35');
 
 -- --------------------------------------------------------
 
@@ -1653,7 +1649,11 @@ CREATE TABLE `perros_razas` (
 
 INSERT INTO `perros_razas` (`id_raza`, `nombre`, `created_at`, `updated_at`) VALUES
 (1, 'Mestizo', '2024-03-26 03:02:16', '2024-03-26 03:02:16'),
-(2, 'Ovejero Aleman', '2024-03-26 03:02:16', '2024-03-26 03:02:16');
+(2, 'Ovejero Aleman', '2024-03-26 03:02:16', '2024-03-26 03:02:16'),
+(3, 'Pitbull', '2024-04-21 01:59:33', '2024-04-21 01:59:33'),
+(4, 'Prueba Frotend', '2024-04-21 02:14:23', '2024-04-21 02:14:23'),
+(5, 'Prueba 2', '2024-04-21 02:51:10', '2024-04-21 02:51:10'),
+(6, 'FRONTEND NUEVA', '2024-04-25 18:56:07', '2024-04-25 18:56:07');
 
 -- --------------------------------------------------------
 
@@ -1674,14 +1674,6 @@ CREATE TABLE `perro_judicial` (
   `created_at` int(11) NOT NULL,
   `updated_at` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Volcado de datos para la tabla `perro_judicial`
---
-
-INSERT INTO `perro_judicial` (`id_judicial`, `id_perro_judicial`, `fecha`, `causa`, `ufi`, `garantias`, `juzgado`, `entrega`, `diligencias`, `created_at`, `updated_at`) VALUES
-(1, 1, '22/01/1979', '07-00-646464-23', '6 - Dr. LALA', '2 - Dra. Lele', 'Dpto. Judicial de Lomas de Zamora', 'Depósito Judicial', 'Se pidió la Entrega Difinitiva. ', 0, 0),
-(2, 2, '22/01/1979', '07-00-6434364-23', '2', '1', 'Dpto. Judicial La Plata', 'Voluntaria', 'Varias', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -1733,6 +1725,7 @@ CREATE TABLE `usuarios` (
   `rol` varchar(25) NOT NULL DEFAULT 'Deshabilitado',
   `telefono` varchar(25) DEFAULT NULL,
   `observaciones` varchar(255) DEFAULT NULL,
+  `avatar` varchar(255) DEFAULT NULL,
   `verificado` tinyint(1) NOT NULL DEFAULT 0,
   `confirmacionCorreo` varchar(100) DEFAULT NULL,
   `ts_create` timestamp NOT NULL DEFAULT current_timestamp(),
@@ -1743,16 +1736,16 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `mail`, `clave`, `rol`, `telefono`, `observaciones`, `verificado`, `confirmacionCorreo`, `ts_create`, `ts_update`) VALUES
-(1, 'Ariel', 'Dominguez', 'arieldominguez01@hotmail.com', '29c4a5c66221e3f6d7c8ec473fefbe2b7e8fa569', 'Inhabilitado', '114988695', 'Desarrollador del Sistema. ', 0, NULL, '2021-04-06 14:46:25', '2024-04-06 16:34:26'),
-(81, 'Ariel Hernán', 'Corse', 'aruvet@hotmail.com', '0d98a40f0f04795375f41c56011d4f41e1efc630', 'Administrador', '1164786262', '', 0, 'dd347d9c-ee4f-419b-9e9c-5957e1e1d295', '2021-04-23 18:13:40', '2021-08-19 23:17:04'),
-(84, 'Lidia', 'Quiroz', 'lqbianca@hotmail.com', 'dd3178662b08ca7be90ca0c89b3cd1b40e2538f0', 'Administrador', '1554901662', '', 0, '9148f29d-d9f3-4855-88af-6c0297f24bfd', '2021-04-29 01:05:26', '2023-09-23 16:40:15'),
-(86, 'Marcela', 'Villanueva', 'msv2009@live.com.ar', '4e65d14126fd8a043e7f15d1db73ca2fd86cf03f', 'Inhabilitado', '(221)567-0985', '', 0, 'bed6a83a-6b2f-4181-8420-314519eb2827', '2021-05-07 00:39:06', '2023-09-04 15:28:27'),
-(88, 'Ariel', 'Dominguez', 'arieldominguez001@gmail.com', '29c4a5c66221e3f6d7c8ec473fefbe2b7e8fa569', 'Administrador', '+541159356179', '', 0, NULL, '2021-06-21 20:43:13', '2022-06-10 20:35:28'),
-(89, 'Flavia', 'Ferrari', 'mflavia.ferrari@gmail.com', '48eab89523906290fbec2c7b85cdd3c75123a8d2', 'Inhabilitado', '1141979055', '', 0, NULL, '2021-08-16 18:17:26', '2023-09-23 16:40:37'),
-(90, 'Melina', 'Ferrari', 'melinaferrari94@gmail.com', '1b3248f048e0e3e50bc08bd9516afda3e4ce3f19', 'Administrador', '+541132064996', '', 0, 'fb3410f3-4191-45be-9047-27f6cec0486b', '2021-08-22 01:46:24', '2021-08-22 01:46:43'),
-(112, 'LILIANA', 'GIL', 'lilygil_10@hotmail.com', '8a33d192583382a3a320757ea75cc320ab76935a', 'Administrador', '', NULL, 0, NULL, '2024-02-20 23:47:37', '2024-02-20 23:47:37'),
-(113, 'Ariel', 'Dominguez', 'prueba@prueba.com', '123456', 'Administrador', '1141988695', 'Observaciones', 1, NULL, '2024-03-28 21:31:24', '2024-03-28 21:31:24');
+INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `mail`, `clave`, `rol`, `telefono`, `observaciones`, `avatar`, `verificado`, `confirmacionCorreo`, `ts_create`, `ts_update`) VALUES
+(1, 'Ariel', 'Dominguez', 'arieldominguez01@hotmail.com', '29c4a5c66221e3f6d7c8ec473fefbe2b7e8fa569', 'Administrador', '114988695', 'Editado desde el Back', NULL, 0, NULL, '2021-04-06 14:46:25', '2024-04-16 23:01:05'),
+(81, 'Ariel Hernán', 'Corse', 'aruvet@hotmail.com', '0d98a40f0f04795375f41c56011d4f41e1efc630', 'Administrador', '1164786262', '', NULL, 0, 'dd347d9c-ee4f-419b-9e9c-5957e1e1d295', '2021-04-23 18:13:40', '2021-08-19 23:17:04'),
+(84, 'Lidia', 'Quiroz', 'lqbianca@hotmail.com', 'dd3178662b08ca7be90ca0c89b3cd1b40e2538f0', 'Administrador', '1554901662', '', NULL, 0, '9148f29d-d9f3-4855-88af-6c0297f24bfd', '2021-04-29 01:05:26', '2023-09-23 16:40:15'),
+(86, 'Marcela', 'Villanueva', 'msv2009@live.com.ar', '4e65d14126fd8a043e7f15d1db73ca2fd86cf03f', 'Inhabilitado', '(221)567-0985', '', NULL, 0, 'bed6a83a-6b2f-4181-8420-314519eb2827', '2021-05-07 00:39:06', '2023-09-04 15:28:27'),
+(88, 'Ariel', 'Dominguez', 'arieldominguez001@gmail.com', '29c4a5c66221e3f6d7c8ec473fefbe2b7e8fa569', 'Administrador', '+541159356179', '', NULL, 0, NULL, '2021-06-21 20:43:13', '2022-06-10 20:35:28'),
+(89, 'Flavia ', 'Ferrari', 'mflavia.ferrari@gmail.com', '48eab89523906290fbec2c7b85cdd3c75123a8d2', 'Inhabilitado', '1141979055', '', NULL, 0, NULL, '2021-08-16 18:17:26', '2024-04-26 03:13:54'),
+(90, 'Melina', 'Ferrari', 'melinaferrari94@gmail.com', '1b3248f048e0e3e50bc08bd9516afda3e4ce3f19', 'Administrador', '+541132064996', '', NULL, 0, 'fb3410f3-4191-45be-9047-27f6cec0486b', '2021-08-22 01:46:24', '2021-08-22 01:46:43'),
+(112, 'LILIANA', 'GIL', 'lilygil_10@hotmail.com', '8a33d192583382a3a320757ea75cc320ab76935a', 'Administrador', '', NULL, NULL, 0, NULL, '2024-02-20 23:47:37', '2024-02-20 23:47:37'),
+(113, 'Ariel', 'Dominguez', 'prueba@prueba.com', '123456', 'Administrador', '1141988695', 'Desarrollador', 'avatar_19.png', 1, NULL, '2024-03-28 21:31:24', '2024-04-26 04:30:51');
 
 --
 -- Índices para tablas volcadas
@@ -1992,19 +1985,19 @@ ALTER TABLE `articulos`
 -- AUTO_INCREMENT de la tabla `baradero`
 --
 ALTER TABLE `baradero`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT de la tabla `caballo`
 --
 ALTER TABLE `caballo`
-  MODIFY `id_caballo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=445;
+  MODIFY `id_caballo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=446;
 
 --
 -- AUTO_INCREMENT de la tabla `castelli`
 --
 ALTER TABLE `castelli`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `denunciante`
@@ -2022,7 +2015,7 @@ ALTER TABLE `fallecidos`
 -- AUTO_INCREMENT de la tabla `fotos`
 --
 ALTER TABLE `fotos`
-  MODIFY `id_fotos` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=400;
+  MODIFY `id_fotos` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=407;
 
 --
 -- AUTO_INCREMENT de la tabla `gatos`
@@ -2046,7 +2039,7 @@ ALTER TABLE `gatos_estados`
 -- AUTO_INCREMENT de la tabla `gatos_fotos`
 --
 ALTER TABLE `gatos_fotos`
-  MODIFY `id_foto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_foto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT de la tabla `gatos_imputados`
@@ -2058,7 +2051,7 @@ ALTER TABLE `gatos_imputados`
 -- AUTO_INCREMENT de la tabla `gatos_razas`
 --
 ALTER TABLE `gatos_razas`
-  MODIFY `id_raza` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_raza` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `gato_judicial`
@@ -2094,13 +2087,13 @@ ALTER TABLE `judicial_entregas`
 -- AUTO_INCREMENT de la tabla `korn`
 --
 ALTER TABLE `korn`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT de la tabla `perros`
 --
 ALTER TABLE `perros`
-  MODIFY `id_perro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id_perro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT de la tabla `perros_denunciantes`
@@ -2118,7 +2111,7 @@ ALTER TABLE `perros_estados`
 -- AUTO_INCREMENT de la tabla `perros_fotos`
 --
 ALTER TABLE `perros_fotos`
-  MODIFY `id_foto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_foto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT de la tabla `perros_imputados`
@@ -2130,7 +2123,7 @@ ALTER TABLE `perros_imputados`
 -- AUTO_INCREMENT de la tabla `perros_razas`
 --
 ALTER TABLE `perros_razas`
-  MODIFY `id_raza` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_raza` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `perro_judicial`

@@ -28,14 +28,14 @@ WHERE j.id_caballo_judicial = ?
 
 const getDenuncianteById = `
 SELECT id_judicial_denunciante, nombre, apellido, dni, 
-telefono, direccion, observaciones
+telefono, direccion, localidad, observaciones
 FROM denunciante
 WHERE id_judicial_denunciante = ?
 `;
 
 const getImputadoById = `
 SELECT id_judicial_imputado, nombre, apellido, dni,
-telefono, direccion, observaciones
+telefono, direccion, localidad, observaciones
 FROM imputado
 WHERE id_judicial_imputado = ?
 `;

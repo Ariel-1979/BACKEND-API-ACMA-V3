@@ -9,5 +9,5 @@ GET {{BASE_URL}}/no_judicial HTTP/1.1
 Content-Type: application/json
 
 ### Get Equinos Judicializado By Id
-GET {{BASE_URL}}/judicial/392 HTTP/1.1
+GET {{BASE_URL}}/judicial/139 HTTP/1.1
 Content-Type: application/json
