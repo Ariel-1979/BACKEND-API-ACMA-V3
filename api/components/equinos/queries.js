@@ -80,8 +80,8 @@ ORDER BY caballo.ingreso DESC;
 
 const createEquino = `
 INSERT INTO caballo
-(ingreso, nombre, historia_clinica)
-VALUES (?, ?, ?)
+(ingreso, nombre, historia_clinica, sexo, raza)
+VALUES (?, ?, ?, ?, ?)
 `;
 
 const putEquinoById = `UPDATE caballo SET ? WHERE id_caballo = ?`;

@@ -1,13 +1,17 @@
 const getAllFelinos = `
 SELECT
-id_gato, ingreso, nombre, raza, hc, estado, sexo
-FROM gatos
+g.id_gato, g.ingreso, g.nombre, g.raza, g.hc, 
+g.estado, g.sexo,
+j.id_gato_judicial as judicializado
+FROM gatos g
+LEFT JOIN gato_judicial j
+ON g.id_gato = j.id_gato_judicial
 ORDER BY ingreso DESC
 `;
 
 const getFelinoById = `
 SELECT
- p.id_gato, p.ingreso, p.nombre, p.peso, p.edad, p.raza, p.pelaje, p.hc,
+p.id_gato, p.ingreso, p.nombre, p.peso, p.edad, p.raza, p.pelaje, p.hc,
 p.estado, p.sexo, f.detalle, f.foto
 FROM gatos p
 LEFT JOIN gatos_fotos f ON p.id_gato = f.id_gato_foto
@@ -16,8 +20,8 @@ WHERE id_gato = ?
 
 const createFelino = `
 INSERT INTO gatos
-(ingreso, nombre, hc)
-VALUES (?, ?, ?)
+(ingreso, nombre, hc, sexo)
+VALUES (?, ?, ?, ?)
 `;
 
 const putFelinoById = `UPDATE gatos SET ? WHERE id_gato = ?`;
@@ -72,16 +76,23 @@ ON j.id_gato_judicial = p.id_gato
 WHERE j.id_gato_judicial = ?
 `;
 
+const getAdoptanteById = `
+  SELECT id_adoptante, id_gato_adoptado, fecha,  nombre, apellido, dni,
+  telefono, direccion, localidad, observaciones
+	FROM gatos_adoptantes
+	WHERE id_gato_adoptado = ?
+	`;
+
 const getDenuncianteById = `
 SELECT id_judicial_denunciante, nombre, apellido, dni, 
-telefono, direccion, observaciones
+telefono, direccion, localidad, observaciones
 FROM gatos_denunciantes
 WHERE id_judicial_denunciante = ?
 `;
 
 const getImputadoById = `
 SELECT id_judicial_imputado, nombre, apellido, dni,
-telefono, direccion, observaciones
+telefono, direccion, localidad, observaciones
 FROM gatos_imputados
 WHERE id_judicial_imputado = ?
 `;
@@ -107,5 +118,6 @@ export default {
 	putFelinoTratamientosById,
 	getFelinoJudicializadoById,
 	getDenuncianteById,
-	getImputadoById
+	getImputadoById,
+	getAdoptanteById
 };

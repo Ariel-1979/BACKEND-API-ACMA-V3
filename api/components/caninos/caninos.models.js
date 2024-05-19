@@ -4,9 +4,9 @@ import Query from './queries.js';
 const pool = connectionDataBase();
 
 const createCanino = async canino => {
-	const { ingreso, nombre, hc } = canino;
+	const { ingreso, nombre, hc, sexo } = canino;
 	try {
-		return pool.query(Query.createCanino, [ingreso, nombre, hc]);
+		return pool.query(Query.createCanino, [ingreso, nombre, hc, sexo]);
 	} catch (error) {
 		throw error;
 	}
@@ -26,8 +26,9 @@ const getCaninoById = async id => {
 		const judicial = await pool.query(Query.getCaninoJudicializadoById, [id]);
 		const imputado = await pool.query(Query.getImputadoById, [id]);
 		const denunciante = await pool.query(Query.getDenuncianteById, [id]);
+		const adoptante = await pool.query(Query.getAdoptanteByID, [id]);
 
-		return { canino, judicial, imputado, denunciante } /*  */;
+		return { canino, judicial, imputado, denunciante, adoptante };
 	} catch (error) {
 		throw error;
 	}

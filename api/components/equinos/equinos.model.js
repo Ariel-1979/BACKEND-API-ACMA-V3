@@ -8,7 +8,9 @@ const createEquino = async equino => {
 		return pool.query(Query.createEquino, [
 			equino.ingreso,
 			equino.nombre,
-			equino.historia_clinica
+			equino.historia_clinica,
+			equino.sexo,
+			equino.raza
 		]);
 	} catch (error) {
 		throw error;

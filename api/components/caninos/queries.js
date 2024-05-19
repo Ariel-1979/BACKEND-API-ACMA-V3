@@ -1,7 +1,11 @@
 const getAllCaninos = `
 SELECT
-id_perro, ingreso, nombre, raza, hc, estado, sexo
-FROM perros
+p.id_perro, p.ingreso, p.nombre, p.raza, p.hc, 
+p.estado, p.sexo,
+j.id_perro_judicial as judicializado
+FROM perros p
+LEFT JOIN perro_judicial j
+ON p.id_perro = j.id_perro_judicial
 ORDER BY ingreso DESC
 `;
 
@@ -16,8 +20,8 @@ WHERE id_perro = ?
 
 const createCanino = `
 INSERT INTO perros
-(ingreso, nombre, hc)
-VALUES (?, ?, ?)
+(ingreso, nombre, hc, sexo)
+VALUES (?, ?, ?, ?)
 `;
 
 const putCaninoById = `UPDATE perros SET ? WHERE id_perro = ?`;
@@ -72,16 +76,23 @@ ON j.id_perro_judicial = p.id_perro
 WHERE j.id_perro_judicial = ?
 `;
 
+const getAdoptanteByID = `
+  SELECT id_adoptante, id_perro_adoptado, fecha,  nombre, apellido, dni,
+  telefono, direccion, localidad, observaciones
+	FROM perros_adoptantes
+	WHERE id_perro_adoptado = ?
+	`;
+
 const getDenuncianteById = `
 SELECT id_judicial_denunciante, nombre, apellido, dni, 
-telefono, direccion, observaciones
+telefono, direccion, localidad, observaciones
 FROM perros_denunciantes
 WHERE id_judicial_denunciante = ?
 `;
 
 const getImputadoById = `
 SELECT id_judicial_imputado, nombre, apellido, dni,
-telefono, direccion, observaciones
+telefono, direccion, localidad, observaciones
 FROM perros_imputados
 WHERE id_judicial_imputado = ?
 `;
@@ -107,5 +118,6 @@ export default {
 	getCaninoJudicializadoById,
 	getDenuncianteById,
 	getImputadoById,
+	getAdoptanteByID,
 	createRazaCanina
 };
