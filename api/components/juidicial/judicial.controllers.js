@@ -30,8 +30,28 @@ const getEquinosJudicializadoById = async (req, res) => {
 	}
 };
 
+const createJudicial = async (req, res) => {
+	try {
+		const { statusCode, data } = await judicialDto.createJudicial(req.body);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const updateJudicial = async (req, res) => {
+	try {
+		const { statusCode, data } = await judicialDto.updateJudicial(req.body);
+		res.status(statusCode).json(data);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	getEquinosJudicializados,
 	getEquinosNoJudicializados,
-	getEquinosJudicializadoById
+	getEquinosJudicializadoById,
+	createJudicial,
+	updateJudicial
 };

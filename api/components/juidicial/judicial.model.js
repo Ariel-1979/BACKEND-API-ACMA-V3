@@ -44,10 +44,48 @@ const getImputadoById = async id => {
 	}
 };
 
+const createJudicial = async judicial => {
+	const {
+		id_caballo_judicial,
+		fecha,
+		causa,
+		ufi,
+		garantias,
+		juzgado,
+		entrega,
+		diligencias
+	} = judicial;
+	try {
+		return pool.query(Query.createJudicial, [
+			id_caballo_judicial,
+			fecha,
+			causa,
+			ufi,
+			garantias,
+			juzgado,
+			entrega,
+			diligencias
+		]);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const updateJudicial = async judicial => {
+	const { id_caballo_judicial } = judicial;
+	try {
+		return pool.query(Query.updateJudicial, [judicial, id_caballo_judicial]);
+	} catch (error) {
+		throw error;
+	}
+};
+
 export default {
 	getEquinosJudicializados,
 	getEquinosNoJudicializados,
 	getEquinosJudicializadoById,
 	getDenuncianteById,
-	getImputadoById
+	getImputadoById,
+	createJudicial,
+	updateJudicial
 };

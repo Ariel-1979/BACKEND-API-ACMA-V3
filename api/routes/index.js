@@ -44,6 +44,8 @@ router.delete('/caballos/fotos', equinosRoutes);
 router.get('/judicial', judicialRoutes);
 router.get('/judicial/:id', judicialRoutes);
 router.get('/no_judicial', judicialRoutes);
+router.post('/judicial', judicialRoutes);
+router.put('/judicial', judicialRoutes);
 
 router.post('/caninos', caninosRoutes);
 router.get('/caninos', caninosRoutes);

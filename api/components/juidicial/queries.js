@@ -8,6 +8,19 @@ ON j.id_caballo_judicial = c.id_caballo
 ORDER BY j.fecha DESC
 `;
 
+const createJudicial = `
+INSERT INTO judicial
+(id_caballo_judicial, fecha, causa, ufi, 
+garantias, juzgado, entrega, diligencias)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+`;
+
+const updateJudicial = `
+  UPDATE judicial
+	SET ?
+	WHERE id_caballo_judicial = ?
+	`;
+
 const getEquinosNoJudicializados = `
 SELECT c.id_caballo, c.nombre, c.historia_clinica, c.ingreso
 FROM caballo c
@@ -40,10 +53,42 @@ FROM imputado
 WHERE id_judicial_imputado = ?
 `;
 
+const createDenunciante = `
+INSERT INTO denunciante
+(id_caballo_judicial, fecha, causa, ufi, 
+garantias, juzgado, entrega, diligencias)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+`;
+
+const updateDenunciante = `
+  UPDATE denunciante
+	SET ?
+	WHERE id_judicial_denunciante = ?
+	`;
+
+const createImputado = `
+INSERT INTO imputado
+(id_caballo_judicial, fecha, causa, ufi, 
+garantias, juzgado, entrega, diligencias)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+`;
+
+const updateImputado = `
+  UPDATE imputado
+	SET ?
+	WHERE id_caballo_judicial = ?
+	`;
+
 export default {
 	getEquinosJudicializados,
 	getEquinosNoJudicializados,
 	getEquinosJudicializadoById,
 	getDenuncianteById,
-	getImputadoById
+	getImputadoById,
+	createJudicial,
+	updateJudicial,
+	createDenunciante,
+	createImputado,
+	updateDenunciante,
+	updateImputado
 };
