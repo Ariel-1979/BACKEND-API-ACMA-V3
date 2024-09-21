@@ -2,10 +2,10 @@ import Models from './users.models.js';
 
 const getAllUsers = async () => {
 	try {
-		const rows = await Models.getAllUsers();
-		return { statusCode: 200, data: rows };
+		const data = await Models.getAllUsers();
+		return { statusCode: 200, data };
 	} catch (error) {
-		return { statusCode: 500, data: [] };
+		return { statusCode: 500, message: error };
 	}
 };
 

@@ -1,13 +1,13 @@
-import Dto from './users.dto.js';
+import services from './users.services.js';
 
 const getAllUsers = async (_req, res) => {
-	const { statusCode, data } = await Dto.getAllUsers();
+	const { statusCode, data } = await services.getAllUsers();
 	res.status(statusCode).json(data);
 };
 
 const getUserById = async (req, res) => {
 	const { id } = req.params;
-	const { statusCode, data } = await Dto.getUserById(id);
+	const { statusCode, data } = await services.getUserById(id);
 	res.status(statusCode).json(data);
 };
 
@@ -15,7 +15,7 @@ const updateUser = async (req, res) => {
 	const { id } = req.params;
 	console.log(req.body);
 
-	const { statusCode, data } = await Dto.updateUser(req.body, id);
+	const { statusCode, data } = await services.updateUser(req.body, id);
 	res.status(statusCode).json(data);
 };
 

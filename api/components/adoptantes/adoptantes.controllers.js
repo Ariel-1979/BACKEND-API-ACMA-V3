@@ -1,6 +1,6 @@
 import Dto from './adoptantes.dto.js';
 
-const getAdoptantes = async (req, res) => {
+const getAdoptantes = async (_req, res) => {
 	try {
 		const { statusCode, data } = await Dto.getAdoptantes();
 		res.status(statusCode).json(data);

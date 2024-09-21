@@ -5,14 +5,15 @@ dotenv.config();
 
 const connectionDataBase = () => {
 	const pool = mysql.createPool({
-		connectionLimit: 10,
 		host: process.env.BD_HOST,
 		port: process.env.BD_PORT,
 		password: process.env.BD_PASSWORD,
 		user: process.env.BD_USER,
-		database: process.env.BD_NAME
+		database: process.env.BD_NAME,
+		connectionLimit: 10,
+		waitForConnections: true,
+		queueLimit: 0
 	});
-
 	pool.query = util.promisify(pool.query);
 	return pool;
 };
